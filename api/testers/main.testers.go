@@ -11,9 +11,11 @@ import (
 func MainTester_Composicao_New() {
 	fmt.Println(
 
+		// SPC_INTERFONE
 		composicao.CreateNew(spc_interfone.Spc_Interfone_RequestInputTester),
 		spc_interfone.Computed_Spc_Interfone,
 
+		// BELO_REINVENTAR
 		// composicao.CreateNew(belo_reinventar.Reinventar_Belo_RequestInputTester),
 
 		// belo_reinventar.Computed_belo_reinventar,
