@@ -1,0 +1,89 @@
+# NomeMusica: NOSSO PRIMEIRO BEIJO
+## Compositor: RODRIGOOLIVEIRA
+---
+Dados_Formais
+[ Data, Tom, ]
+---
+Dados_Direcionais :
+Alegre: true
+Frase_Impacto: NomeMusica
+Objetivo : "FOO4"
+UltimaFrase: Objetivo
+
+---
+
+## SequenciaGraus
+Relaxa : 1
+NaoRelaxa : 3 ,
+NaoRelaxa.Domina: 5 (do NaoRelaxa),
+NaoRelaxa.Distancia: 4 (do NaoRelaxa),
+NaoRelaxa.DominaDiferenciado: 7 (do NaoRelaxa),
+
+links[ "https://www.youtube.com/watch?v=Mwj47L-trKc", ]
+
+---
+MetricaPrincipal : 5
+MetricaAlternativa : 0
+
+---
+VogaisUse
+
+Vogal_Fecha_Mestra : U
+Vogal_Livre_AutoRima : I || S
+Vogal_Curinga : A
+---
+Graus_use_Musica :
+Grau_TOM_NaturalMusica: 1
+========================
+
+Parte: A
+Frase_Dupla :
+ ParteMusica: FOO, FraseNumero: 1, FatoTipo: Acao, VogalFinal: FOO ,Fato: "Olha o que a saudade" ,  Oque: "faz comigo", métrica: 5, HarmoniaFuncional: SequenciaGraus: Relaxa , Grau_Regente_da_Parte: FOO, GrausNotaCifra: Grau: FOO, NotaCifra: FOO, DominaEsteGrauUsado: FOO, NotaCifra: FOO
+
+ ParteMusica: FOO, FraseNumero: 2, FatoTipo: Acao, VogalFinal: FOO ,Fato: "Inventei" ,  Oque: "de ouvir um áudio antigo", métrica: 5, SequenciaGraus: Relaxa , Grau_Regente_da_Parte: FOO, GrausNotaCifra: Grau: FOO, NotaCifra: FOO, DominaEsteGrauUsado: FOO, NotaCifra: FOO
+
+Frase_Extra
+ ParteMusica: FOO, FraseNumero: 3, FatoTipo: Acao, VogalFinal: FOO ,Fato: "E chorei" ,  Oque: "lembrei", métrica: 5, SequenciaGraus: NaoRelaxa , Grau_Regente_da_Parte: FOO, GrausNotaCifra: Grau: FOO, NotaCifra: FOO, DominaEsteGrauUsado: FOO, NotaCifra: FOO
+
+---
+Parte: B
+Frase_Dupla
+ ParteMusica: FOO, FraseNumero: 1, FatoTipo: Acao, VogalFinal: FOO ,Fato: "Da sua voz" ,  Oque: "aqui no meu ouvido", métrica: 5, SequenciaGraus: Relaxa , Grau_Regente_da_Parte: FOO, GrausNotaCifra: Grau: FOO, NotaCifra: FOO, DominaEsteGrauUsado: FOO, NotaCifra: FOO
+
+ ParteMusica: FOO, FraseNumero: 2, FatoTipo: Acao, VogalFinal: FOO ,Fato: "Eu jurava" ,  Oque: "que tinha esquecido", métrica: 5, SequenciaGraus: NaoRelaxa , Grau_Regente_da_Parte: FOO, GrausNotaCifra: Grau: FOO, NotaCifra: FOO, DominaEsteGrauUsado: FOO, NotaCifra: FOO
+
+---
+
+Parte: C
+Frase_Dupla
+ ParteMusica: FOO, FraseNumero: 1, FatoTipo: Acao, VogalFinal: FOO ,Fato: "Mas quando eu vi suas fotos" ,  Oque: "fui ladeira abaixo", métrica: 5, SequenciaGraus: [ NaoRelaxa .Brinca, Relaxa  ], Grau_Regente_da_Parte: FOO, GrausNotaCifra: Grau: FOO, NotaCifra: FOO, DominaEsteGrauUsado: FOO, NotaCifra: FOO
+
+ ParteMusica: FOO, FraseNumero: 2, FatoTipo: Acao, VogalFinal: FOO ,Fato: "Aí eu fui" ,  Oque: "ficando preocupado", métrica: 5, SequenciaGraus: Relaxa , Grau_Regente_da_Parte: FOO, GrausNotaCifra: Grau: FOO, NotaCifra: FOO, DominaEsteGrauUsado: FOO, NotaCifra: FOO
+
+Frase_Dupla
+ ParteMusica: FOO, FraseNumero: 3, FatoTipo: Acao, VogalFinal: FOO ,Fato: "Senti saudades" ,  Oque: "daquela conversa", métrica: 5, SequenciaGraus: NaoRelaxa .Domina, Grau_Regente_da_Parte: FOO, GrausNotaCifra: Grau: FOO, NotaCifra: FOO, DominaEsteGrauUsado: FOO, NotaCifra: FOO
+
+FraseVogalFechaMestraDaMusica: ParteMusica: FOO, FraseNumero: 4, FatoTipo: Acao, VogalFinal: FOO ,Fato: "Até tentei" ,  Oque: "acelerando o áudio", métrica: 5, SequenciaGraus: Relaxa , Grau_Regente_da_Parte: FOO, GrausNotaCifra: Grau: FOO, NotaCifra: FOO, DominaEsteGrauUsado: FOO, NotaCifra: FOO
+
+Frase_Extra
+ ParteMusica: FOO, FraseNumero: 5, FatoTipo: Acao, VogalFinal: FOO ,Fato: "Mas a saudade" ,  Oque: "não passou depressa", métrica: 5, SequenciaGraus: NaoRelaxa .Domina, Grau_Regente_da_Parte: FOO, GrausNotaCifra: Grau: FOO, NotaCifra: FOO, DominaEsteGrauUsado: FOO, NotaCifra: FOO
+
+---
+
+Parte: REFRAO
+Frase_Dupla
+ ParteMusica: FOO, FraseNumero: 1, FatoTipo: Acao, VogalFinal: FOO ,Fato: "Eu já" ,  Oque: "digitei", métrica: 5, SequenciaGraus: Relaxa , Grau_Regente_da_Parte: FOO, GrausNotaCifra: Grau: FOO, NotaCifra: FOO, DominaEsteGrauUsado: FOO, NotaCifra: FOO
+
+Frase_Principal_Rima_ou_FechaMestra: ParteMusica: FOO, FraseNumero: 2, FatoTipo: Acao, VogalFinal: FOO ,Fato: "apaguei" ,  Oque: "digitei de novo", métrica: 5, SequenciaGraus: Relaxa , Grau_Regente_da_Parte: FOO, GrausNotaCifra: Grau: FOO, NotaCifra: FOO, DominaEsteGrauUsado: FOO, NotaCifra: FOO
+
+Frase_Dupla
+ ParteMusica: FOO, FraseNumero: 3, FatoTipo: Acao, VogalFinal: FOO ,Fato: "Eu já te xinguei" ,  Oque: "enviei", métrica: 5, SequenciaGraus: NaoRelaxa .DominaDiferente, Grau_Regente_da_Parte: FOO, GrausNotaCifra: Grau: FOO, NotaCifra: FOO, DominaEsteGrauUsado: FOO, NotaCifra: FOO
+
+ ParteMusica: FOO, FraseNumero: 4, FatoTipo: Acao, VogalFinal: FOO ,Fato: "e apaguei" ,  Oque: "pra todos", métrica: 5, SequenciaGraus: Relaxa , Grau_Regente_da_Parte: FOO, GrausNotaCifra: Grau: FOO, NotaCifra: FOO, DominaEsteGrauUsado: FOO, NotaCifra: FOO
+
+Frase_Dupla
+Frase_Principal_Rima_ou_FechaMestra: ParteMusica: FOO, FraseNumero: 5, FatoTipo: Acao, VogalFinal: FOO ,Fato: "Escrevi te amo, te odeio" ,  Oque: "me esqueci, volta comigo", métrica: 5, SequenciaGraus: Relaxa , Grau_Regente_da_Parte: FOO, GrausNotaCifra: Grau: FOO, NotaCifra: FOO, DominaEsteGrauUsado: FOO, NotaCifra: FOO
+
+ ParteMusica: FOO, FraseNumero: 6, FatoTipo: Acao, VogalFinal: FOO ,Fato: "Olha" ,  Oque: "o que a saudade faz", métrica: 5, SequenciaGraus: NaoRelaxa .Domina, Grau_Regente_da_Parte: FOO, GrausNotaCifra: Grau: FOO, NotaCifra: FOO, DominaEsteGrauUsado: FOO, NotaCifra: FOO
+
+========================

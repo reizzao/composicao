@@ -1,0 +1,30 @@
+# Conceito Composicoes
+
+[
+  "A cada contagem de metrica tem palavras em contexto com o fato - conta o fato e o auto explica para resolver.", "são 2 Sequencias certas de Acoes: PeNoChao & Viaja",
+
+"Ao começar com um grau... na sequência preciso domina-lo"
+
+],
+
+AconteceuTipo : [2]{ Acao, NaoAcao }
+
+MUSICAL
+Acorde_Funcional ::
+
+Relaxa : Aplicabilidade: Não Esta em Acao
+
+Relaxa : Grau: 1 maior ou menor , Funcao: Grave, Nome: Tonica
+
+Relaxa_Efeito : Grau: 6 , Funcao: Grave,  Nome: Tonica Relativa
+
+---
+
+Domina : Aplicabilidade: Esta em Acao
+
+Domina_Opcao_Infinita : Grau: 3 , Funcao: Agudo,  Nome: Dominante Menor
+Domina: Grau: 5 , Funcao: Agudo,  Nome: Dominante
+Domina.PraRepeticoes : Grau: 5#, 
+Domina_Medio: Grau: 4 , Funcao:  Agudo,  Nome: SubDominante
+Domina_Medio: Grau: 2 , Funcao:  Agudo,  Nome: 2ª menor
+Domina_Efeito: Grau: 7 , Funcao: Agudo ,  Nome: 7ª minuto

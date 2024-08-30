@@ -1,0 +1,79 @@
+# NomeMusica: NOSSO PRIMEIRO BEIJO
+## Compositor: RODRIGOOLIVEIRA
+---
+Dados_Formais
+[ Data, Tom, ]
+---
+Dados_Direcionais :
+Alegre: true
+Frase_Impacto: NomeMusica
+Objetivo : NOSSO PRIMEIRO BEIJO
+UltimaFrase: Objetivo
+
+---
+
+## SequenciaGraus
+Comeca : NaoRelaxa
+Relaxa : 1
+NaoRelaxa : 3 ,
+NaoRelaxa.Domina: 5 (do NaoRelaxa),
+NaoRelaxa.Distancia: 4 (do NaoRelaxa),
+NaoRelaxa.DominaDiferenciado: 7 (do NaoRelaxa),
+
+links[ "https://www.youtube.com/watch?v=Mwj47L-trKc", ]
+
+---
+
+MetricaPrincipal : 5
+MetricaAlternativa : 0
+---
+VogaisUse
+
+Vogal_Fecha_Mestra : U
+Vogal_Livre_AutoRima : I || S
+Vogal_Curinga : A
+---
+Graus_use_Musica :
+Grau_TOM_NaturalMusica: 1
+========================
+
+Parte : A
+Frase_Dupla :
+ , VogalFinal: ,VogalFinal: FOO ,Fato: ParteMusica: FOO, FraseNumero: 1, FatoTipo: Acao, VogalFinal: FOO ,Fato: "Eu aposto um beijo" ,  Oque: "Que você vai gostar", metrica: MetricaPrincipal, SequenciaGraus: Relaxa,
+
+ ,VogalFinal: FOO ,Fato: ParteMusica: FOO, FraseNumero: 2, FatoTipo: Acao, VogalFinal: FOO ,Fato: "do gosto do meu beijo" ,  Oque: "Já to vendo eu aí na proteção de tela do seu celular", metrica: MetricaPrincipal, SequenciaGraus: Relaxa,
+
+, VogalFinal: FOO ,Fato: ParteMusica: FOO, FraseNumero: 3, FatoTipo: Acao, VogalFinal: FOO ,Fato: "E você usando" ,  Oque: "a letra G no seu colar", metrica: MetricaPrincipal, SequenciaGraus: NaoRelaxa,
+
+---
+Parte : B
+Frase_Dupla
+ , VogalFinal: FOO ,Fato: ParteMusica: FOO, FraseNumero: 1, FatoTipo: Acao, VogalFinal: FOO ,Fato: "Eu não to me achando" ,  Oque: "Eu só te achei", metrica: MetricaPrincipal, SequenciaGraus: Relaxa,
+
+ , VogalFinal: FOO ,Fato: ParteMusica: FOO, FraseNumero: 2, FatoTipo: Acao, VogalFinal: FOO ,Fato: "a cara do pra sempre" ,  Oque: "que eu sempre procurei", metrica: MetricaPrincipal, SequenciaGraus: NaoRelaxa,
+
+---
+
+Parte : C
+Frase_C_Dupla
+ , VogalFinal: FOO ,Fato: ParteMusica: FOO, FraseNumero: 1, FatoTipo: Acao, VogalFinal: FOO ,Fato: "Então, fala que você também" ,  Oque: "acredita em destino", metrica: MetricaPrincipal, SequenciaGraus: [ NaoRelaxa.DominaDiferenciado,  Relaxa ],
+
+ , VogalFinal: FOO ,Fato: ParteMusica: FOO, FraseNumero: 2, FatoTipo: Acao, VogalFinal: FOO ,Fato: "Fala pro seu passado" ,  Oque: "que seu futuro é comigo", metrica: MetricaPrincipal, SequenciaGraus: Relaxa,
+
+---
+
+Parte : REFRAO
+Frase_Dupla
+ , VogalFinal: FOO ,Fato: ParteMusica: FOO, FraseNumero: 1, FatoTipo: Acao, VogalFinal: FOO ,Fato: "Eu você " ,  Oque: "e uma casinha", metrica: MetricaPrincipal, SequenciaGraus: Relaxa, Grau_Regente_da_Parte: FOO, GrausNotaCifra: Grau: FOO, NotaCifra: FOO, DominaEsteGrauUsado: FOO, NotaCifra: FOO
+
+Frase_Principal_Rima_ou_FechaMestra: , VogalFinal: FOO ,Fato: ParteMusica: FOO, FraseNumero: 2, FatoTipo: Acao, VogalFinal: FOO ,Fato: "Geladeira" ,  Oque: "cheia", metrica: MetricaPrincipal, SequenciaGraus: Relaxa, Grau_Regente_da_Parte: FOO, GrausNotaCifra: Grau: FOO, NotaCifra: FOO, DominaEsteGrauUsado: FOO, NotaCifra: FOO
+
+ ,VogalFinal: FOO ,Fato: ParteMusica: FOO, FraseNumero: 3, FatoTipo: Acao, VogalFinal: FOO ,Fato: "Dormir de" ,  Oque: "conchinha", metrica: MetricaPrincipal, SequenciaGraus: NaoRelaxa.Distancia, Grau_Regente_da_Parte: FOO, GrausNotaCifra: Grau: FOO, NotaCifra: FOO, DominaEsteGrauUsado: FOO, NotaCifra: FOO
+
+ ,VogalFinal: FOO ,Fato: ParteMusica: FOO, FraseNumero: 4, FatoTipo: Acao, VogalFinal: FOO ,Fato: "depois de" ,  Oque: " umas brincadeiras", metrica: MetricaPrincipal, SequenciaGraus: Relaxa, Grau_Regente_da_Parte: FOO, GrausNotaCifra: Grau: FOO, NotaCifra: FOO, DominaEsteGrauUsado: FOO, NotaCifra: FOO
+
+Frase_Principal_Rima_ou_FechaMestra: , VogalFinal: FOO ,Fato: ParteMusica: FOO, FraseNumero: 5, FatoTipo: Acao, VogalFinal: FOO ,Fato: "Sabe o que que" ,  Oque: "tá faltando pra ficar perfeito", metrica: MetricaPrincipal, SequenciaGraus: Relaxa, Grau_Regente_da_Parte: FOO, GrausNotaCifra: Grau: FOO, NotaCifra: FOO, DominaEsteGrauUsado: FOO, NotaCifra: FOO
+
+ , VogalFinal: FOO ,Fato: ParteMusica: FOO, FraseNumero: 6, FatoTipo: Acao, VogalFinal: FOO ,Fato: "O nosso" ,  Oque: "Primeiro Beijo", metrica: MetricaPrincipal, SequenciaGraus: NaoRelaxa.Domina, Grau_Regente_da_Parte: FOO, GrausNotaCifra: Grau: FOO, NotaCifra: FOO, DominaEsteGrauUsado: FOO, NotaCifra: FOO
+
+========================

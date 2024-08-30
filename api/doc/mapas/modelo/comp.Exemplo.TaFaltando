@@ -1,0 +1,111 @@
+
+======
+DADOS
+
+Emocao: model.Tom_Emocao{
+  Def: model.Reflexao,
+ Tom: model.G_Reflexao,
+},
+
+Motivacoes: model.Motivacoes{
+ Sentimento_Tonal:                      model.Tonal_NAO_Alegre,
+
+A_FRASE_INICIAL_motivo_verbo_ele_ou_person_faz_algo: "TA FALTANDO POUCO PRA IR EMBORA",
+
+REFRAO_INICIO_entao_Esse_personagem_quer:            "RESOLVER OU SUMIR DE VEZ",
+
+REFRAO_DESENROLAR_essa_e_historia_de_algo_ou_alguem_que: "NÃO AGUENTA MAIS SER MALTRATADO",
+
+REFRAO_ULTIMA_FRASE_resolucao:                "FOO",
+
+},
+--------
+
+#Estrofe A , Calmo
+Gatilhos:
+Frase_1 : [ Motivo_inicial_verbo_ele_ou_person_faz_algo, fazer uma ação, contando uma reflexão ou uma das Emocoes, Falar pra elao que to sentindo,
+Falando_Pra_Ela, Prometedor Apaixonado, ]
+----
+@letra :
+TÁ FALTANDO...  ISSO AQUI Ó
+-----
+
+Frase_2_OQue : [  reinicia,  continua do anterior,  ]
+----
+@letra :
+PRA PEGAR...  O MEU RUMO
+-----
+
+Frase_3 : [ dEIXA NO AR : O que acho do fato anterior , sem entregar a surpresa, Sacada,  ]
+----
+@letra :
+  TALVES ESSE SEJA ... PRA NOS DOIS
+-----
+
+Frase_4 : [  reinicia,  Sacada,  continua do anterior,  ]
+----
+@letra :
+  O MELHOR .. DOS MUNDOS
+-----
+
+---------------------------
+#Estrofe B, Calmo
+Gatilhos:
+Frase_1 : [ Consquencias, como fiquei ou ficou com o acontecido, ]
+Frase_2_OQue : [  reinicia,  continua do anterior,  ]
+Frase_3: [ O que fazer pra mudar - corrigir - melhorar  , sem entregar a surpresa, Sacada,  ]
+Frase_4 : [  reinicia,  Sacada,  continua do anterior,  ]
+
+
+
+#Estrofe_C : Crescente
+Gatilhos :
+Frase_1 : [ Estado atual apos o fato, Promessas,  ]
+Frase_2_OQue : [  reinicia,  continua do anterior,  ]
+Frase_3 : [ Sacada, o que vou fazer pra melhorar, Apelo, Usar Armas que tem, desenrolar_Situacao, Achar_solucao,   ]
+Frase_4 : [  reinicia,  Sacada,  continua do anterior,  ]
+
+Chama_Refrao : [ Declaracao, Sacada,  ]
+
+
+#Estrofe_Refrao : Forte
+Gatilhos :
+Frase_1 : [ Entao_Esse_personagem_quer, A Surpresa, Que vai Resolver, Sacada,  Resumo, O queResolve o Fato Inicial, Ouvintes tem que cantar com 1 braço levantado sentindo-se na situacao, Joga pro Publico, ]
+
+Frase_2_OQue : [  reinicia,  continua do anterior,  ]
+
+Frase_3 : [Declaracao, Sinceridade,  Essa_e_historia_de_algo_ou_alguem_que, ]
+
+Frase_4 : [  reinicia, Ultima_Frase_Resolucao,  Sacada,  continua do anterior,  ]
+
+
+#Estrofe Refrao_Extra
+Frase_2_OQue : [  Coros, coros com vogal fecha, Sacada  ]
+Frase_2_OQue : [  reinicia,  continua do anterior,  ]
+
+Frase_3 : [ Coros, Sacada  ]
+
+Frase_4 : [  reinicia,  Sacada,  continua do anterior,  ]
+
+
+====
+
+
+TA FALTANDO...  ISSO AQUI Ó
+PRA MIM PEGAR MEU ... RUMO.
+
+TA FALTANDO ... ISSO AQUI Ó
+PRA ACABAR ... COM TUDO.
+
+EU NAO SOU PALHAÇO NAO
+PRA DE TIRAÇÃO.
+
+SÓ PORQUE EU GOSTO DE VOCE...
+TU USA E ABUSA
+FAÇO TUDO POR VOCE...
+TU USA E ABUSA
+
+É AI QUE A CONCORRENCIA
+EM TERRA VAZIA TRIUNFA
+
+

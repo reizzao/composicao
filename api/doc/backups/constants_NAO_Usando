@@ -1,0 +1,15 @@
+type GrausTonicoAuxiliarOptions = string
+
+const (
+	G1_TonicoAux_Forte GrausTonicoAuxiliarOptions = "Am"
+	G1_TonicoAux_Fraco GrausTonicoAuxiliarOptions = "Em"
+)
+
+type GrausFechaResultadoOptions = string
+
+const (
+	G1_NaoTonico_Sub_Fraco GrausFechaResultadoOptions = "Dm"
+	G1_NaoTonico_Sub_Forte GrausFechaResultadoOptions = "F"
+	G1_NaoTonico_Dom_Fraco GrausFechaResultadoOptions = "Em"
+	G1_NaoTonico_Dom_Forte GrausFechaResultadoOptions = "G"
+)

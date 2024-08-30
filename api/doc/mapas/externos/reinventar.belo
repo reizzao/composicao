@@ -1,0 +1,86 @@
+...
+
+tom: G
+TROCA NA PENULTIMA_METRICA : 4 - PRA ULTIMA PALAVRA
+
+Podes:
+Comecar no emsmo que resolveu. se esse for o 6
+====
+PARTES USADAS
+### Parte A1- A2 - Calmaria
+- FRASE : Fato: Voz: GRAVE, Inicio: Comeca_1 , | OQue_Fato: AGUDO: SUBDOMINATE:  Fecha_Relativo_6
+- DEIXA_NO_AR: GRAVE: TONICA: Recomeca_Relativo_6 ,| AGUDO: DOMINATE: Fecha_7
+- RESOLVE: GRAVE: SUBDOMINATE: Recomeca_Relativo_6 ,| AGUDO: TONICA: Fecha_1
+
+### Parte B - Crescente_Tensa
+- DEIXA_NO_AR: GRAVE: TONICA: Recomeca_1 ,| AGUDO: SUBDOMINATE: Fecha_Relativo_6
+- DEIXA_NO_AR: GRAVE: SUBDOMINATE: Recomeca_Relativo_6 ,| AGUDO: DOMINATE: Fecha_7
+
+### Parte C - Tensa Ponte_Refrao
+- CONTA: SUBDOMINATE: GRAVE: Recomeca_Relativo_6 ,| AGUDO: TONICA: Fecha_Tensa_Tonica_5_1
+- RESOLVE: SUBDOMINATE: GRAVE: Recomeca_Tenso_2 ,| AGUDO: TONICA: Fecha_1
+
+### Parte Refrao - Crescente_Tensa
+- DEIXA_NO_AR_CONTA: GRAVE: TONICA: Comeca_1 ,| AGUDO: SUBDOMINATE: Fecha_2
+- CONTA_RESOLVE:GRAVE: DOMINANTE: Recomeca_Tenso_7 ,| AGUDO: TONICA: Fecha_2_5_1
+
+Parte_Brinca_POS_Refrao
+- RESOLVE: GRAVE: SUBDOMINATE: Comeca_2 ,| AGUDO: DOMINANTE: Fecha_5
+
+=====
+Opcoes
+Comeca : 1 Forte
+Recomeca : 6 Forte_Medio, 2 Fraco
+Fecha: 5 Forte, 7 Medio, 1 Fraco, 251 Fraco_Balanceado,
+
+======
+
+G            EM
+Diz que ... já é tarde
+EM F#M
+Que não ... tem mais jeito
+F7# B#M
+Mas eu ... não aceito a decisão
+B#M G
+Do teu coração ... em partir
+
+Sem tua ... metade
+Sou tão ... imperfeito
+Tudo tem ... um jeito coração
+Sei que a gente ... pode sorrir
+
+G EM
+Juro que ... vou me conter
+EM F#M
+Juro ... nunca mais errar
+B#M  D7
+Como eu quero ... te mostrar
+O milagre ... do amor
+G G
+Você me fez ... mudar
+A
+Tão bom ... te amar
+
+D7 G
+Te ... amar
+
+G
+Recomeçar
+A
+Sem me ... esconder
+F#M
+Atrás de um .. ditador
+Existe um ... grande amor
+AM D7 G
+Eu sempre fui ... apaixonado por você
+
+Reinventar
+Resplandecer
+o que ... não apagou
+Em mim ... nada mudou
+Eu sei que o sonho ... ainda pode acontecer
+
+A7 D
+( PODE ACONTECER )
+
+====
