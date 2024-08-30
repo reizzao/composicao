@@ -1,8 +1,8 @@
 package exemplo_reinventar
 
 import (
-	"github.com/reizzao/composicao/api/entitys/campoHarmonico"
 	"github.com/reizzao/composicao/api/entitys/composicao"
+	"github.com/reizzao/musicalidade/api/entitys/campoHarmonico"
 )
 
 var Reinventar_Belo_RequestInputTester = composicao.RequestComposicao{
