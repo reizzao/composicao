@@ -1,2 +1,4 @@
-github.com/reizzao/musicalidade/api v0.0.0-20240830134222-57d0464ad560 h1:qZ1VcOVdbwUATO75+LMCH2OSDtYOSvOW1hGxJGLwYyI=
-github.com/reizzao/musicalidade/api v0.0.0-20240830134222-57d0464ad560/go.mod h1:W1/oO38prAR312/hbG2BYlETJrgJy2PSwQFLMDyXCCY=
+github.com/reizzao/RzLibs_GO v0.0.0-20240830142918-036dd59c816d h1:KyF/Cn9fL/6Pz12+AwWk/FDKFDUXc43+1Bu2Flr5kCo=
+github.com/reizzao/RzLibs_GO v0.0.0-20240830142918-036dd59c816d/go.mod h1:lW8c3o8AL/wJNP0xjMHMTOV5rMn2N+KdRBruGOUOiLs=
+github.com/reizzao/musicalidade/api v0.0.0-20240830143233-2e8c432edcbd h1:bfjV53zSQKumZBLgNXpmn3OxPpvMZzd4HlooC640XLI=
+github.com/reizzao/musicalidade/api v0.0.0-20240830143233-2e8c432edcbd/go.mod h1:xCPyxqm6OyWoesPt4tRASTlPttP02fzbNmPHAPwEZ/I=
