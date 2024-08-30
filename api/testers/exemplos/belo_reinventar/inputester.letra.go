@@ -17,8 +17,8 @@ package belo_reinventar
 // 			TipoFrase:   composicao.FatoPergunta,
 // 			FraseFatoResposta: composicao.FraseFatoRespostaProps{
 // 				Silabas: composicao.SilabasOptions{
-// 					PerguntaSilaba_1: "Diz que",
-// 					RespostaSilaba_2: "ja é tarde",
+// 					PerguntaNoAr_VozFORTE_S1: "Diz que",
+// 					Explicacao_VozLeve_S2: "ja é tarde",
 // 				},
 // 			},
 // 		}, // PerguntaResposta - []
@@ -27,8 +27,8 @@ package belo_reinventar
 // 			TipoFrase:   composicao.FatoResposta,
 // 			FraseFatoResposta: composicao.FraseFatoRespostaProps{
 // 				Silabas: composicao.SilabasOptions{
-// 					PerguntaSilaba_1: "Que nao",
-// 					RespostaSilaba_2: "Tem mais jeito",
+// 					PerguntaNoAr_VozFORTE_S1: "Que nao",
+// 					Explicacao_VozLeve_S2: "Tem mais jeito",
 // 				},
 // 			},
 // 		}, // PerguntaResposta - []
@@ -37,8 +37,8 @@ package belo_reinventar
 // 			TipoFrase:   composicao.Resultado,
 // 			FraseFatoResposta: composicao.FraseFatoRespostaProps{
 // 				Silabas: composicao.SilabasOptions{
-// 					PerguntaSilaba_1: "Mas eu não aceito a decisão",
-// 					RespostaSilaba_2: "do seu coração em partir",
+// 					PerguntaNoAr_VozFORTE_S1: "Mas eu não aceito a decisão",
+// 					Explicacao_VozLeve_S2: "do seu coração em partir",
 // 				},
 // 			},
 // 		}, // PerguntaResposta - []

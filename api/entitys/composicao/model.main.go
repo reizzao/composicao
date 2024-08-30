@@ -31,6 +31,6 @@ type FraseFatoRespostaProps struct {
 }
 
 type SilabasOptions struct {
-	PerguntaSilaba_1 string
-	RespostaSilaba_2 string
+	Inicio_PerguntaNoAr_VozFORTE_S1 string
+	Final_Explicacao_VozLEVE_S2     string
 }

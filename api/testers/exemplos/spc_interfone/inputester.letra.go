@@ -8,15 +8,15 @@ import (
 var Spc_Interfone_RequestInputTester = composicao.RequestComposicao{
 
 	Estrofe:           composicao.Estrofe_A,
-	GrauMasterNatural: campoHarmonico.C,
+	GrauMasterNatural: campoHarmonico.D,
 	Frases: []composicao.PerguntaResposta{
 		{
 			FraseNumero: 1,
 			TipoFrase:   composicao.FatoPergunta,
 			FraseFatoResposta: composicao.FraseFatoRespostaProps{
 				Silabas: composicao.SilabasOptions{
-					PerguntaSilaba_1: "sssss",
-					RespostaSilaba_2: "ja é tarde",
+					Inicio_PerguntaNoAr_VozFORTE_S1: "A cidade",
+					Final_Explicacao_VozLEVE_S2:     "já pegou no sono",
 				},
 			},
 		}, // PerguntaResposta - []
@@ -25,8 +25,8 @@ var Spc_Interfone_RequestInputTester = composicao.RequestComposicao{
 			TipoFrase:   composicao.FatoResposta,
 			FraseFatoResposta: composicao.FraseFatoRespostaProps{
 				Silabas: composicao.SilabasOptions{
-					PerguntaSilaba_1: "Que nao",
-					RespostaSilaba_2: "Tem mais jeito",
+					Inicio_PerguntaNoAr_VozFORTE_S1: "Eu já li de novo",
+					Final_Explicacao_VozLEVE_S2:     "as velhas revistas.",
 				},
 			},
 		}, // PerguntaResposta - []
@@ -35,8 +35,18 @@ var Spc_Interfone_RequestInputTester = composicao.RequestComposicao{
 			TipoFrase:   composicao.Resultado,
 			FraseFatoResposta: composicao.FraseFatoRespostaProps{
 				Silabas: composicao.SilabasOptions{
-					PerguntaSilaba_1: "Mas eu não aceito a decisão",
-					RespostaSilaba_2: "do seu coração em partir",
+					Inicio_PerguntaNoAr_VozFORTE_S1: "Estou",
+					Final_Explicacao_VozLEVE_S2:     "em pleno abandono",
+				},
+			},
+		}, // PerguntaResposta - []
+		{
+			FraseNumero: 4,
+			TipoFrase:   composicao.Resultado,
+			FraseFatoResposta: composicao.FraseFatoRespostaProps{
+				Silabas: composicao.SilabasOptions{
+					Inicio_PerguntaNoAr_VozFORTE_S1: "O Jô",
+					Final_Explicacao_VozLEVE_S2:     "já fez a última entrevista.",
 				},
 			},
 		}, // PerguntaResposta - []
