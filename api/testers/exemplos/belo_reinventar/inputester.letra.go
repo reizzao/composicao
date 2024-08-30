@@ -14,8 +14,8 @@ package belo_reinventar
 // 	Frases: []composicao.PerguntaResposta{
 // 		{
 // 			FraseNumero: 1,
-// 			TipoFrase:   composicao.FatoPergunta,
-// 			FraseFatoResposta: composicao.FraseFatoRespostaProps{
+// 			TipoFrase:   composicao.OQue_Aconteceu,
+// 			FraseConsequencia_DoQueAconteceu: composicao.FraseConsequencia_DoQueAconteceuProps{
 // 				Silabas: composicao.SilabasOptions{
 // 					PerguntaNoAr_VozFORTE_S1: "Diz que",
 // 					Explicacao_VozLeve_S2: "ja é tarde",
@@ -24,8 +24,8 @@ package belo_reinventar
 // 		}, // PerguntaResposta - []
 // 		{
 // 			FraseNumero: 2,
-// 			TipoFrase:   composicao.FatoResposta,
-// 			FraseFatoResposta: composicao.FraseFatoRespostaProps{
+// 			TipoFrase:   composicao.Consequencia_DoQueAconteceu,
+// 			FraseConsequencia_DoQueAconteceu: composicao.FraseConsequencia_DoQueAconteceuProps{
 // 				Silabas: composicao.SilabasOptions{
 // 					PerguntaNoAr_VozFORTE_S1: "Que nao",
 // 					Explicacao_VozLeve_S2: "Tem mais jeito",
@@ -35,7 +35,7 @@ package belo_reinventar
 // 		{
 // 			FraseNumero: 3,
 // 			TipoFrase:   composicao.Resultado,
-// 			FraseFatoResposta: composicao.FraseFatoRespostaProps{
+// 			FraseConsequencia_DoQueAconteceu: composicao.FraseConsequencia_DoQueAconteceuProps{
 // 				Silabas: composicao.SilabasOptions{
 // 					PerguntaNoAr_VozFORTE_S1: "Mas eu não aceito a decisão",
 // 					Explicacao_VozLeve_S2: "do seu coração em partir",

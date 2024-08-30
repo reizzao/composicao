@@ -20,13 +20,13 @@ type RequestComposicao struct {
 }
 
 type PerguntaResposta struct {
-	FraseNumero       int
-	TipoFrase         TipoFraseOptions
-	FraseFatoResposta FraseFatoRespostaProps
-	Resposta          string
+	FraseNumero                      int
+	TipoFrase                        TipoFraseOptions
+	FraseConsequencia_DoQueAconteceu FraseConsequencia_DoQueAconteceuProps
+	Resposta                         string
 }
 
-type FraseFatoRespostaProps struct {
+type FraseConsequencia_DoQueAconteceuProps struct {
 	Silabas SilabasOptions
 }
 
