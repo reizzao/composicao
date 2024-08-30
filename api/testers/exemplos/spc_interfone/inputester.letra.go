@@ -1,11 +1,11 @@
-package exemplo_reinventar
+package spc_interfone
 
 import (
 	"github.com/reizzao/composicao/api/entitys/composicao"
 	"github.com/reizzao/musicalidade/api/entitys/campoHarmonico"
 )
 
-var Reinventar_Belo_RequestInputTester = composicao.RequestComposicao{
+var Spc_Interfone_RequestInputTester = composicao.RequestComposicao{
 
 	Estrofe:           composicao.Estrofe_A,
 	GrauMasterNatural: campoHarmonico.C,
@@ -15,7 +15,7 @@ var Reinventar_Belo_RequestInputTester = composicao.RequestComposicao{
 			TipoFrase:   composicao.FatoPergunta,
 			FraseFatoResposta: composicao.FraseFatoRespostaProps{
 				Silabas: composicao.SilabasOptions{
-					PerguntaSilaba_1: "Diz que",
+					PerguntaSilaba_1: "sssss",
 					RespostaSilaba_2: "ja é tarde",
 				},
 			},

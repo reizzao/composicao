@@ -1,5 +1,5 @@
 // inserir frases no array - automaticamente
 
-frasesDefault := []model.ConjuntoFrase{protest.Exemplo_Reinventar_Frase1}
+frasesDefault := []model.ConjuntoFrase{protest.belo_reinventar_Frase1}
 novoArray := append(frasesDefault, f)
 return novoArray

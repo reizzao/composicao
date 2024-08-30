@@ -4,6 +4,6 @@ import "github.com/reizzao/composicao/api/testers"
 
 func main() {
 
-	testers.AllTesters_ByMain()
+	testers.MainTester_Composicao_New()
 
 }
