@@ -17,7 +17,6 @@ func MainTester_Composicao_New() {
 
 		// BELO_REINVENTAR
 		// composicao.CreateNew(belo_reinventar.Reinventar_Belo_RequestInputTester),
-
 		// belo_reinventar.Computed_belo_reinventar,
 	)
 }
