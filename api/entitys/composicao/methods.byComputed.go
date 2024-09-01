@@ -42,7 +42,7 @@ func (r RequestComposicao) Def_ResComputedEmocao(emocao string) ResComputedEmoca
 		MaiorOuMenor: MENOR,
 	}
 
-	if r.Emocao == Lamentacao {
+	if r.Emocao == triste_LAMENTANDO {
 		c.Emocao.MaiorOuMenor = MENOR
 	}
 

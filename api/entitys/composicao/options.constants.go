@@ -6,7 +6,17 @@ package composicao
 type EmocaoOptions = string
 
 const (
-	Lamentacao EmocaoOptions = "Lamentacao"
+	// Triste
+	triste_LAMENTANDO EmocaoOptions = "triste_LAMENTANDO"
+	triste_REFLEXAO   EmocaoOptions = "triste_REFLEXAO"
+	triste_TRISTEZA   EmocaoOptions = "triste_TRISTEZA"
+	triste_MEDO       EmocaoOptions = "triste_MEDO"
+
+	// alegre - naoTriste
+	alegre_ALEGRIA  EmocaoOptions = "alegre_ALEGRIA"
+	alegre_REFLEXAO EmocaoOptions = "alegre_REFLEXAO"
+	alegre_VITORIA  EmocaoOptions = "alegre_VITORIA"
+	alegre_PODER    EmocaoOptions = "alegre_PODER"
 )
 
 // -- Estrofes
