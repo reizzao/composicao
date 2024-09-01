@@ -2,18 +2,19 @@ package composicao
 
 import (
 	"github.com/reizzao/musicalidade/api/entitys/campoHarmonico"
-	"github.com/reizzao/musicalidade/api/entitys/defaults"
+	// "github.com/reizzao/musicalidade/api/entitys/defaults"
 )
 
 type ComposicaoModelMain struct {
 	Request  RequestComposicao
 	Computed ComputedComposicao
-	Defaults defaults.DefaultMain
+	// Defaults defaults.DefaultMain // todo
 }
 
 // Requests
 type RequestComposicao struct {
-	Estrutura_Musica  Estrutura_Musica
+	Emocao EmocaoOptions
+	// Estrutura_Musica  Estrutura_Musica
 	GrauMasterNatural campoHarmonico.GrauMasterNaturalOptions
 	Estrofe           EstrofeOptions
 	Frases            []PerguntaResposta

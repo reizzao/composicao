@@ -1,0 +1,50 @@
+
+type SentimentoTonal_Def_TOM_Options = string
+
+const (
+	Tonal_Alegre     SentimentoTonal_Def_TOM_Options = "Tonal_Alegre"
+	Tonal_NAO_Alegre SentimentoTonal_Def_TOM_Options = "Tonal_NAO_Alegre"
+)
+
+type Emocao_Options = string
+
+const (
+	// Alegria
+	Alegria_C Emocao_Options = "Alegria_C"
+	Alegria_F Emocao_Options = "Alegria_F"
+	Alegria_G Emocao_Options = "Alegria_G"
+
+	// todo : colocar emocao na frente do Tom
+
+	C_Vitoria  Emocao_Options = "C_Vitoria"
+	F_Vitoria  Emocao_Options = "F_Vitoria"
+	G_Vitoria  Emocao_Options = "G_Vitoria"
+	Am_Vitoria Emocao_Options = "Am_Vitoria"
+
+	F_Animacao  Emocao_Options = "F_Animacao"
+	Am_Animacao Emocao_Options = "Am_Animacao"
+	G_Animacao  Emocao_Options = "G_Animacao"
+	C_Animacao  Emocao_Options = "C_Animacao"
+
+	F_Poder  Emocao_Options = "F_Poder"
+	G_Poder  Emocao_Options = "G_Poder"
+	Am_Poder Emocao_Options = "Am_Poder"
+
+	// Nao_Alegria
+	G_Reflexao  Emocao_Options = "G_Reflexao"
+	C_Reflexao  Emocao_Options = "C_Reflexao"
+	Am_Reflexao Emocao_Options = "Am_Reflexao"
+
+	Gm_Lamentando Emocao_Options = "Gm_Lamentando"
+	Am_Lamentando Emocao_Options = "Am_Lamentando"
+
+	Dm_Tristeza Emocao_Options = "Dm_Tristeza"
+	Am_Tristeza Emocao_Options = "Am_Tristeza"
+	F_Tristeza  Emocao_Options = "F_Tristeza"
+	G_Tristeza  Emocao_Options = "Tristeza_Emocao_G"
+
+	Am_Medo Emocao_Options = "Am_Medo"
+	Em_Medo Emocao_Options = "Em_Medo"
+	C_Medo  Emocao_Options = "C_Medo"
+	F_Medo  Emocao_Options = "F_Medo"
+)

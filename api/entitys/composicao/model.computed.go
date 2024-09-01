@@ -3,7 +3,44 @@ package composicao
 // Computeds
 
 type ComputedComposicao struct {
-	CadenciaInicioParteA ResponseCadencia
+	// Emocao IComput_Emocao
+	Emocao ResComputedEmocao
+
+	// CadenciaInicioParteA ResponseCadencia
+}
+
+type ResComputedEmocao struct {
+	// Tom string
+	MaiorOuMenor MaiorOuMenorOptions
+}
+
+type MaiorOuMenorOptions = string
+
+const (
+	MAIOR MaiorOuMenorOptions = "MAIOR"
+	MENOR MaiorOuMenorOptions = "MENOR"
+)
+
+// type MotivacoesComputed struct {
+// 	// SentimentoTonal_Def_TOM SentimentoTonal_Def_TOM_Options
+// 	// Emocao           IComput_Emocao
+// 	// InfoGuiaHistoria GuiaHistoriaPartes
+// }
+
+func (r RequestComposicao) Def_ResComputedEmocao(emocao string) ResComputedEmocao {
+
+	// m := EmocaoRequest{}
+	c := ComputedComposicao{}
+
+	res := ResComputedEmocao{
+		MaiorOuMenor: MENOR,
+	}
+
+	if r.Emocao == Lamentacao {
+		c.Emocao.MaiorOuMenor = MENOR
+	}
+
+	return res
 }
 
 /*

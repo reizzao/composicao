@@ -8,5 +8,6 @@ var target = Spc_Interfone_RequestInputTester
 
 var Computed_Spc_Interfone = composicao.ComputedComposicao{
 
-	CadenciaInicioParteA: target.DefCadencia_InicioRelativoFraco(),
+	// todo
+	// CadenciaInicioParteA: target.DefCadencia_InicioRelativoFraco(),
 }

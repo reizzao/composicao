@@ -6,6 +6,11 @@ func CreateNew(r RequestComposicao) ComposicaoModelMain {
 
 	res := ComposicaoModelMain{
 		Request: request,
+
+		Computed: ComputedComposicao{
+
+			Emocao: r.Def_ResComputedEmocao(r.Emocao),
+		},
 	}
 
 	return res
