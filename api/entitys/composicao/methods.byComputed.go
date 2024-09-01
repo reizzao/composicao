@@ -2,6 +2,8 @@ package composicao
 
 import "github.com/reizzao/musicalidade/api/entitys/campoHarmonico"
 
+// Methods ByComputed
+
 // cada opcao de cadencia vai vir dos metodos abaixo :
 
 func (o RequestComposicao) DefCadencia_InicioRelativoFraco() ResponseCadencia {
@@ -25,6 +27,23 @@ func (o RequestComposicao) DefCadencia_InicioRelativoFraco() ResponseCadencia {
 				Funcao:   ch.Notas[notaOrdemAlvo_nota2Aux].Funcao,
 			},
 		},
+	}
+
+	return res
+}
+
+// Emocao
+func (r RequestComposicao) Def_ResComputedEmocao(emocao string) ResComputedEmocao {
+
+	// m := EmocaoRequest{}
+	c := ComputedComposicao{}
+
+	res := ResComputedEmocao{
+		MaiorOuMenor: MENOR,
+	}
+
+	if r.Emocao == Lamentacao {
+		c.Emocao.MaiorOuMenor = MENOR
 	}
 
 	return res

@@ -27,21 +27,7 @@ const (
 // 	// InfoGuiaHistoria GuiaHistoriaPartes
 // }
 
-func (r RequestComposicao) Def_ResComputedEmocao(emocao string) ResComputedEmocao {
 
-	// m := EmocaoRequest{}
-	c := ComputedComposicao{}
-
-	res := ResComputedEmocao{
-		MaiorOuMenor: MENOR,
-	}
-
-	if r.Emocao == Lamentacao {
-		c.Emocao.MaiorOuMenor = MENOR
-	}
-
-	return res
-}
 
 /*
 TODO :
