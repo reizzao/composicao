@@ -9,14 +9,13 @@ type EmocaoRequest struct {
 	EmocaoRequest EmocaoOptions
 }
 
-type EmocaoOptions = string
-
-const (
-	Lamentacao EmocaoOptions = "Lamentacao"
-)
 
 type EmocaoComputedProps struct {
 	Tom string
+}
+
+type IComput_Emocao interface {
+	Def_ResComputedEmocao(emocao string) ResComputedEmocao
 }
 
 type GuiaHistoriaPartes struct {

@@ -2,6 +2,14 @@ package composicao
 
 // Options Constantes
 
+// -- Emocao
+type EmocaoOptions = string
+
+const (
+	Lamentacao EmocaoOptions = "Lamentacao"
+)
+
+// -- Estrofes
 type EstrofeOptions = string
 
 const (
@@ -19,6 +27,6 @@ type TipoFraseOptions = string
 const (
 	OQue_Aconteceu              TipoFraseOptions = "OQue_Aconteceu"
 	Consequencia_DoQueAconteceu TipoFraseOptions = "Consequencia_DoQueAconteceu"
-	Resultado_Estado_Que_Fiquei                   TipoFraseOptions = "Resultado_Estado_Que_Fiquei"
-	Resultado_DesfechoFinal                   TipoFraseOptions = "Resultado_DesfechoFinal"
+	Resultado_Estado_Que_Fiquei TipoFraseOptions = "Resultado_Estado_Que_Fiquei"
+	Resultado_DesfechoFinal     TipoFraseOptions = "Resultado_DesfechoFinal"
 )
