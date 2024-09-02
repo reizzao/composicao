@@ -1,0 +1,33 @@
+IDEIAS: IDEIA_1, IDEIA_2_12, IDEIA_3_123
+conceitos: [
+  - em cada caixa entregar o GrandFinale_Objetivo aos poucos
+]
+TempoVerbal_Options: [ PASSADO, PRESENTE, FUTURO]
+Personagens_Options: [ EU, VOCE, NOS]
+
+===
+
+Dentro_Da_Mesma_Estrofe [
+  IDEIAS + PERSONAGENS +
+ ]
+
+ Gatilho_Estrofe: [ E_DAI de uma pra outra, ]
+
+IDEIA_1 :
+meta: INFORMACAO_DO_QUEQUERDIZER,
+def_TempoVerbal: "PASSADO",
+def_Personagem: "EU",
+
+IDEIA_2_12 :
+meta: A_ACRESCENTA_IFORMACAO_IDEIA_e_IDEIA_2,
+def_TempoVerbal: "PRESENTE",
+def_Personagem: "VOCE",
+
+IDEIA_3_123 :
+meta: A_FECHA_RESULTADO_IDEIA1_IDEIA2_IDEIA3,
+def_TempoVerbal: "FUTURO",
+def_Personagem: "NOS",
+
+
+
+

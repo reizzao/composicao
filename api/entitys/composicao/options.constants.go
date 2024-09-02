@@ -2,21 +2,7 @@ package composicao
 
 // Options Constantes
 
-type SubFrase_TipoOption = string
 
-const (
-	A_ACONTECEU       SubFrase_TipoOption = "A_ACONTECEU"
-	OQUE_do_ACONTECEU SubFrase_TipoOption = "OQUE_do_ACONTECEU"
-
-	CONTINUA_ACONTECEU         SubFrase_TipoOption = "CONTINUA_ACONTECEU"
-	OQUE_do_CONTINUA_ACONTECEU SubFrase_TipoOption = "OQUE_do_CONTINUA_ACONTECEU"
-
-	E_AI          SubFrase_TipoOption = "E_AI"
-	E_AI_RESPOSTA SubFrase_TipoOption = "E_AI_RESPOSTA"
-
-	RESULTADOFECHA      SubFrase_TipoOption = "RESULTADOFECHA"
-	RESULTADOFECHA_OQUE SubFrase_TipoOption = "RESULTADOFECHA_OQUE"
-)
 
 // -- Emocao
 type EmocaoOptions = string
