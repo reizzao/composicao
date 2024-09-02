@@ -1,14 +1,12 @@
 package composicao
 
 type Estrutura_Musica struct {
-	// Motivacao MotivacoesComputed
 	EmocaoRequest EmocaoRequest
 }
 
 type EmocaoRequest struct {
 	EmocaoRequest EmocaoOptions
 }
-
 
 type EmocaoComputedProps struct {
 	Tom string
@@ -28,8 +26,6 @@ type GuiaHistoriaPartes struct {
 }
 type GuiaParteA struct {
 	TemaObjetivoDosEnvolvido_PrimeiraRefrao string
-
-	// todo: A_FRASE_INICIAL_motivo_verbo_ele_ou_person_faz_algo     string
 }
 
 type GuiaParteA2 struct {
@@ -51,7 +47,4 @@ type GuiaParteCoro struct {
 type GuiaRefrao struct {
 	TemaObjetivoDosEnvolvido_PrimeiraRefrao string
 	UltimaFrase_ResolucaoDo_TemaObjetivo    string
-	// todo: REFRAO_DESENROLAR_essa_e_historia_de_algo_ou_alguem_que string
 }
-
-// Options

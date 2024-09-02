@@ -3,10 +3,7 @@ package composicao
 // Computeds
 
 type ComputedComposicao struct {
-	// Emocao IComput_Emocao
 	Emocao ResComputedEmocao
-
-	// CadenciaInicioParteA ResponseCadencia
 }
 
 type ResComputedEmocao struct {
@@ -20,13 +17,6 @@ const (
 	MAIOR MaiorOuMenorOptions = "MAIOR"
 	MENOR MaiorOuMenorOptions = "MENOR"
 )
-
-// type MotivacoesComputed struct {
-// 	// SentimentoTonal_Def_TOM SentimentoTonal_Def_TOM_Options
-// 	// Emocao           IComput_Emocao
-// 	// InfoGuiaHistoria GuiaHistoriaPartes
-// }
-
 
 
 /*

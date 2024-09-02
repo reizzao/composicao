@@ -1,0 +1,24 @@
+type SilabasOptions struct {
+	Inicio_PerguntaNoAr_VozFORTE_S1 string
+	Final_Explicacao_VozLEVE_S2     string
+}
+
+
+TipoFrase   TipoFraseOptions
+
+Defaults defaults.DefaultMain // todo
+
+// Estrutura_Musica  Estrutura_Musica
+// Motivacao MotivacoesComputed
+	// todo: A_FRASE_INICIAL_motivo_verbo_ele_ou_person_faz_algo     string
+
+	// todo: REFRAO_DESENROLAR_essa_e_historia_de_algo_ou_alguem_que string
+
+// Emocao IComput_Emocao
+// CadenciaInicioParteA ResponseCadencia
+
+// type MotivacoesComputed struct {
+// 	// SentimentoTonal_Def_TOM SentimentoTonal_Def_TOM_Options
+// 	// Emocao           IComput_Emocao
+// 	// InfoGuiaHistoria GuiaHistoriaPartes
+// }

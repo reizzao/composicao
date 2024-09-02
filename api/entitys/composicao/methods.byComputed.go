@@ -35,7 +35,6 @@ func (o RequestComposicao) DefCadencia_InicioRelativoFraco() ResponseCadencia {
 // Emocao
 func (r RequestComposicao) Def_ResComputedEmocao(emocao string) ResComputedEmocao {
 
-	// m := EmocaoRequest{}
 	c := ComputedComposicao{}
 
 	res := ResComputedEmocao{
