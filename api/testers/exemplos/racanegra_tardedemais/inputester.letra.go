@@ -1,68 +1,69 @@
 package racanegra_tardedemais
 
 import (
-	"github.com/reizzao/composicao/api/entitys/composicao"
+	m "github.com/reizzao/composicao/api/entitys/composicao/modelcomposicao"
+	c "github.com/reizzao/composicao/api/helpers/constants"
 	"github.com/reizzao/musicalidade/api/entitys/campoHarmonico"
 )
 
-var Racanegra_tardedemais_RequestInputTester = composicao.RequestComposicao{
+var Racanegra_tardedemais_RequestInputTester = m.RequestComposicao{
 
-	Estrofe:           composicao.Estrofe_A,
+	Estrofe:           c.Estrofe_A,
 	GrauMasterNatural: campoHarmonico.D,
-	Frases: []composicao.PerguntaResposta{
+	Frases: []m.PerguntaResposta{
 		{
 			FraseNumero:     1,
-			MetaFrase:       composicao.META_A_INFORMACAO_DO_QUEQUERODIZER,
-			TempoVerbal_Def: composicao.TEMPO_PASSADO,
-			Personagem_Def:  composicao.Person_EU,
-			FormaFrase_1: composicao.FormaFraseProps{
-				FormaFrase_Tipo: composicao.A_ACONTECEU,
+			MetaFrase:       c.META_A_INFORMACAO_DO_QUEQUERODIZER,
+			TempoVerbal_Def: c.TEMPO_PASSADO,
+			Personagem_Def:  c.Person_EU,
+			FormaFrase_1: m.FormaFraseProps{
+				FormaFrase_Tipo: c.A_ACONTECEU,
 				Silabas:         "Olha",
 			},
-			FormaFrase_2: composicao.FormaFraseProps{
-				FormaFrase_Tipo: composicao.OQUE_do_ACONTECEU,
+			FormaFrase_2: m.FormaFraseProps{
+				FormaFrase_Tipo: c.OQUE_do_ACONTECEU,
 				Silabas:         "só voce",
 			},
 		}, // PerguntaResposta - []
 		{
 			FraseNumero:     2,
-			MetaFrase:       composicao.META_A_INFORMACAO_DO_QUEQUERODIZER,
-			TempoVerbal_Def: composicao.TEMPO_PASSADO,
-			Personagem_Def:  composicao.Person_EU,
-			FormaFrase_1: composicao.FormaFraseProps{
-				FormaFrase_Tipo: composicao.E_AI,
+			MetaFrase:       c.META_A_INFORMACAO_DO_QUEQUERODIZER,
+			TempoVerbal_Def: c.TEMPO_PASSADO,
+			Personagem_Def:  c.Person_EU,
+			FormaFrase_1: m.FormaFraseProps{
+				FormaFrase_Tipo: c.E_AI,
 				Silabas:         "depois de",
 			},
-			FormaFrase_2: composicao.FormaFraseProps{
-				FormaFrase_Tipo: composicao.E_AI_RESPOSTA,
+			FormaFrase_2: m.FormaFraseProps{
+				FormaFrase_Tipo: c.E_AI_RESPOSTA,
 				Silabas:         "me perder.",
 			},
 		}, // PerguntaResposta - []
 		{
 			FraseNumero:     3,
-			MetaFrase:       composicao.META_A_INFORMACAO_DO_QUEQUERODIZER,
-			TempoVerbal_Def: composicao.TEMPO_PRESENTE,
-			Personagem_Def:  composicao.Person_ELA,
-			FormaFrase_1: composicao.FormaFraseProps{
-				FormaFrase_Tipo: composicao.CONTINUA_ACONTECEU,
+			MetaFrase:       c.META_A_INFORMACAO_DO_QUEQUERODIZER,
+			TempoVerbal_Def: c.TEMPO_PRESENTE,
+			Personagem_Def:  c.Person_ELA,
+			FormaFrase_1: m.FormaFraseProps{
+				FormaFrase_Tipo: c.CONTINUA_ACONTECEU,
 				Silabas:         "Veja",
 			},
-			FormaFrase_2: composicao.FormaFraseProps{
-				FormaFrase_Tipo: composicao.OQUE_do_CONTINUA_ACONTECEU,
+			FormaFrase_2: m.FormaFraseProps{
+				FormaFrase_Tipo: c.OQUE_do_CONTINUA_ACONTECEU,
 				Silabas:         "só você",
 			},
 		}, // PerguntaResposta - []
 		{
 			FraseNumero:     4,
-			MetaFrase:       composicao.META_A_INFORMACAO_DO_QUEQUERODIZER,
-			TempoVerbal_Def: composicao.TEMPO_FUTURO,
-			Personagem_Def:  composicao.Person_NOS_DOIS,
-			FormaFrase_1: composicao.FormaFraseProps{
-				FormaFrase_Tipo: composicao.RESULTADOFECHA,
+			MetaFrase:       c.META_A_INFORMACAO_DO_QUEQUERODIZER,
+			TempoVerbal_Def: c.TEMPO_FUTURO,
+			Personagem_Def:  c.Person_NOS_DOIS,
+			FormaFrase_1: m.FormaFraseProps{
+				FormaFrase_Tipo: c.RESULTADOFECHA,
 				Silabas:         "Que",
 			},
-			FormaFrase_2: composicao.FormaFraseProps{
-				FormaFrase_Tipo: composicao.RESULTADOFECHA_OQUE,
+			FormaFrase_2: m.FormaFraseProps{
+				FormaFrase_Tipo: c.RESULTADOFECHA_OQUE,
 				Silabas:         "pena",
 			},
 		}, // PerguntaResposta - []

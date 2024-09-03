@@ -1,11 +1,13 @@
-package composicao
+package modelcomposicao
+
+import c "github.com/reizzao/composicao/api/helpers/constants"
 
 type Estrutura_Musica struct {
 	EmocaoRequest EmocaoRequest
 }
 
 type EmocaoRequest struct {
-	EmocaoRequest EmocaoOptions
+	EmocaoRequest c.EmocaoOptions
 }
 
 type EmocaoComputedProps struct {

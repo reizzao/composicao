@@ -3,7 +3,7 @@ package testers
 import (
 	"fmt"
 
-	"github.com/reizzao/composicao/api/entitys/composicao"
+	"github.com/reizzao/composicao/api/entitys/composicao/usecasecomposicao"
 	"github.com/reizzao/composicao/api/testers/exemplos/racanegra_tardedemais"
 	// "github.com/reizzao/composicao/api/testers/exemplos/belo_reinventar"
 )
@@ -12,7 +12,7 @@ func MainTester_Composicao_New() {
 	fmt.Println(
 
 		// SPC_INTERFONE
-		composicao.CreateNew(racanegra_tardedemais.Racanegra_tardedemais_RequestInputTester),
+		usecasecomposicao.CreateNew(racanegra_tardedemais.Racanegra_tardedemais_RequestInputTester),
 		// racanegra_tardedemais.Computed_Racanegratardedemais,
 
 		// SPC_INTERFONE

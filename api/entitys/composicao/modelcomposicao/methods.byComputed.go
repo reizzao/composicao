@@ -1,6 +1,9 @@
-package composicao
+package modelcomposicao
 
-import "github.com/reizzao/musicalidade/api/entitys/campoHarmonico"
+import (
+	mct "github.com/reizzao/composicao/api/helpers/constants"
+	mc "github.com/reizzao/musicalidade/api/entitys/campoHarmonico"
+)
 
 // Methods ByComputed
 
@@ -8,8 +11,8 @@ import "github.com/reizzao/musicalidade/api/entitys/campoHarmonico"
 
 func (o RequestComposicao) DefCadencia_InicioRelativoFraco() ResponseCadencia {
 	// variables use value response
-	var tom campoHarmonico.GrauMasterNaturalOptions = o.GrauMasterNatural
-	var ch campoHarmonico.CampoHarmonico = auxSwitchCampoHarmonico(tom)
+	var tom mc.GrauMasterNaturalOptions = o.GrauMasterNatural
+	var ch mc.CampoHarmonico = auxSwitchCampoHarmonico(tom)
 	var notaOrdemAlvo_nota1 int = 0
 	var notaOrdemAlvo_nota2Aux int = 5
 
@@ -35,14 +38,14 @@ func (o RequestComposicao) DefCadencia_InicioRelativoFraco() ResponseCadencia {
 // Emocao
 func (r RequestComposicao) Def_ResComputedEmocao(emocao string) ResComputedEmocao {
 
-	c := ComputedComposicao{}
+	typed := ComputedComposicao{}
 
 	res := ResComputedEmocao{
-		MaiorOuMenor: MENOR,
+		MaiorOuMenor: mct.MENOR,
 	}
 
-	if r.Emocao == triste_LAMENTANDO {
-		c.Emocao.MaiorOuMenor = MENOR
+	if r.Emocao == mct.TRISTE_LAMENTANDO {
+		typed.Emocao.MaiorOuMenor = mct.MENOR
 	}
 
 	return res

@@ -1,4 +1,6 @@
-package composicao
+package modelcomposicao
+
+import mct "github.com/reizzao/composicao/api/helpers/constants"
 
 // Computeds
 
@@ -8,15 +10,9 @@ type ComputedComposicao struct {
 
 type ResComputedEmocao struct {
 	// Tom string
-	MaiorOuMenor MaiorOuMenorOptions
+	MaiorOuMenor mct.MaiorOuMenorOptions
 }
 
-type MaiorOuMenorOptions = string
-
-const (
-	MAIOR MaiorOuMenorOptions = "MAIOR"
-	MENOR MaiorOuMenorOptions = "MENOR"
-)
 
 
 /*
