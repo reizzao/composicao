@@ -4,17 +4,22 @@ import (
 	mdc "github.com/reizzao/composicao/api/entitys/composicao/modelcomposicao"
 )
 
-func CreateNew(r mdc.ResComputed) mdc.ComposicaoModel {
+func auxCreateRequest(r mdc.ResRequest) mdc.ResRequest {
+	return r
+}
 
-	request := r
+func auxCreateComputed(c mdc.ResComputed) mdc.ResComputed {
+	return c
+}
+
+func CreateNew(r mdc.ResRequest, c mdc.ResComputed) mdc.ComposicaoModel {
+
+	request := auxCreateRequest(r)
+	computed := auxCreateComputed(c)
 
 	res := mdc.ComposicaoModel{
-		Request: request,
-
-		// Computed: m.Computed{
-
-		// 	// Emocao: r.Def_ResComputedEmocao(r.Emocao),
-		// },
+		Request:  request,
+		Computed: computed,
 	}
 
 	return res
