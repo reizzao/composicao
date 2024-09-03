@@ -23,7 +23,7 @@ func Test_Entity(t *testing.T) {
 
 	/* -- Suites -- */
 
-	// SUITE :: TARGET: Test Request - TITULO: deve retornar tardeDemais no campo Request
+	// SUITE :: TARGET: Test Request - TITULO: deve retornar um novo caso de uso {create}
 	if sut != compare_request {
 		t.Error(lib.MessageErrorTest(), expect_request, compare_request)
 	}
