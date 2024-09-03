@@ -1,0 +1,3 @@
+package itt_exemplo_racanegra_tardedemais
+
+var InputTester_ExemploRacanegra_TardeDemais_ByUseCaseCreate = "tardeDemais"
