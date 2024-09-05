@@ -20,8 +20,8 @@ func Test_Entity(t *testing.T) {
 	expect_request := sut
 	compare_request := ResSut{
 		Request: inputTestRequest,
-		// Computed: inputTestComputed,
-		Computed: "FOO",
+		Computed: inputTestComputed,
+		// Computed: "FOO",
 	}
 
 	/* -- Suites -- */
