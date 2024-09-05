@@ -10,9 +10,11 @@ import (
 
 type ResSut = mdc.ComposicaoModel
 
-var sut ResSut = CreateNew(itt.InputTestRequest_TardeDemais, itt.InputTestComputed_TardeDemais)
-var inputTestRequest mdc.ResRequest = itt.InputTestRequest_TardeDemais
-var inputTestComputed mdc.ResRequest = itt.InputTestComputed_TardeDemais
+var (
+	sut               ResSut         = CreateNew(itt.InputTestRequest_TardeDemais, itt.InputTestComputed_TardeDemais)
+	inputTestRequest  mdc.ResRequest = itt.InputTestRequest_TardeDemais
+	inputTestComputed mdc.ResRequest = itt.InputTestComputed_TardeDemais
+)
 
 func Test_Entity(t *testing.T) {
 	expect_request := sut
