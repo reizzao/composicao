@@ -17,15 +17,16 @@ var inputTestComputed mdc.ResRequest = itt.InputTestComputed_TardeDemais
 func Test_Entity(t *testing.T) {
 	expect_request := sut
 	compare_request := ResSut{
-		Request:  inputTestRequest,
-		Computed: inputTestComputed,
+		Request: inputTestRequest,
+		// Computed: inputTestComputed,
+		Computed: "FOO",
 	}
 
 	/* -- Suites -- */
 
 	// SUITE :: TARGET: Test Request - TITULO: deve retornar um novo caso de uso {create}
 	if sut != compare_request {
-		t.Error(lib.MessageErrorTest(), expect_request, compare_request)
+		t.Error(lib.MessageErrorTest(expect_request, compare_request))
 	}
 
 }
