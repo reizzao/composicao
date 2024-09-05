@@ -11,24 +11,24 @@ import (
 type ResSut = mdc.ComposicaoModel
 
 var (
-	sut               ResSut         = CreateNew(itt.InputTestRequest_TardeDemais, itt.InputTestComputed_TardeDemais)
-	inputTestRequest  mdc.ResRequest = itt.InputTestRequest_TardeDemais
-	inputTestComputed mdc.ResRequest = itt.InputTestComputed_TardeDemais
+	sut ResSut = CreateNew(
+		itt.InputTestRequest_TardeDemais,
+		itt.InputTestComputed_TardeDemais,
+	)
+	inputTestRequest    mdc.ResRequest              = itt.InputTestRequest_TardeDemais
+	compare_entrada_voz mdc.EntradaPadraoVozOptions = mdc.ENTRA_em_1
+	// inputTestComputed mdc.ResRequest = itt.InputTestComputed_TardeDemais
 )
 
 func Test_Entity(t *testing.T) {
-	expect_request := sut
-	compare_request := ResSut{
-		Request: inputTestRequest,
-		Computed: inputTestComputed,
-		// Computed: "FOO",
-	}
+	realExpected_entradaVoz := sut.Request.DadosMusica.EntradaPadraoVoz
+	tryTest_entradaVoz := compare_entrada_voz
 
 	/* -- Suites -- */
 
-	// SUITE :: TARGET: Test Request - TITULO: deve retornar um novo caso de uso {create}
-	if sut != compare_request {
-		t.Error(lib.MessageErrorTest(expect_request, compare_request))
+	// SUITE ::  Test [EntradaPadraoVozOptions] - TITULO: deve retornar o valor de { EntradaPadraoVozOptions }
+	if realExpected_entradaVoz != tryTest_entradaVoz {
+		t.Error(lib.MessageErrorTest(realExpected_entradaVoz, tryTest_entradaVoz))
 	}
 
 }
