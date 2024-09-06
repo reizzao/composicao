@@ -8,8 +8,11 @@ type ResRequest struct {
 	Emocao ct.EmocaoOptions
 
 	GrauMasterNatural ct.GrauMasterNaturalOptions
-	Estrofe           ct.EstrofeOptions
-	Frases            []FraseProps
+
+	Estrofe_A FraseProps
+	Estrofe_B FraseProps
+	// Frases            []FraseProps
 }
+
 
 type ResComputed = string
