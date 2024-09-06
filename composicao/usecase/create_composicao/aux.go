@@ -1,7 +1,7 @@
 package create_composicao
 
 import (
-	mdc "github.com/reizzao/composicao/api/entitys/composicao/modelcomposicao"
+	mdc "github.com/reizzao/music/entitys/composicao/modelcomposicao"
 )
 
 // func auxCreateMusicData(r mdc.ResMusicData) mdc.ResRequest {

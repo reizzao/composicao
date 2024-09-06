@@ -1,7 +1,7 @@
 package create_composicao
 
 import (
-	mdc "github.com/reizzao/composicao/api/entitys/composicao/modelcomposicao"
+	mdc "github.com/reizzao/music/entitys/composicao/modelcomposicao"
 )
 
 func CreateNew(
@@ -13,7 +13,7 @@ func CreateNew(
 	computed := auxCreateComputed(c)
 
 	res := mdc.ComposicaoModel{
-		Request: request,
+		Request:  request,
 		Computed: computed,
 	}
 

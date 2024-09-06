@@ -1,4 +1,4 @@
-module github.com/reizzao/composicao/api
+module github.com/reizzao/music
 
 go 1.20
 

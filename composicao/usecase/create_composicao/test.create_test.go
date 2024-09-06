@@ -3,9 +3,9 @@ package create_composicao
 import (
 	"testing"
 
-	itt "github.com/reizzao/composicao/api/entitys/composicao/literals/inputtester/itt_exemplo_racanegra_tardedemais"
-	mdc "github.com/reizzao/composicao/api/entitys/composicao/modelcomposicao"
-	lib "github.com/reizzao/composicao/api/lib"
+	itt "github.com/reizzao/music/entitys/composicao/literals/inputtester/itt_exemplo_racanegra_tardedemais"
+	mdc "github.com/reizzao/music/entitys/composicao/modelcomposicao"
+	lib "github.com/reizzao/music/lib"
 )
 
 type ResSut = mdc.ComposicaoModel
