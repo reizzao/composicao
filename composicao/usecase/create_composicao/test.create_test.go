@@ -6,6 +6,7 @@ import (
 	inp "github.com/reizzao/music/composicao/literals/inputtester/itt_exemplo_racanegra_tardedemais"
 	comp "github.com/reizzao/music/composicao/modelcomposicao"
 	lib "github.com/reizzao/music/helpers/lib"
+	ct "github.com/reizzao/music/helpers/constants"
 )
 
 type ResSut = comp.ComposicaoModel
@@ -16,7 +17,7 @@ var (
 		inp.InputTestComputed_TardeDemais,
 	)
 	inputTestRequest    comp.ResRequest              = inp.InputTestRequest_TardeDemais
-	compare_entrada_voz comp.EntradaPadraoVozOptions = comp.ENTRA_em_1
+	compare_entrada_voz ct.EntradaPadraoVozOptions = ct.ENTRA_em_1
 )
 
 func Test_Entity(t *testing.T) {
