@@ -1,8 +1,8 @@
 package create_composicao
 
-import (
-	mdc "github.com/reizzao/music/composicao/modelcomposicao"
-)
+// import (
+// 	mdc "github.com/reizzao/music/composicao/modelcomposicao"
+// )
 
 // func auxAddFrases(d mdc.FraseProps) mdc.FraseProps {
 
@@ -19,7 +19,3 @@ import (
 
 // 	return res
 // }
-
-func createComputedPrepare(c mdc.ResComputed) mdc.ResComputed {
-	return c
-}

@@ -4,6 +4,7 @@ import (
 	mdc "github.com/reizzao/music/composicao/modelcomposicao"
 )
 
+// Request
 func createRequestPrepare(d mdc.ResRequest) mdc.ResRequest {
 	request := mdc.ResRequest{
 		DadosMusica: mdc.DadosMusicaProps{
@@ -41,6 +42,8 @@ func createRequestPrepare(d mdc.ResRequest) mdc.ResRequest {
 	return res
 }
 
-// func createComputedPrepare(c mdc.ResComputed) mdc.ResComputed {
-// 	return c
-// }
+// Computed
+
+func createComputedPrepare(c mdc.ResComputed) mdc.ResComputed {
+	return c
+}
