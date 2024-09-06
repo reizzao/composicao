@@ -17,17 +17,17 @@ const (
 type EmocaoOptions = string
 
 const (
-	// Triste
-	TRISTE_LAMENTANDO EmocaoOptions = "TRISTE_LAMENTANDO"
-	TRISTE_REFLEXAO   EmocaoOptions = "TRISTE_REFLEXAO"
-	TRISTE_TRISTEZA   EmocaoOptions = "TRISTE_TRISTEZA"
-	TRISTE_MEDO       EmocaoOptions = "TRISTE_MEDO"
+	// TRISTE
+	EMOCAO_TRISTE_LAMENTANDO EmocaoOptions = "EMOCAO_TRISTE_LAMENTANDO"
+	EMOCAO_TRISTE_REFLEXAO   EmocaoOptions = "EMOCAO_TRISTE_REFLEXAO"
+	EMOCAO_TRISTE_TRISTEZA   EmocaoOptions = "EMOCAO_TRISTE_TRISTEZA"
+	EMOCAO_TRISTE_MEDO       EmocaoOptions = "EMOCAO_TRISTE_MEDO"
 
-	// alegre - naoTriste
-	alegre_ALEGRIA  EmocaoOptions = "alegre_ALEGRIA"
-	alegre_REFLEXAO EmocaoOptions = "alegre_REFLEXAO"
-	alegre_VITORIA  EmocaoOptions = "alegre_VITORIA"
-	alegre_PODER    EmocaoOptions = "alegre_PODER"
+	// NAO_TRISTE
+	EMOCAO_NAOTRISTE_ALEGRE   EmocaoOptions = "EMOCAO_NAOTRISTE_ALEGRE"
+	EMOCAO_NAOTRISTE_REFLEXAO EmocaoOptions = "EMOCAO_NAOTRISTE_REFLEXAO"
+	EMOCAO_NAOTRISTE_VITORIA  EmocaoOptions = "EMOCAO_NAOTRISTE_VITORIA"
+	EMOCAO_NAOTRISTE_PODER    EmocaoOptions = "EMOCAO_NAOTRISTE_PODER"
 )
 
 type GrauMasterNaturalOptions = string
