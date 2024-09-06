@@ -9,8 +9,8 @@ func CreateNew(
 	c mdc.ResComputed,
 ) mdc.ComposicaoModel {
 
-	request := auxCreateRequest(r)
-	computed := auxCreateComputed(c)
+	request := createRequestPrepare(r)
+	computed := createComputedPrepare(c)
 
 	res := mdc.ComposicaoModel{
 		Request:  request,
