@@ -4,19 +4,19 @@ import (
 	"testing"
 
 	inp "github.com/reizzao/music/composicao/literals/inputtester/itt_exemplo_racanegra_tardedemais"
-	mdc "github.com/reizzao/music/composicao/modelcomposicao"
+	comp "github.com/reizzao/music/composicao/modelcomposicao"
 	lib "github.com/reizzao/music/helpers/lib"
 )
 
-type ResSut = mdc.ComposicaoModel
+type ResSut = comp.ComposicaoModel
 
 var (
 	sut ResSut = CreateNew(
 		inp.InputTestRequest_TardeDemais,
 		inp.InputTestComputed_TardeDemais,
 	)
-	inputTestRequest    mdc.ResRequest              = inp.InputTestRequest_TardeDemais
-	compare_entrada_voz mdc.EntradaPadraoVozOptions = mdc.ENTRA_em_1
+	inputTestRequest    comp.ResRequest              = inp.InputTestRequest_TardeDemais
+	compare_entrada_voz comp.EntradaPadraoVozOptions = comp.ENTRA_em_1
 )
 
 func Test_Entity(t *testing.T) {
