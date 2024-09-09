@@ -1,20 +1,16 @@
-package create_composicao
-
-import (
-	mdc "github.com/reizzao/music/entitys/composicao/modelcomposicao"
-)
+package composicao
 
 // Request
-func createRequestPrepare(d mdc.ResRequest) mdc.ResRequest {
-	request := mdc.ResRequest{
-		DadosMusica: mdc.DadosMusicaProps{
+func createRequestPrepare(d ResRequest) ResRequest {
+	request := ResRequest{
+		DadosMusica: DadosMusicaProps{
 			EntradaPadraoVoz: d.DadosMusica.EntradaPadraoVoz,
 		},
 		Emocao:            d.Emocao,
 		GrauMasterNatural: d.GrauMasterNatural,
 
 		Estrofe_A: d.ICreateFrase_FN(
-			mdc.FraseProps{
+			FraseProps{
 				Estrofe:         d.Estrofe_A.Estrofe,
 				FraseNumero:     d.Estrofe_A.FraseNumero,
 				MetaFrase:       d.Estrofe_A.MetaFrase,
@@ -26,7 +22,7 @@ func createRequestPrepare(d mdc.ResRequest) mdc.ResRequest {
 		),
 
 		Estrofe_B: d.ICreateFrase_FN(
-			mdc.FraseProps{
+			FraseProps{
 				Estrofe:         d.Estrofe_B.Estrofe,
 				FraseNumero:     d.Estrofe_B.FraseNumero,
 				MetaFrase:       d.Estrofe_B.MetaFrase,
@@ -44,6 +40,6 @@ func createRequestPrepare(d mdc.ResRequest) mdc.ResRequest {
 
 // Computed
 
-func createComputedPrepare(c mdc.ResComputed) mdc.ResComputed {
+func createComputedPrepare(c ResComputed) ResComputed {
 	return c
 }

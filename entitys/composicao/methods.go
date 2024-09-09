@@ -1,4 +1,4 @@
-package modelcomposicao
+package composicao
 
 // INTERFACES
 type IEstrofes interface {
