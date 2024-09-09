@@ -1,11 +1,9 @@
 package composicao
 
-import (
-	hell "github.com/reizzao/music/helpers"
-)
+import help "github.com/reizzao/music/helpers"
 
 var InputTestRequest_TardeDemais ResRequest = ResRequest{
 	DadosMusica: DadosMusicaProps{
-		EntradaPadraoVoz: hell.ENTRA_em_1,
+		EntradaPadraoVoz: help.ENTRA_em_1,
 	},
 }
