@@ -29,10 +29,10 @@ type Estrofe_Props struct {
 }
 
 type Verso_Props struct {
-	Numero         int
-	RazaoDoVerso   RazaoDoVersoOptions
-	TempoVerbal    TempoVerbalOptions
-	PersonagemTema PersonagemTemaOptions
+	Numero            int
+	PerguntaQueMeFaco PerguntaQueMeFaco_byVerso_Options
+	TempoVerbal       TempoVerbalOptions
+	PersonagemTema    PersonagemTemaOptions
 }
 
 type Estrofe_A_Props struct {

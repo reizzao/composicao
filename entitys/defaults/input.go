@@ -20,24 +20,24 @@ var Default_Input = Default{
 			Versos: VersosEstrofe_A_Props{
 
 				Verso_1: Verso_Props{
-					Numero:         1,
-					RazaoDoVerso:   UM_FATO,
-					TempoVerbal:    TEMPO_PRESENTE,
-					PersonagemTema: PERSON_EU,
+					Numero:            1,
+					PerguntaQueMeFaco: E_FATO_QUE,
+					TempoVerbal:       TEMPO_PRESENTE,
+					PersonagemTema:    PERSON_EU,
 				},
 
 				Verso_2: Verso_Props{
-					Numero:         2,
-					RazaoDoVerso:   COMO_ASSIM_EAI,
-					TempoVerbal:    TEMPO_PASSADO,
-					PersonagemTema: PERSON_AOUTRA,
+					Numero:            2,
+					PerguntaQueMeFaco: OOUTRO_COMOASSIM_EAI,
+					TempoVerbal:       TEMPO_PASSADO,
+					PersonagemTema:    PERSON_AOUTRA,
 				},
 
 				Verso_3: Verso_Props{
-					Numero:         3,
-					RazaoDoVerso:   NAVIDA_SACADA_POESIA_EMPROL_DETODOS,
-					TempoVerbal:    TEMPO_FUTURO,
-					PersonagemTema: PERSON_TODOSNOS_VOU_VAMOS,
+					Numero:            3,
+					PerguntaQueMeFaco: TODOS_SACADA_EMPROL,
+					TempoVerbal:       TEMPO_FUTURO,
+					PersonagemTema:    PERSON_TODOSNOS_VOU_VAMOS,
 				},
 			},
 		}, // FIM : ESTROFE
@@ -52,24 +52,24 @@ var Default_Input = Default{
 			Versos: VersosEstrofe_B_Props{
 
 				Verso_1: Verso_Props{
-					Numero:         1,
-					RazaoDoVerso:   UM_FATO,
-					TempoVerbal:    TEMPO_PRESENTE,
-					PersonagemTema: PERSON_EU,
+					Numero:            1,
+					PerguntaQueMeFaco: E_FATO_QUE,
+					TempoVerbal:       TEMPO_PRESENTE,
+					PersonagemTema:    PERSON_EU,
 				},
 
 				Verso_2: Verso_Props{
-					Numero:         2,
-					RazaoDoVerso:   COMO_ASSIM_EAI,
-					TempoVerbal:    TEMPO_PASSADO,
-					PersonagemTema: PERSON_AOUTRA,
+					Numero:            2,
+					PerguntaQueMeFaco: OOUTRO_COMOASSIM_EAI,
+					TempoVerbal:       TEMPO_PASSADO,
+					PersonagemTema:    PERSON_AOUTRA,
 				},
 
 				Verso_3: Verso_Props{
-					Numero:         3,
-					RazaoDoVerso:   NAVIDA_SACADA_POESIA_EMPROL_DETODOS,
-					TempoVerbal:    TEMPO_FUTURO,
-					PersonagemTema: PERSON_TODOSNOS_VOU_VAMOS,
+					Numero:            3,
+					PerguntaQueMeFaco: TODOS_SACADA_EMPROL,
+					TempoVerbal:       TEMPO_FUTURO,
+					PersonagemTema:    PERSON_TODOSNOS_VOU_VAMOS,
 				},
 			},
 		}, // FIM : ESTROFE
@@ -84,17 +84,17 @@ var Default_Input = Default{
 			Versos: VersosEstrofe_C_Props{
 
 				Verso_1: Verso_Props{
-					Numero:         1,
-					RazaoDoVerso:   UM_FATO,
-					TempoVerbal:    TEMPO_PRESENTE,
-					PersonagemTema: PERSON_EU,
+					Numero:            1,
+					PerguntaQueMeFaco: E_FATO_QUE,
+					TempoVerbal:       TEMPO_PRESENTE,
+					PersonagemTema:    PERSON_EU,
 				},
 
 				Verso_2: Verso_Props{
-					Numero:         2,
-					RazaoDoVerso:   COMO_ASSIM_EAI,
-					TempoVerbal:    TEMPO_PASSADO,
-					PersonagemTema: PERSON_AOUTRA,
+					Numero:            2,
+					PerguntaQueMeFaco: OOUTRO_COMOASSIM_EAI,
+					TempoVerbal:       TEMPO_PASSADO,
+					PersonagemTema:    PERSON_AOUTRA,
 				},
 			},
 		}, // FIM : ESTROFE
@@ -109,17 +109,17 @@ var Default_Input = Default{
 			Versos: VersosEstrofe_PONTE_Props{
 
 				Verso_1: Verso_Props{
-					Numero:         1,
-					RazaoDoVerso:   UM_FATO,
-					TempoVerbal:    TEMPO_PRESENTE,
-					PersonagemTema: PERSON_EU,
+					Numero:            1,
+					PerguntaQueMeFaco: E_FATO_QUE,
+					TempoVerbal:       TEMPO_PRESENTE,
+					PersonagemTema:    PERSON_EU,
 				},
 
 				Verso_2: Verso_Props{
-					Numero:         2,
-					RazaoDoVerso:   COMO_ASSIM_EAI,
-					TempoVerbal:    TEMPO_PASSADO,
-					PersonagemTema: PERSON_AOUTRA,
+					Numero:            2,
+					PerguntaQueMeFaco: OOUTRO_COMOASSIM_EAI,
+					TempoVerbal:       TEMPO_PASSADO,
+					PersonagemTema:    PERSON_AOUTRA,
 				},
 			},
 		}, // FIM : ESTROFE
@@ -134,31 +134,31 @@ var Default_Input = Default{
 			Versos: VersosEstrofe_REFRAO_Props{
 
 				Verso_1: Verso_Props{
-					Numero:         1,
-					RazaoDoVerso:   NAVIDA_SACADA_POESIA_EMPROL_DETODOS,
-					TempoVerbal:    TEMPO_FUTURO,
-					PersonagemTema: PERSON_TODOSNOS_VOU_VAMOS,
+					Numero:            1,
+					PerguntaQueMeFaco: TODOS_SACADA_EMPROL,
+					TempoVerbal:       TEMPO_FUTURO,
+					PersonagemTema:    PERSON_TODOSNOS_VOU_VAMOS,
 				},
 
 				Verso_2: Verso_Props{
-					Numero:         2,
-					RazaoDoVerso:   COMO_ASSIM_EAI,
-					TempoVerbal:    TEMPO_PRESENTE,
-					PersonagemTema: PERSON_AOUTRA,
+					Numero:            2,
+					PerguntaQueMeFaco: OOUTRO_COMOASSIM_EAI,
+					TempoVerbal:       TEMPO_PRESENTE,
+					PersonagemTema:    PERSON_AOUTRA,
 				},
 
 				Verso_3: Verso_Props{
-					Numero:         3,
-					RazaoDoVerso:   NAVIDA_SACADA_POESIA_EMPROL_DETODOS,
-					TempoVerbal:    TEMPO_FUTURO,
-					PersonagemTema: PERSON_TODOSNOS_VOU_VAMOS,
+					Numero:            3,
+					PerguntaQueMeFaco: TODOS_SACADA_EMPROL,
+					TempoVerbal:       TEMPO_FUTURO,
+					PersonagemTema:    PERSON_TODOSNOS_VOU_VAMOS,
 				},
 
 				Verso_4: Verso_Props{
-					Numero:         4,
-					RazaoDoVerso:   NAVIDA_SACADA_POESIA_EMPROL_DETODOS,
-					TempoVerbal:    TEMPO_FUTURO,
-					PersonagemTema: PERSON_TODOSNOS_VOU_VAMOS,
+					Numero:            4,
+					PerguntaQueMeFaco: TODOS_SACADA_EMPROL,
+					TempoVerbal:       TEMPO_FUTURO,
+					PersonagemTema:    PERSON_TODOSNOS_VOU_VAMOS,
 				},
 			},
 		}, // FIM : ESTROFE
