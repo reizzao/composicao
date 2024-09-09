@@ -1,7 +1,7 @@
 package create_composicao
 
 // import (
-// 	mdc "github.com/reizzao/music/composicao/modelcomposicao"
+// 	mdc "github.com/reizzao/music/entitys/composicao/modelcomposicao"
 // )
 
 // func auxAddFrases(d mdc.FraseProps) mdc.FraseProps {

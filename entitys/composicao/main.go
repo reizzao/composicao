@@ -1,7 +1,7 @@
 package composicao
 
 // import (
-// 	mdc "github.com/reizzao/music/composicao/modelcomposicao"
+// 	mdc "github.com/reizzao/music/entitys/composicao/modelcomposicao"
 // 	comp "github.com/reizzao/music/composicao/usecase/create_composicao"
 // )
 

@@ -1,7 +1,7 @@
 package itt_exemplo_racanegra_tardedemais
 
 import (
-	"github.com/reizzao/music/composicao/modelcomposicao"
+	"github.com/reizzao/music/entitys/composicao/modelcomposicao"
 	ct "github.com/reizzao/music/helpers/constants"
 )
 
