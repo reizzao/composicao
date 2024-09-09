@@ -1,4 +1,4 @@
-package default_models
+package defaults
 
 type Default struct {
 	Guias    GuiasProps

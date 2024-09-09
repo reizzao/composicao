@@ -1,13 +1,13 @@
-package default_models
+package defaults
 
 // OPTIONS
 
 type RazaoDaEstrofeOptions = string
 
 const (
-	OBJETIVO_PRESENTE_FUTURO RazaoDaEstrofeOptions = "OBJETIVO_PRESENTE_FUTURO"
-	CONSEQUENCIA_DA_EMOCAO   RazaoDaEstrofeOptions = "CONSEQUENCIA_DA_EMOCAO"
-	CONSEQUENCIA_DA_ESTROFE_ANTERIOR   RazaoDaEstrofeOptions = "CONSEQUENCIA_DA_ESTROFE_ANTERIOR"
+	OBJETIVO_PRESENTE_FUTURO         RazaoDaEstrofeOptions = "OBJETIVO_PRESENTE_FUTURO"
+	CONSEQUENCIA_DA_EMOCAO           RazaoDaEstrofeOptions = "CONSEQUENCIA_DA_EMOCAO"
+	CONSEQUENCIA_DA_ESTROFE_ANTERIOR RazaoDaEstrofeOptions = "CONSEQUENCIA_DA_ESTROFE_ANTERIOR"
 )
 
 type ClimaEstrofeOptions = string

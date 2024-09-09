@@ -1,4 +1,4 @@
-package default_models
+package defaults
 
 var Default_Input = Default{
 
