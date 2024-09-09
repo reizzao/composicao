@@ -1,6 +1,6 @@
 package composicao
 
-import ct "github.com/reizzao/music/helpers/constants"
+import hell "github.com/reizzao/music/helpers"
 
 type ComposicaoModel struct {
 	Request  ResRequest
@@ -10,15 +10,15 @@ type ComposicaoModel struct {
 // Props
 
 type DadosMusicaProps struct {
-	EntradaPadraoVoz ct.EntradaPadraoVozOptions
+	EntradaPadraoVoz hell.EntradaPadraoVozOptions
 }
 
 type FraseProps struct {
-	Estrofe         ct.EstrofeOptions
+	Estrofe         hell.EstrofeOptions
 	FraseNumero     int
-	MetaFrase       ct.MetaFraseOptions
-	TempoVerbal_Def ct.TempoVerbal_Options
-	Personagem_Def  ct.Personagem_Options
+	MetaFrase       hell.MetaFraseOptions
+	TempoVerbal_Def hell.TempoVerbal_Options
+	Personagem_Def  hell.Personagem_Options
 	Pergunta        string
 	Resposta        string
 }
@@ -28,9 +28,9 @@ type FraseProps struct {
 type ResRequest struct {
 	DadosMusica DadosMusicaProps
 
-	Emocao ct.EmocaoOptions
+	Emocao hell.EmocaoOptions
 
-	GrauMasterNatural ct.GrauMasterNaturalOptions
+	GrauMasterNatural hell.GrauMasterNaturalOptions
 
 	Estrofe_A FraseProps
 	Estrofe_B FraseProps

@@ -1,4 +1,4 @@
-package lib
+package helpers
 
 import (
 	bt "github.com/reizzao/RzLibs_GO/message"
