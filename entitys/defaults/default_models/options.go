@@ -7,6 +7,7 @@ type RazaoDaEstrofeOptions = string
 const (
 	OBJETIVO_PRESENTE_FUTURO RazaoDaEstrofeOptions = "OBJETIVO_PRESENTE_FUTURO"
 	CONSEQUENCIA_DA_EMOCAO   RazaoDaEstrofeOptions = "CONSEQUENCIA_DA_EMOCAO"
+	CONSEQUENCIA_DA_ESTROFE_ANTERIOR   RazaoDaEstrofeOptions = "CONSEQUENCIA_DA_ESTROFE_ANTERIOR"
 )
 
 type ClimaEstrofeOptions = string
@@ -49,7 +50,7 @@ const (
 type PersonagemTemaOptions = string
 
 const (
-	PERSON_EU       PersonagemTemaOptions = "PERSON_EU"
-	PERSON_AOUTRA   PersonagemTemaOptions = "PERSON_AOUTRA"
-	PERSON_TODOSNOS PersonagemTemaOptions = "PERSON_TODOSNOS"
+	PERSON_EU                 PersonagemTemaOptions = "PERSON_EU"
+	PERSON_AOUTRA             PersonagemTemaOptions = "PERSON_AOUTRA"
+	PERSON_TODOSNOS_VOU_VAMOS PersonagemTemaOptions = "PERSON_TODOSNOS_VOU_VAMOS"
 )
