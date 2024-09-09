@@ -5,7 +5,8 @@ package default_models
 type RazaoDaEstrofeOptions = string
 
 const (
-	CONSEQUENCIA_DA_EMOCAO RazaoDaEstrofeOptions = "CONSEQUENCIA_DA_EMOCAO"
+	OBJETIVO_PRESENTE_FUTURO RazaoDaEstrofeOptions = "OBJETIVO_PRESENTE_FUTURO"
+	CONSEQUENCIA_DA_EMOCAO   RazaoDaEstrofeOptions = "CONSEQUENCIA_DA_EMOCAO"
 )
 
 type ClimaEstrofeOptions = string
@@ -32,9 +33,9 @@ const (
 type RazaoDoVersoOptions = string
 
 const (
-	UM_FATO              RazaoDoVersoOptions = "UM_FATO"
-	COMO_ASSIM_EAI       RazaoDoVersoOptions = "COMO_ASSIM_EAI"
-	NAVIDA_SACADA_POESIA RazaoDoVersoOptions = "NAVIDA_SACADA_POESIA"
+	UM_FATO                             RazaoDoVersoOptions = "UM_FATO"
+	COMO_ASSIM_EAI                      RazaoDoVersoOptions = "COMO_ASSIM_EAI"
+	NAVIDA_SACADA_POESIA_EMPROL_DETODOS RazaoDoVersoOptions = "NAVIDA_SACADA_POESIA_EMPROL_DETODOS"
 )
 
 type TempoVerbalOptions = string
