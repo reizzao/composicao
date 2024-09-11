@@ -1,8 +1,8 @@
 package composicao
 
 func CreateNew(
-	r ResRequest,
-	c ResComputed,
+	r Request,
+	c Computed,
 ) ComposicaoModel {
 
 	request := createRequestPrepare(r)

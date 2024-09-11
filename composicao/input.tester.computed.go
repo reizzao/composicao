@@ -1,3 +1,3 @@
 package composicao
 
-var InputTestComputed_TardeDemais ResComputed = "foo"
+var InputTestComputed_TardeDemais Computed = "foo"

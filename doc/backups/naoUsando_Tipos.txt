@@ -22,3 +22,21 @@ Defaults defaults.DefaultMain // todo
 // 	// Emocao           IComput_Emocao
 // 	// InfoGuiaHistoria GuiaHistoriaPartes
 // }
+
+
+// POR FormaFrase
+type FormaFrase_TipoOption = string
+
+const (
+	A_ACONTECEU       FormaFrase_TipoOption = "A_ACONTECEU"
+	OQUE_do_ACONTECEU FormaFrase_TipoOption = "OQUE_do_ACONTECEU"
+
+	CONTINUA_ACONTECEU         FormaFrase_TipoOption = "CONTINUA_ACONTECEU"
+	OQUE_do_CONTINUA_ACONTECEU FormaFrase_TipoOption = "OQUE_do_CONTINUA_ACONTECEU"
+
+	E_AI          FormaFrase_TipoOption = "E_AI"
+	E_AI_RESPOSTA FormaFrase_TipoOption = "E_AI_RESPOSTA"
+
+	RESULTADOFECHA      FormaFrase_TipoOption = "RESULTADOFECHA"
+	RESULTADOFECHA_OQUE FormaFrase_TipoOption = "RESULTADOFECHA_OQUE"
+)

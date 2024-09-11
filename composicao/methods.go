@@ -6,11 +6,11 @@ type IEstrofes interface {
 }
 
 // METHODS
-func (t ResRequest) ICreateFrase_FN(d FraseProps) FraseProps {
+func (t Request) ICreateFrase_FN(d FraseProps) FraseProps {
 
 	request := FraseProps{
 		FraseNumero:     d.FraseNumero,
-		MetaFrase:       d.MetaFrase,
+		Gatilhos_Verso:  d.Gatilhos_Verso,
 		TempoVerbal_Def: d.TempoVerbal_Def,
 		Personagem_Def:  d.Personagem_Def,
 		Pergunta:        d.Pergunta,

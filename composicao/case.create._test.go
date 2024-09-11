@@ -2,6 +2,7 @@ package composicao
 
 import (
 	"testing"
+
 	help "github.com/reizzao/music/helpers"
 )
 
@@ -12,7 +13,7 @@ var (
 		InputTestRequest_TardeDemais,
 		InputTestComputed_TardeDemais,
 	)
-	inputTestRequest    ResRequest                   = InputTestRequest_TardeDemais
+	inputTestRequest    Request                      = InputTestRequest_TardeDemais
 	compare_entrada_voz help.EntradaPadraoVozOptions = help.ENTRA_em_1
 )
 

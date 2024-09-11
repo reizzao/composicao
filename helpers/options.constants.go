@@ -30,39 +30,39 @@ const (
 	EMOCAO_NAOTRISTE_PODER    EmocaoOptions = "EMOCAO_NAOTRISTE_PODER"
 )
 
-type GrauMasterNaturalOptions = string
+type Grau_EscalaNatural_Options = string
 
 const (
-	C GrauMasterNaturalOptions = "C"
-	D GrauMasterNaturalOptions = "D"
-	E GrauMasterNaturalOptions = "E"
-	F GrauMasterNaturalOptions = "F"
-	G GrauMasterNaturalOptions = "G"
-	A GrauMasterNaturalOptions = "A"
-	B GrauMasterNaturalOptions = "B"
+	C Grau_EscalaNatural_Options = "C"
+	D Grau_EscalaNatural_Options = "D"
+	E Grau_EscalaNatural_Options = "E"
+	F Grau_EscalaNatural_Options = "F"
+	G Grau_EscalaNatural_Options = "G"
+	A Grau_EscalaNatural_Options = "A"
+	B Grau_EscalaNatural_Options = "B"
 )
 
 type EstrofeOptions = string
 
 const (
-	Estrofe_A             EstrofeOptions = "Estrofe_A"
-	Estrofe_B             EstrofeOptions = "Estrofe_B"
-	Estrofe_C             EstrofeOptions = "Estrofe_C"
-	Estrofe_Ponte_Refrao  EstrofeOptions = "Estrofe_Ponte_Refrao"
-	Estrofe_Refrao        EstrofeOptions = "Estrofe_Refrao"
-	Estrofe_RefraoFim     EstrofeOptions = "Estrofe_RefraoFim"
-	Estrofe_Opcional_Coro EstrofeOptions = "Estrofe_Opcional_Coro"
+	Estrofe_A               EstrofeOptions = "Estrofe_A"
+	Estrofe_Opcional_B      EstrofeOptions = "Estrofe_Opcional_B"
+	Estrofe_C               EstrofeOptions = "Estrofe_C"
+	Estrofe_Ponte_Refrao    EstrofeOptions = "Estrofe_Ponte_Refrao"
+	Estrofe_Refrao          EstrofeOptions = "Estrofe_Refrao"
+	Estrofe_RefraoConclusao EstrofeOptions = "Estrofe_RefraoConclusao"
+	Estrofe_Opcional_Coro   EstrofeOptions = "Estrofe_Opcional_Coro"
 )
 
 // POR FRASE
-type MetaFraseOptions = string
+type Gatilhos_Versos_Options = string
 
 const (
-	META_A_INFORMACAO_DO_QUEQUERODIZER MetaFraseOptions = "META_A_INFORMACAO_DO_QUEQUERODIZER"
+	GATILHOS_1A Gatilhos_Versos_Options = "PelaEmocaoEscolhida, Diria, Fazeria, Apontaria, ObserveiQue, Quando_"
 
-	META_A_ACRESCENTA_IFORMACAO_IDEIA_1_E_IDEIA_2 MetaFraseOptions = "META_A_ACRESCENTA_IFORMACAO_IDEIA_e_IDEIA_2"
+	GATILHOS_2_CONSEQUENCIAS Gatilhos_Versos_Options = "Como_Assim, EAi, "
 
-	META_A_FECHA_RESULTADO_IDEIA1_IDEIA2_IDEIA3 MetaFraseOptions = "META_A_FECHA_RESULTADO_IDEIA1_IDEIA2_IDEIA3"
+	GATILHOS_FECHA_SACADAS Gatilhos_Versos_Options = "SACADAS, NA_VIDA?, DITADOS, "
 )
 
 type TempoVerbal_Options = string
@@ -79,21 +79,4 @@ const (
 	Person_EU       TempoVerbal_Options = "Person_EU"
 	Person_ELA      TempoVerbal_Options = "Person_ELA"
 	Person_NOS_DOIS TempoVerbal_Options = "Person_NOS_DOIS"
-)
-
-// POR FormaFrase
-type FormaFrase_TipoOption = string
-
-const (
-	A_ACONTECEU       FormaFrase_TipoOption = "A_ACONTECEU"
-	OQUE_do_ACONTECEU FormaFrase_TipoOption = "OQUE_do_ACONTECEU"
-
-	CONTINUA_ACONTECEU         FormaFrase_TipoOption = "CONTINUA_ACONTECEU"
-	OQUE_do_CONTINUA_ACONTECEU FormaFrase_TipoOption = "OQUE_do_CONTINUA_ACONTECEU"
-
-	E_AI          FormaFrase_TipoOption = "E_AI"
-	E_AI_RESPOSTA FormaFrase_TipoOption = "E_AI_RESPOSTA"
-
-	RESULTADOFECHA      FormaFrase_TipoOption = "RESULTADOFECHA"
-	RESULTADOFECHA_OQUE FormaFrase_TipoOption = "RESULTADOFECHA_OQUE"
 )
