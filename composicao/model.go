@@ -20,8 +20,8 @@ type Request struct {
 // Props : Nivel_2
 
 type DadosMusicaProps struct {
-	Tom_via_Grau_EscalaNatural help.Grau_EscalaNatural_Options
-	EntradaPadraoVoz           help.EntradaPadraoVozOptions
+	Grau_EscalaNatural_Define_TOM help.Grau_EscalaNatural_Options
+	EntradaPadraoVoz              help.EntradaPadraoVozOptions
 }
 
 type MotivacoesProps struct {

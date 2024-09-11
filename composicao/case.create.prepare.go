@@ -4,8 +4,8 @@ package composicao
 func createRequestPrepare(d Request) Request {
 	request := Request{
 		DadosMusica: DadosMusicaProps{
-			Tom_via_Grau_EscalaNatural: d.DadosMusica.Tom_via_Grau_EscalaNatural,
-			EntradaPadraoVoz:           d.DadosMusica.EntradaPadraoVoz,
+			Grau_EscalaNatural_Define_TOM: d.DadosMusica.Grau_EscalaNatural_Define_TOM,
+			EntradaPadraoVoz:              d.DadosMusica.EntradaPadraoVoz,
 		},
 		Motivacoes: MotivacoesProps{
 			Sentimento_Triste: d.Motivacoes.Sentimento_Triste,

@@ -33,13 +33,13 @@ const (
 type Grau_EscalaNatural_Options = string
 
 const (
-	C Grau_EscalaNatural_Options = "C"
-	D Grau_EscalaNatural_Options = "D"
-	E Grau_EscalaNatural_Options = "E"
-	F Grau_EscalaNatural_Options = "F"
-	G Grau_EscalaNatural_Options = "G"
-	A Grau_EscalaNatural_Options = "A"
-	B Grau_EscalaNatural_Options = "B"
+	GRAU_1 Grau_EscalaNatural_Options = "GRAU_1"
+	GRAU_2 Grau_EscalaNatural_Options = "GRAU_2"
+	GRAU_3 Grau_EscalaNatural_Options = "GRAU_3"
+	GRAU_4 Grau_EscalaNatural_Options = "GRAU_4"
+	GRAU_5 Grau_EscalaNatural_Options = "GRAU_5"
+	GRAU_6 Grau_EscalaNatural_Options = "GRAU_6"
+	GRAU_7 Grau_EscalaNatural_Options = "GRAU_7"
 )
 
 type Estrofes_Options = string

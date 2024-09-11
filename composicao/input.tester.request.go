@@ -4,6 +4,6 @@ import help "github.com/reizzao/music/helpers"
 
 var InputTestRequest_TardeDemais Request = Request{
 	DadosMusica: DadosMusicaProps{
-		EntradaPadraoVoz: help.ENTRA_em_1,
+		EntradaPadraoVoz: help.ENTRA_em_1, Grau_EscalaNatural_Define_TOM: help.GRAU_3,
 	},
 }
