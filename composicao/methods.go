@@ -2,13 +2,13 @@ package composicao
 
 // INTERFACES
 type IEstrofes interface {
-	ICreateFrase_FN(d FraseProps) FraseProps
+	ICreateFrase_FN(d Verso_Props) Verso_Props
 }
 
 // METHODS
-func (t Request) ICreateFrase_FN(d FraseProps) FraseProps {
+func (t Request) ICreateFrase_FN(d Verso_Props) Verso_Props {
 
-	request := FraseProps{
+	request := Verso_Props{
 		FraseNumero:     d.FraseNumero,
 		Gatilhos_Verso:  d.Gatilhos_Verso,
 		TempoVerbal_Def: d.TempoVerbal_Def,
