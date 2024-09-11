@@ -25,11 +25,11 @@ type DadosMusicaProps struct {
 }
 
 type MotivacoesProps struct {
-	Sentimento_Triste                                bool
-	Emocao_Central                                   help.Emocao_Central_Options
-	Quem_eo_Personagem_Principal                     help.Personagens_Options
-	RefraoCabeca_OqueMaisPrecisaOPersonagemPrincipal string
-	RefraoFecha_O_Jeito_e                            string
+	Sentimento_Triste                                 bool
+	Emocao_Central                                    help.Emocao_Central_Options
+	Quem_eo_Personagem_Principal                      help.Personagens_Options
+	RefraoCabeca_OqueMaisPrecisa_OPersonagemPrincipal string
+	RefraoFecha_O_Jeito_e                             string
 }
 
 type Verso_Props struct {

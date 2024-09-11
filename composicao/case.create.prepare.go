@@ -10,8 +10,8 @@ func createRequestPrepare(d Request) Request {
 		Motivacoes: MotivacoesProps{
 			Sentimento_Triste: d.Motivacoes.Sentimento_Triste,
 			Emocao_Central:    d.Motivacoes.Emocao_Central,
-			RefraoCabeca_OqueMaisPrecisaOPersonagemPrincipal: d.Motivacoes.RefraoCabeca_OqueMaisPrecisaOPersonagemPrincipal,
-			RefraoFecha_O_Jeito_e:                            d.Motivacoes.RefraoFecha_O_Jeito_e,
+			RefraoCabeca_OqueMaisPrecisa_OPersonagemPrincipal: d.Motivacoes.RefraoCabeca_OqueMaisPrecisa_OPersonagemPrincipal,
+			RefraoFecha_O_Jeito_e:                             d.Motivacoes.RefraoFecha_O_Jeito_e,
 		},
 
 		Estrofe_A1: d.ICreateFrase_FN(
