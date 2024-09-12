@@ -12,9 +12,9 @@ type GuiasProps struct {
 }
 
 type EstrofesDefault struct {
-	Estrofe_A             Estrofe_A_Props
-	Estrofe_B_Opcional    Estrofe_B_Props
-	Estrofe_C             Estrofe_C_Props
+	Estrofe_A1            Estrofe_A1_Props
+	Estrofe_A2_Opcional   Estrofe_A2_Opcional_Props
+	Estrofe_B             Estrofe_B_Props
 	Estrofe_PONTE         Estrofe_PONTE_Props
 	Estrofe_REFRAO        Estrofe_REFRAO_Props
 	Estrofe_CORO_Opcional Estrofe_CORO_Props
@@ -25,7 +25,6 @@ type Estrofe_Props struct {
 	ClimaEstrofe          ClimaEstrofeOptions
 	Compasso              CompassoOptions
 	Numero_Notas_PorVerso Numero_Notas_PorVerso_Options
-	// Versos                []Verso
 }
 
 type Verso_Props struct {
@@ -35,17 +34,17 @@ type Verso_Props struct {
 	PersonagemTema    PersonagemTemaOptions
 }
 
-type Estrofe_A_Props struct {
+type Estrofe_A1_Props struct {
 	Estrofe_Props Estrofe_Props
-	Versos        VersosEstrofe_A_Props
+	Versos        VersosEstrofe_A1_Props
+}
+type Estrofe_A2_Opcional_Props struct {
+	Estrofe_Props Estrofe_Props
+	Versos        VersosEstrofe_A2_Opcional_Props
 }
 type Estrofe_B_Props struct {
 	Estrofe_Props Estrofe_Props
 	Versos        VersosEstrofe_B_Props
-}
-type Estrofe_C_Props struct {
-	Estrofe_Props Estrofe_Props
-	Versos        VersosEstrofe_C_Props
 }
 type Estrofe_PONTE_Props struct {
 	Estrofe_Props Estrofe_Props
@@ -60,18 +59,20 @@ type Estrofe_CORO_Props struct {
 	Versos        VersosEstrofe_CORO_Props
 }
 
-type VersosEstrofe_A_Props struct {
+// Versos by Estrofe
+type VersosEstrofe_A1_Props struct {
 	Verso_1 Verso_Props
 	Verso_2 Verso_Props
 	Verso_3 Verso_Props
 }
 
-type VersosEstrofe_B_Props struct {
+// Props Versos by Estrofe
+type VersosEstrofe_A2_Opcional_Props struct {
 	Verso_1 Verso_Props
 	Verso_2 Verso_Props
 	Verso_3 Verso_Props
 }
-type VersosEstrofe_C_Props struct {
+type VersosEstrofe_B_Props struct {
 	Verso_1 Verso_Props
 	Verso_2 Verso_Props
 }
