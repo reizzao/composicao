@@ -14,7 +14,7 @@ var Default_Input = Default{
 			Estrofe_Props: Estrofe_Props{
 				RazaoDaEstrofe:        RAZAO_A1__CONSEQUENCIA_DA_EMOCAO_CENTRAL,
 				ClimaEstrofe:          SUAVE,
-				Compasso:              LENTO,
+				Compasso:              COMPASSADO_LENTO,
 				Numero_Notas_PorVerso: UMA_NOTA,
 			},
 			Versos: VersosEstrofe_A1_Props{
@@ -46,7 +46,7 @@ var Default_Input = Default{
 			Estrofe_Props: Estrofe_Props{
 				RazaoDaEstrofe:        RAZAO_A2__CONSEQUENCIA_DA_ESTROFE_ANTERIOR_SUAVE,
 				ClimaEstrofe:          SUAVE,
-				Compasso:              LENTO,
+				Compasso:              COMPASSADO_LENTO,
 				Numero_Notas_PorVerso: UMA_NOTA,
 			},
 			Versos: VersosEstrofe_A2_Opcional_Props{
@@ -78,7 +78,7 @@ var Default_Input = Default{
 			Estrofe_Props: Estrofe_Props{
 				RazaoDaEstrofe:        RAZAO_A2__CONSEQUENCIA_DA_ESTROFE_ANTERIOR_SUAVE,
 				ClimaEstrofe:          SUAVE,
-				Compasso:              LENTO,
+				Compasso:              COMPASSADO_LENTO,
 				Numero_Notas_PorVerso: UMA_NOTA,
 			},
 			Versos: VersosEstrofe_B_Props{
@@ -103,7 +103,7 @@ var Default_Input = Default{
 			Estrofe_Props: Estrofe_Props{
 				RazaoDaEstrofe:        RAZAO_A2__CONSEQUENCIA_DA_ESTROFE_ANTERIOR_SUAVE,
 				ClimaEstrofe:          SUAVE,
-				Compasso:              LENTO,
+				Compasso:              COMPASSADO_LENTO,
 				Numero_Notas_PorVerso: UMA_NOTA,
 			},
 			Versos: VersosEstrofe_PONTE_Props{
@@ -128,33 +128,33 @@ var Default_Input = Default{
 			Estrofe_Props: Estrofe_Props{
 				RazaoDaEstrofe:        RAZAO_REFRAO_OBJETIVO_PRESENTE_FUTURO,
 				ClimaEstrofe:          FORTE,
-				Compasso:              LENTO,
+				Compasso:              COMPASSADO_LENTO,
 				Numero_Notas_PorVerso: UMA_NOTA,
 			},
 			Versos: VersosEstrofe_REFRAO_Props{
 
-				Verso_1: Verso_Props{
+				Verso_1_Clima_GritoouSuave_Objetivo: Verso_Props{
 					Numero:            1,
 					PerguntaQueMeFaco: TODOS_SACADA_EMPROL,
 					TempoVerbal:       TEMPO_FUTURO,
 					PersonagemTema:    PERSON_TODOSNOS_VOU_VAMOS,
 				},
 
-				Verso_2: Verso_Props{
+				Verso_2_ClimaIgualAnterior_EAI: Verso_Props{
 					Numero:            2,
 					PerguntaQueMeFaco: OOUTRO_COMOASSIM_EAI,
 					TempoVerbal:       TEMPO_PRESENTE,
 					PersonagemTema:    PERSON_AOUTRA,
 				},
 
-				Verso_3: Verso_Props{
+				Verso_3_ClimaOposto_Explica_Fecha: Verso_Props{
 					Numero:            3,
 					PerguntaQueMeFaco: TODOS_SACADA_EMPROL,
 					TempoVerbal:       TEMPO_FUTURO,
 					PersonagemTema:    PERSON_TODOSNOS_VOU_VAMOS,
 				},
 
-				Verso_4: Verso_Props{
+				Verso_4_ClimaOposto_Explica_Fecha_Opcional: Verso_Props{
 					Numero:            4,
 					PerguntaQueMeFaco: TODOS_SACADA_EMPROL,
 					TempoVerbal:       TEMPO_FUTURO,

@@ -81,10 +81,10 @@ type VersosEstrofe_PONTE_Props struct {
 	Verso_2 Verso_Props
 }
 type VersosEstrofe_REFRAO_Props struct {
-	Verso_1 Verso_Props
-	Verso_2 Verso_Props
-	Verso_3 Verso_Props
-	Verso_4 Verso_Props
+	Verso_1_Clima_GritoouSuave_Objetivo        Verso_Props
+	Verso_2_ClimaIgualAnterior_EAI             Verso_Props
+	Verso_3_ClimaOposto_Explica_Fecha          Verso_Props
+	Verso_4_ClimaOposto_Explica_Fecha_Opcional Verso_Props
 }
 type VersosEstrofe_CORO_Props struct {
 	Verso_1 Verso_Props

@@ -23,8 +23,8 @@ const (
 type CompassoOptions = string
 
 const (
-	LENTO        CompassoOptions = "LENTO"
-	DIVIDIDO_1_2 CompassoOptions = "DIVIDIDO_1_2"
+	COMPASSADO_LENTO             CompassoOptions = "COMPASSADO_LENTO"
+	COMPASSO_RAPIDO_DIVIDIDO_1_2 CompassoOptions = "COMPASSO_RAPIDO_DIVIDIDO_1_2"
 )
 
 type Numero_Notas_PorVerso_Options = string
