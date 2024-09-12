@@ -126,7 +126,7 @@ var Default_Input = Default{
 
 		Estrofe_REFRAO: Estrofe_REFRAO_Props{
 			Estrofe_Props: Estrofe_Props{
-				RazaoDaEstrofe:        RAZAO_REFRAO_OBJETIVO_PRESENTE_FUTURO,
+				RazaoDaEstrofe:        RAZAO_REFRAO_RESOLVE_A_EMOCAO_CENTRAL,
 				ClimaEstrofe:          FORTE,
 				Compasso:              COMPASSADO_LENTO,
 				Numero_Notas_PorVerso: UMA_NOTA,
