@@ -20,24 +20,24 @@ var Default_Input = Default{
 			Versos: VersosEstrofe_A1_Props{
 
 				Verso_1: Verso_Props{
-					Numero:            1,
-					PerguntaQueMeFaco: E_FATO_QUE,
-					TempoVerbal:       TEMPO_PRESENTE,
-					PersonagemTema:    PERSON_EU,
+					Numero:         1,
+					Pergunto:       E_FATO_QUE,
+					TempoVerbal:    TEMPO_PRESENTE,
+					PersonagemTema: PERSON_EU,
 				},
 
 				Verso_2: Verso_Props{
-					Numero:            2,
-					PerguntaQueMeFaco: OOUTRO_COMOASSIM_EAI,
-					TempoVerbal:       TEMPO_PASSADO,
-					PersonagemTema:    PERSON_AOUTRA,
+					Numero:         2,
+					Pergunto:       OOUTRO_COMOASSIM_EAI,
+					TempoVerbal:    TEMPO_PASSADO,
+					PersonagemTema: PERSON_AOUTRA,
 				},
 
 				Verso_3: Verso_Props{
-					Numero:            3,
-					PerguntaQueMeFaco: TODOS_SACADA_EMPROL,
-					TempoVerbal:       TEMPO_FUTURO,
-					PersonagemTema:    PERSON_TODOSNOS_VOU_VAMOS,
+					Numero:         3,
+					Pergunto:       TODOS_SACADA_EMPROL,
+					TempoVerbal:    TEMPO_FUTURO,
+					PersonagemTema: PERSON_TODOSNOS_VOU_VAMOS,
 				},
 			},
 		}, // FIM : ESTROFE
@@ -52,24 +52,24 @@ var Default_Input = Default{
 			Versos: VersosEstrofe_A2_Opcional_Props{
 
 				Verso_1: Verso_Props{
-					Numero:            1,
-					PerguntaQueMeFaco: E_FATO_QUE,
-					TempoVerbal:       TEMPO_PRESENTE,
-					PersonagemTema:    PERSON_EU,
+					Numero:         1,
+					Pergunto:       E_FATO_QUE,
+					TempoVerbal:    TEMPO_PRESENTE,
+					PersonagemTema: PERSON_EU,
 				},
 
 				Verso_2: Verso_Props{
-					Numero:            2,
-					PerguntaQueMeFaco: OOUTRO_COMOASSIM_EAI,
-					TempoVerbal:       TEMPO_PASSADO,
-					PersonagemTema:    PERSON_AOUTRA,
+					Numero:         2,
+					Pergunto:       OOUTRO_COMOASSIM_EAI,
+					TempoVerbal:    TEMPO_PASSADO,
+					PersonagemTema: PERSON_AOUTRA,
 				},
 
 				Verso_3: Verso_Props{
-					Numero:            3,
-					PerguntaQueMeFaco: TODOS_SACADA_EMPROL,
-					TempoVerbal:       TEMPO_FUTURO,
-					PersonagemTema:    PERSON_TODOSNOS_VOU_VAMOS,
+					Numero:         3,
+					Pergunto:       TODOS_SACADA_EMPROL,
+					TempoVerbal:    TEMPO_FUTURO,
+					PersonagemTema: PERSON_TODOSNOS_VOU_VAMOS,
 				},
 			},
 		}, // FIM : ESTROFE
@@ -84,17 +84,17 @@ var Default_Input = Default{
 			Versos: VersosEstrofe_B_Props{
 
 				Verso_1: Verso_Props{
-					Numero:            1,
-					PerguntaQueMeFaco: E_FATO_QUE,
-					TempoVerbal:       TEMPO_PRESENTE,
-					PersonagemTema:    PERSON_EU,
+					Numero:         1,
+					Pergunto:       E_FATO_QUE,
+					TempoVerbal:    TEMPO_PRESENTE,
+					PersonagemTema: PERSON_EU,
 				},
 
 				Verso_2: Verso_Props{
-					Numero:            2,
-					PerguntaQueMeFaco: OOUTRO_COMOASSIM_EAI,
-					TempoVerbal:       TEMPO_PASSADO,
-					PersonagemTema:    PERSON_AOUTRA,
+					Numero:         2,
+					Pergunto:       OOUTRO_COMOASSIM_EAI,
+					TempoVerbal:    TEMPO_PASSADO,
+					PersonagemTema: PERSON_AOUTRA,
 				},
 			},
 		}, // FIM : ESTROFE
@@ -109,17 +109,17 @@ var Default_Input = Default{
 			Versos: VersosEstrofe_PONTE_Props{
 
 				Verso_1: Verso_Props{
-					Numero:            1,
-					PerguntaQueMeFaco: E_FATO_QUE,
-					TempoVerbal:       TEMPO_PRESENTE,
-					PersonagemTema:    PERSON_EU,
+					Numero:         1,
+					Pergunto:       E_FATO_QUE,
+					TempoVerbal:    TEMPO_PRESENTE,
+					PersonagemTema: PERSON_EU,
 				},
 
 				Verso_2: Verso_Props{
-					Numero:            2,
-					PerguntaQueMeFaco: OOUTRO_COMOASSIM_EAI,
-					TempoVerbal:       TEMPO_PASSADO,
-					PersonagemTema:    PERSON_AOUTRA,
+					Numero:         2,
+					Pergunto:       OOUTRO_COMOASSIM_EAI,
+					TempoVerbal:    TEMPO_PASSADO,
+					PersonagemTema: PERSON_AOUTRA,
 				},
 			},
 		}, // FIM : ESTROFE
@@ -134,31 +134,31 @@ var Default_Input = Default{
 			Versos: VersosEstrofe_REFRAO_Props{
 
 				Verso_1_Clima_GritoouSuave_Objetivo: Verso_Props{
-					Numero:            1,
-					PerguntaQueMeFaco: TODOS_SACADA_EMPROL,
-					TempoVerbal:       TEMPO_FUTURO,
-					PersonagemTema:    PERSON_TODOSNOS_VOU_VAMOS,
+					Numero:         1,
+					Pergunto:       TODOS_SACADA_EMPROL,
+					TempoVerbal:    TEMPO_FUTURO,
+					PersonagemTema: PERSON_TODOSNOS_VOU_VAMOS,
 				},
 
 				Verso_2_ClimaIgualAnterior_EAI: Verso_Props{
-					Numero:            2,
-					PerguntaQueMeFaco: OOUTRO_COMOASSIM_EAI,
-					TempoVerbal:       TEMPO_PRESENTE,
-					PersonagemTema:    PERSON_AOUTRA,
+					Numero:         2,
+					Pergunto:       OOUTRO_COMOASSIM_EAI,
+					TempoVerbal:    TEMPO_PRESENTE,
+					PersonagemTema: PERSON_AOUTRA,
 				},
 
 				Verso_3_ClimaOposto_Explica_Fecha: Verso_Props{
-					Numero:            3,
-					PerguntaQueMeFaco: TODOS_SACADA_EMPROL,
-					TempoVerbal:       TEMPO_FUTURO,
-					PersonagemTema:    PERSON_TODOSNOS_VOU_VAMOS,
+					Numero:         3,
+					Pergunto:       TODOS_SACADA_EMPROL,
+					TempoVerbal:    TEMPO_FUTURO,
+					PersonagemTema: PERSON_TODOSNOS_VOU_VAMOS,
 				},
 
 				Verso_4_ClimaOposto_Explica_Fecha_Opcional: Verso_Props{
-					Numero:            4,
-					PerguntaQueMeFaco: TODOS_SACADA_EMPROL,
-					TempoVerbal:       TEMPO_FUTURO,
-					PersonagemTema:    PERSON_TODOSNOS_VOU_VAMOS,
+					Numero:         4,
+					Pergunto:       TODOS_SACADA_EMPROL,
+					TempoVerbal:    TEMPO_FUTURO,
+					PersonagemTema: PERSON_TODOSNOS_VOU_VAMOS,
 				},
 			},
 		}, // FIM : ESTROFE

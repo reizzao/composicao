@@ -33,12 +33,12 @@ const (
 	UMA_NOTA Numero_Notas_PorVerso_Options = "UMA_NOTA"
 )
 
-type PerguntaQueMeFaco_byVerso_Options = string
+type Pergunto_byVerso_Options = string
 
 const (
-	E_FATO_QUE           PerguntaQueMeFaco_byVerso_Options = "E_FATO_QUE"
-	OOUTRO_COMOASSIM_EAI PerguntaQueMeFaco_byVerso_Options = "OOUTRO_COMOASSIM_EAI"
-	TODOS_SACADA_EMPROL  PerguntaQueMeFaco_byVerso_Options = "TODOS_SACADA_EMPROL"
+	E_FATO_QUE           Pergunto_byVerso_Options = "E_FATO_QUE"
+	OOUTRO_COMOASSIM_EAI Pergunto_byVerso_Options = "OOUTRO_COMOASSIM_EAI"
+	TODOS_SACADA_EMPROL  Pergunto_byVerso_Options = "TODOS_SACADA_EMPROL"
 )
 
 type TempoVerbalOptions = string
