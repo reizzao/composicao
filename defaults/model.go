@@ -41,13 +41,10 @@ type Versos_Remodel_Suave4 struct {
 	Verso4_MenosComumPlus         Verso_Remodel
 }
 
-type Versos_Remodel_Tenso2 struct {
-	Verso2_Comum      Verso_Remodel
-	Verso4_MenosComum Verso_Remodel
-}
-
-type Versos_Remodel_TensoPlus2 struct {
-	Verso2_ComumPlus      Verso_Remodel
+type Versos_Remodel_Tenso4 struct {
+	Verso1_Comum          Verso_Remodel
+	Verso2_MenosComum     Verso_Remodel
+	Verso3_ComumPlus      Verso_Remodel
 	Verso4_MenosComumPlus Verso_Remodel
 }
 
@@ -59,8 +56,8 @@ type VersosRefrao_Remodel_4 struct {
 }
 
 type VersosCoro_Remodel_2 struct {
-	Verso2_Comum      Verso_Remodel
-	Verso4_MenosComum Verso_Remodel
+	Verso1_Comum      Verso_Remodel
+	Verso2_MenosComum Verso_Remodel
 }
 
 // Estrofes
@@ -92,9 +89,7 @@ type VersosEstrofe_A1_Props = Versos_Remodel_Suave4
 
 type VersosEstrofe_A2_Opcional_Props = Versos_Remodel_Suave4
 
-type VersosEstrofe_B_Props = Versos_Remodel_Tenso2
-
-type VersosEstrofe_PONTE_Props = Versos_Remodel_TensoPlus2
+type VersosEstrofe_B_Props = Versos_Remodel_Tenso4
 
 type VersosEstrofe_REFRAO_Props = VersosRefrao_Remodel_4
 
