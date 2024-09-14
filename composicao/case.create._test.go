@@ -10,10 +10,10 @@ type ResSut = ComposicaoModel
 
 var (
 	sut ResSut = CreateNew(
-		InputTestRequest_TardeDemais,
-		InputTestComputed_TardeDemais,
+		TardeDemais_RequestIN,
+		TardeDemais_ComputedIN,
 	)
-	inputTestRequest    Request                      = InputTestRequest_TardeDemais
+	inputTestRequest    Request                      = TardeDemais_RequestIN
 	compare_entrada_voz help.EntradaPadraoVozOptions = help.ENTRA_em_1
 )
 

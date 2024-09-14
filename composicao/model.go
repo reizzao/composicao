@@ -38,8 +38,13 @@ type Verso_Props struct {
 	Gatilhos_Verso  help.Gatilhos_Versos_Options
 	TempoVerbal_Def help.TempoVerbal_Options
 	Personagem_Def  help.Personagens_Options
-	Pergunta        string
-	Resposta        string
+	Pergunta        Duas_PalavraPoetica
+	Resposta        Duas_PalavraPoetica
+}
+
+type Duas_PalavraPoetica struct{
+	PalavraPoetica1 string
+	PalavraPoetica2 string
 }
 
 type Computed = string
