@@ -1,6 +1,8 @@
-package defaults
+package conceito_composicao
 
-var Default_Input = Default{
+var Conceito_Composicao_IN = Conceito_Composicao{
+
+	Padroes: Padroes,
 
 	Guias: Guia_Default,
 

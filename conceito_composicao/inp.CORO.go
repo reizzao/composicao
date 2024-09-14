@@ -1,4 +1,4 @@
-package defaults
+package conceito_composicao
 
 var Estrofe_CORO_part = Estrofe_CORO_Props{
 

@@ -6,7 +6,7 @@ type SilabasOptions struct {
 
 TipoFrase   TipoFraseOptions
 
-Defaults defaults.DefaultMain // todo
+conceito_composicao conceito_composicao.DefaultMain // todo
 
 // Estrutura_Musica  Estrutura_Musica
 // Motivacao MotivacoesComputed

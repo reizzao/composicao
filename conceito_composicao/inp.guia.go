@@ -1,4 +1,4 @@
-package defaults
+package conceito_composicao
 
 var Guia_Default = GuiasProps{
 	EstiloMusicalGravar:        "NEUTRO",

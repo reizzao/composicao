@@ -1,8 +1,14 @@
-package defaults
+package conceito_composicao
 
-type Default struct {
+type Conceito_Composicao struct {
+	Padroes  PadroesProps
 	Guias    GuiasProps
 	Estrofes EstrofesDefault
+}
+
+type PadroesProps struct {
+	Quant_PalavrasPoeticas_por_Pergunta Quant_PalavrasPoeticas_por_Pergunta_Options
+	Quant_PalavrasPoeticas_por_Resposta Quant_PalavrasPoeticas_por_Pergunta_Options
 }
 
 type GuiasProps struct {

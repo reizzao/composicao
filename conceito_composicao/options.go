@@ -1,6 +1,12 @@
-package defaults
+package conceito_composicao
 
 // OPTIONS
+
+type Quant_PalavrasPoeticas_por_Pergunta_Options = string
+
+const (
+	DUAS_PALAVRAS_POETICAS Quant_PalavrasPoeticas_por_Pergunta_Options = "DUAS_PALAVRAS_POETICAS"
+)
 
 type RazaoDaEstrofeOptions = string
 

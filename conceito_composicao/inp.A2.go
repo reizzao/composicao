@@ -1,4 +1,4 @@
-package defaults
+package conceito_composicao
 
 var Estrofe_A2_part = Estrofe_A2_Opcional_Props{
 	Estrofe_Props: Estrofe_Remodel{
