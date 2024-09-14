@@ -11,7 +11,7 @@ var Default_Input = Default{
 	Estrofes: EstrofesDefault{
 
 		Estrofe_A1: Estrofe_A1_Props{
-			Estrofe_Props: Estrofe_Props{
+			Estrofe_Props: Estrofe_Remodel{
 				RazaoDaEstrofe:        RAZAO_A1__CONSEQUENCIA_DA_EMOCAO_CENTRAL,
 				ClimaEstrofe:          SUAVE,
 				Compasso:              COMPASSADO_LENTO,
@@ -19,21 +19,21 @@ var Default_Input = Default{
 			},
 			Versos: VersosEstrofe_A1_Props{
 
-				Verso_1: Verso_Props{
+				Verso1_Comum: Verso_Remodel{
 					Numero:         1,
 					Pergunto:       E_FATO_QUE,
 					TempoVerbal:    TEMPO_PRESENTE,
 					PersonagemTema: PERSON_EU,
 				},
 
-				Verso_2: Verso_Props{
+				Verso2_ComumPlus: Verso_Remodel{
 					Numero:         2,
 					Pergunto:       OOUTRO_COMOASSIM_EAI,
 					TempoVerbal:    TEMPO_PASSADO,
 					PersonagemTema: PERSON_AOUTRA,
 				},
 
-				Verso_3: Verso_Props{
+				Verso3_MenosComum_ApontaFecha: Verso_Remodel{
 					Numero:         3,
 					Pergunto:       TODOS_SACADA_EMPROL,
 					TempoVerbal:    TEMPO_FUTURO,
@@ -43,7 +43,7 @@ var Default_Input = Default{
 		}, // FIM : ESTROFE
 
 		Estrofe_A2_Opcional: Estrofe_A2_Opcional_Props{
-			Estrofe_Props: Estrofe_Props{
+			Estrofe_Props: Estrofe_Remodel{
 				RazaoDaEstrofe:        RAZAO_A2__CONSEQUENCIA_DA_ESTROFE_ANTERIOR_SUAVE,
 				ClimaEstrofe:          SUAVE,
 				Compasso:              COMPASSADO_LENTO,
@@ -51,21 +51,21 @@ var Default_Input = Default{
 			},
 			Versos: VersosEstrofe_A2_Opcional_Props{
 
-				Verso_1: Verso_Props{
+				Verso_1: Verso_Remodel{
 					Numero:         1,
 					Pergunto:       E_FATO_QUE,
 					TempoVerbal:    TEMPO_PRESENTE,
 					PersonagemTema: PERSON_EU,
 				},
 
-				Verso_2: Verso_Props{
+				Verso_2: Verso_Remodel{
 					Numero:         2,
 					Pergunto:       OOUTRO_COMOASSIM_EAI,
 					TempoVerbal:    TEMPO_PASSADO,
 					PersonagemTema: PERSON_AOUTRA,
 				},
 
-				Verso_3: Verso_Props{
+				Verso_3: Verso_Remodel{
 					Numero:         3,
 					Pergunto:       TODOS_SACADA_EMPROL,
 					TempoVerbal:    TEMPO_FUTURO,
@@ -75,7 +75,7 @@ var Default_Input = Default{
 		}, // FIM : ESTROFE
 
 		Estrofe_B: Estrofe_B_Props{
-			Estrofe_Props: Estrofe_Props{
+			Estrofe_Props: Estrofe_Remodel{
 				RazaoDaEstrofe:        RAZAO_A2__CONSEQUENCIA_DA_ESTROFE_ANTERIOR_SUAVE,
 				ClimaEstrofe:          SUAVE,
 				Compasso:              COMPASSADO_LENTO,
@@ -83,14 +83,14 @@ var Default_Input = Default{
 			},
 			Versos: VersosEstrofe_B_Props{
 
-				Verso_1: Verso_Props{
+				Verso_1: Verso_Remodel{
 					Numero:         1,
 					Pergunto:       E_FATO_QUE,
 					TempoVerbal:    TEMPO_PRESENTE,
 					PersonagemTema: PERSON_EU,
 				},
 
-				Verso_2: Verso_Props{
+				Verso_2: Verso_Remodel{
 					Numero:         2,
 					Pergunto:       OOUTRO_COMOASSIM_EAI,
 					TempoVerbal:    TEMPO_PASSADO,
@@ -100,7 +100,7 @@ var Default_Input = Default{
 		}, // FIM : ESTROFE
 
 		Estrofe_PONTE: Estrofe_PONTE_Props{
-			Estrofe_Props: Estrofe_Props{
+			Estrofe_Props: Estrofe_Remodel{
 				RazaoDaEstrofe:        RAZAO_A2__CONSEQUENCIA_DA_ESTROFE_ANTERIOR_SUAVE,
 				ClimaEstrofe:          SUAVE,
 				Compasso:              COMPASSADO_LENTO,
@@ -108,14 +108,14 @@ var Default_Input = Default{
 			},
 			Versos: VersosEstrofe_PONTE_Props{
 
-				Verso_1: Verso_Props{
+				Verso_1: Verso_Remodel{
 					Numero:         1,
 					Pergunto:       E_FATO_QUE,
 					TempoVerbal:    TEMPO_PRESENTE,
 					PersonagemTema: PERSON_EU,
 				},
 
-				Verso_2: Verso_Props{
+				Verso_2: Verso_Remodel{
 					Numero:         2,
 					Pergunto:       OOUTRO_COMOASSIM_EAI,
 					TempoVerbal:    TEMPO_PASSADO,
@@ -125,7 +125,7 @@ var Default_Input = Default{
 		}, // FIM : ESTROFE
 
 		Estrofe_REFRAO: Estrofe_REFRAO_Props{
-			Estrofe_Props: Estrofe_Props{
+			Estrofe_Props: Estrofe_Remodel{
 				RazaoDaEstrofe:        RAZAO_REFRAO_RESOLVE_A_EMOCAO_CENTRAL,
 				ClimaEstrofe:          FORTE,
 				Compasso:              COMPASSADO_LENTO,
@@ -133,28 +133,28 @@ var Default_Input = Default{
 			},
 			Versos: VersosEstrofe_REFRAO_Props{
 
-				Verso_1_Clima_GritoouSuave_Objetivo: Verso_Props{
+				Verso_1_Clima_GritoouSuave_Objetivo: Verso_Remodel{
 					Numero:         1,
 					Pergunto:       TODOS_SACADA_EMPROL,
 					TempoVerbal:    TEMPO_FUTURO,
 					PersonagemTema: PERSON_TODOSNOS_VOU_VAMOS,
 				},
 
-				Verso_2_ClimaIgualAnterior_EAI: Verso_Props{
+				Verso_2_ClimaIgualAnterior_EAI: Verso_Remodel{
 					Numero:         2,
 					Pergunto:       OOUTRO_COMOASSIM_EAI,
 					TempoVerbal:    TEMPO_PRESENTE,
 					PersonagemTema: PERSON_AOUTRA,
 				},
 
-				Verso_3_ClimaOposto_Explica_Fecha: Verso_Props{
+				Verso_3_ClimaOposto_Explica_Fecha: Verso_Remodel{
 					Numero:         3,
 					Pergunto:       TODOS_SACADA_EMPROL,
 					TempoVerbal:    TEMPO_FUTURO,
 					PersonagemTema: PERSON_TODOSNOS_VOU_VAMOS,
 				},
 
-				Verso_4_ClimaOposto_Explica_Fecha_Opcional: Verso_Props{
+				Verso_4_ClimaOposto_Explica_Fecha_Opcional: Verso_Remodel{
 					Numero:         4,
 					Pergunto:       TODOS_SACADA_EMPROL,
 					TempoVerbal:    TEMPO_FUTURO,
