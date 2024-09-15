@@ -1,0 +1,54 @@
+FINAL FELIZ
+
+-- LETRA --
+Chega de fingir
+Eu não tenho nada a esconder
+Agora é pra valer
+Haja o que houver
+
+Não to nem aí
+Eu não to nem aqui pro que dizem
+Eu quero ser feliz
+E viver pra ti
+
+Pode me abraçar sem medo
+Pode encostar tua mão na minha
+
+Meu amor
+Deixa o tempo se arrastar sem fim
+Meu amor
+Não há mal nenhum gostar assim
+
+Oh, meu bem
+Acredite no final feliz
+Meu amor, meu amor
+
+====
+VogalSomFechada: I, U, O, FinaisConsoantes, VogaisCom_Acento_Tonico,
+VogalSomAberta: E, I,A, VogaisCom_Acento_Agudo,
+
+-- ANALISE --
+
+Chega de fingir ( RimaFraca: VogalSomAberta, )
+Eu não tenho nada a esconder ( RimaFraca: VogalSomFechada, )
+Agora é pra valer ( VogalSomAberta, )
+Haja o que houver ( VogalSomFechada, )
+
+Não to nem aí ( RimaFraca: VogalSomAberta, )
+Eu não to nem aqui pro que dizem ( RimaFraca: VogalSomFechada, )
+Eu quero ser feliz ( VogalSomFechada, )
+E viver pra ti ( VogalSomAberta, )
+
+Pode me abraçar( RimaFraca: VogalSomFechada, ) sem medo ( RimaFraca: VogalSomFechada, )
+Pode encostar ( VogalSomFechada, ) tua mão na minha ( VogalSomAberta, )
+
+Meu amor ( RimaFraca: VogalSomAberta, )
+Deixa o tempo se arrastar ( RimaForte: VogalSomAberta, ) sem fim ( RimaForte: VogalSomFechada, )
+
+Meu amor ( RimaFraca: VogalSomAberta, )
+Não há mal nenhum gostar (RimaForte: VogalSomFechada, ) assim ( RimaForte: VogalSomFechada, )
+
+Oh, meu bem ( VogalSomAberta, )
+Acredite no final ( RimaForte: VogalSomAberta, ) feliz ( RimaForte: VogalSomAberta, )
+
+Meu amor, meu amor ( VogalSomFechada, )

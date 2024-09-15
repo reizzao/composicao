@@ -3,38 +3,37 @@ NOSSO PRIMEIRO BEIJO
 ANALISE :
 metrica : 4
 
-rimaMaster: FECHADA_U
-rimaMaster_Oposta: ABERTA_A
-rimaMaster_Media: MEDIA_I
+RimaFracaMaster: FECHADA_U
+RimaFracaMaster_Oposta: ABERTA_A
+RimaFraca_Infinita: INFINITA_I
 
 ----
 < A1 : Compasso Lento >
-Eu aposto um beijo (1, SACADA, 2 palavrasFato, 2 palavraOque, metrica: padrao, Rima_Master: rimaMaster, )
-Que você vai gostar (2, Consequencia_OQue, 2 palavrasFato, 2 palavraOque, metrica: padrao,  Rima_OpostaMaster : rimaMaster_Oposta,  )
-do gosto do meu beijo ( 3, explica_Os_Anteriores, 2 palavrasFato, 2 palavraOque ,metrica: padrao, Rima_Master: rimaMaster,)
+Eu aposto um beijo (1, SACADA, 2 palavrasFato, 2 palavraOque, metrica: padrao, RimaFraca: RimaFracaMaster, )
+Que você vai gostar (2, Consequencia_OQue, 2 palavrasFato, 2 palavraOque, metrica: padrao,  Rima_OpostaMaster : RimaFracaMaster_Oposta,  )
+do gosto do meu beijo ( 3, explica_Os_Anteriores, 2 palavrasFato, 2 palavraOque ,metrica: padrao, RimaFraca: RimaFracaMaster,)
 
 < A2 : Compasso Crescente_Lento >
-Já tô vendo eu aí (1, SACADA, 2 palavrasFato, 2 palavraOque,  metrica: padrao, Rima_Media: rimaMaster_Media)
-Na proteção de tela do seu celular  ( 2,Consequencia_OQue_Sacada, 2 palavrasFato, 2 palavraOque , metrica: padrao, Rima_OpostaMaster: rimaMaster_Oposta,)
-E você usando a letra G no seu colar ( 3, explica_Os_Anteriores_Sacada, 2 palavrasFato, 2 palavraOque , metrica: padrao, Rima_OpostaMaster: rimaMaster_Oposta,)
+Já tô vendo eu aí (1, SACADA, 2 palavrasFato, 2 palavraOque,  metrica: padrao, RimaFraca_Infinita: RimaFraca_Infinita)
+Na proteção de tela do seu celular  ( 2,Consequencia_OQue_Sacada, 2 palavrasFato, 2 palavraOque , metrica: padrao, RimaFracaMaster_Oposta: RimaFracaMaster_Oposta,)
+E você usando a letra G no seu colar ( 3, explica_Os_Anteriores_Sacada, 2 palavrasFato, 2 palavraOque , metrica: padrao, RimaFracaMaster_Oposta: RimaFracaMaster_Oposta,)
 
 <B : Crescente >
-Eu não tô me achando (1, SACADA, 2 palavrasFato, 2 palavraOque , metrica: padrao, Rima_Master: rimaMaster,)
-Eu só te achei (2, Comeca_OutroFatoRelativo,2 palavrasFato, 2 palavraOque  , metrica: padrao, Rima_Media: rimaMaster_Media, )
-a cara do pra sempre que eu sempre procurei ( 3,Explica_o_OutroFatoRelativo,2 palavrasFato, 2 palavraOque  , metrica: padrao, Rima_Media: rimaMaster_Media, )
+Eu não tô me achando (1, SACADA, 2 palavrasFato, 2 palavraOque , metrica: padrao, RimaFraca: RimaFracaMaster,)
+Eu só te achei (2, Comeca_OutroFatoRelativo,2 palavrasFato, 2 palavraOque  , metrica: padrao, RimaFraca_Infinita: RimaFraca_Infinita, )
+a cara do pra sempre que eu sempre procurei ( 3,Explica_o_OutroFatoRelativo,2 palavrasFato, 2 palavraOque  , metrica: padrao, RimaFraca_Infinita: RimaFraca_Infinita, )
 
 <PreRefrao>
-Então fala que você também acredita em destino (1, SACADA, 4 palavrasFato, 4 palavraOque, metrica: dobra Rima_Master: rimaMaster, )
-Fala pro seu passado que seu futuro é comigo (2, SACADA, 4 palavrasFato, 4 palavraOque, metrica: dobra, Rima_Master: rimaMaster, )
+Então fala que você também acredita em destino (1, SACADA, 4 palavrasFato, 4 palavraOque, metrica: dobra RimaFraca: RimaFracaMaster, )
+Fala pro seu passado que seu futuro é comigo (2, SACADA, 4 palavrasFato, 4 palavraOque, metrica: dobra, RimaFraca: RimaFracaMaster, )
 
-Eu, você e uma casinha, geladeira cheia
-Dormir de conchinha depois de umas brincadeira
-Sabe o que que tá faltando pra ficar perfeito?
-O nosso primeiro beijo
-Eu, você e uma casinha, geladeira cheia
-Dormir de conchinha depois de umas brincadeiras
-Sabe o que que tá faltando pra ficar perfeito?
-O nosso primeiro beijo
+Eu, você e uma casinha (1, SACADA, 2 palavrasFato, 2 palavraOque, metrica: padrao, RimaFracaMaster_Oposta: RimaFracaMaster_Oposta, )
+geladeira cheia (2, SACADA, 1 palavrasRelativaOutraSacada, 1 palavraOque, metrica:padrao, RimaFracaMaster_Oposta: RimaFracaMaster_Oposta, )
+Dormir de conchinha depois de umas brincadeira (3, SACADA, 2 palavrasRelativaOutraSacada, 2 palavraOque, metrica: dobra_Metrica, RimaFracaMaster_Oposta: RimaFracaMaster_Oposta, )
+
+Sabe o que que tá faltando pra ficar perfeito? (4, SACADA, 4 palavrasOutraSacada, 4 palavraOque, metrica: dobra, RimaFraca: RimaFracaMaster, )
+O nosso primeiro beijo (5, SACADA, 2 palavrasOutraSacada, 2 palavraOque, metrica: padrao, RimaFraca: Rima_Master, )
+
 
 Oh, oh
 
