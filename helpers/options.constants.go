@@ -58,9 +58,9 @@ const (
 type Gatilhos_Versos_Options = string
 
 const (
-	GATILHOS_A1 Gatilhos_Versos_Options = "Sacadas_FrasesDeComando que levam a EmocaoCentralEscolhida ex:, Diria, Fazeria, Apontaria, ObserveiQue, Quando_"
+	GATILHOS_V1_FATO Gatilhos_Versos_Options = "Sacadas_FrasesDeComando que levam a EmocaoCentralEscolhida ex:, Diria, Fazeria, Apontaria, ObserveiQue, Quando_"
 
-	GATILHOS_2_CONSEQUENCIAS Gatilhos_Versos_Options = "Como_Assim, EAi, "
+	GATILHOS_V2_CONSEQUENCIA_EAI_COMO_ASSIM Gatilhos_Versos_Options = "GATILHOS_V2_CONSEQUENCIA_EAI_COMO_ASSIM "
 
 	GATILHOS_FECHA_SACADAS Gatilhos_Versos_Options = "SACADAS, NA_VIDA?, DITADOS, "
 )
