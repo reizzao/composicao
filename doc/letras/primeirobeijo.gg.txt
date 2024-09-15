@@ -1,0 +1,72 @@
+NOSSO PRIMEIRO BEIJO
+
+ANALISE :
+metrica : 4
+
+rimaM: FECHADA_U
+rimaM_Oposta: ABERTA_A
+rimaM_Media: MEDIA_I
+
+----
+< A1 : Compasso Lento >
+Eu aposto um beijo (1, SACADA, 2 palavrasFato, 2 palavraOque, metrica: padrao, rima: rimaM, )
+Que você vai gostar (2, Consequencia_OQue, 2 palavrasFato, 2 palavraOque, metrica: padrao,  rima: rimaM_Oposta,  )
+do gosto do meu beijo ( 3, explica_Os_Anteriores, 2 palavrasFato, 2 palavraOque ,metrica: padrao, rima: rimaM,)
+
+< A2 : Compasso Crescente_Lento >
+Já tô vendo eu aí (1, SACADA, 2 palavrasFato, 2 palavraOque,  metrica: padrao, rima: rimaM_Media)
+Na proteção de tela do seu celular  ( 2,Consequencia_OQue_Sacada, 2 palavrasFato, 2 palavraOque , metrica: padrao, rima: rimaM_Oposta,)
+E você usando a letra G no seu colar ( 3, explica_Os_Anteriores_Sacada, 2 palavrasFato, 2 palavraOque , metrica: padrao, rima: rimaM_Oposta,)
+
+<B : Crescente >
+Eu não tô me achando (1, SACADA, 2 palavrasFato, 2 palavraOque , metrica: padrao, rima: rimaM,)
+Eu só te achei (2, Comeca_OutroFatoRelativo,2 palavrasFato, 2 palavraOque  , metrica: padrao, rima: rimaM_Media, )
+a cara do pra sempre que eu sempre procurei ( 3,Explica_o_OutroFatoRelativo,2 palavrasFato, 2 palavraOque  , metrica: padrao, rima: rimaM_Media, )
+
+<PreRefrao>
+Então fala que você também acredita em destino (1, SACADA, 4 palavrasFato, 4 palavraOque, metrica: dobra rima: rimaM, )
+Fala pro seu passado que seu futuro é comigo (2, SACADA, 4 palavrasFato, 4 palavraOque, metrica: dobra, rima: rimaM, )
+
+Eu, você e uma casinha, geladeira cheia
+Dormir de conchinha depois de umas brincadeira
+Sabe o que que tá faltando pra ficar perfeito?
+O nosso primeiro beijo
+Eu, você e uma casinha, geladeira cheia
+Dormir de conchinha depois de umas brincadeiras
+Sabe o que que tá faltando pra ficar perfeito?
+O nosso primeiro beijo
+
+Oh, oh
+
+
+====
+
+
+Eu aposto um beijo
+Que você vai gostar
+do gosto do meu beijo
+
+Já tô vendo eu aí
+Na proteção de tela do seu celular
+E você usando a letra G no seu colar
+
+Eu não tô me achando
+Eu só te achei
+a cara do pra sempre que eu sempre procurei
+
+Então fala que você também acredita em destino
+Fala pro seu passado
+que seu futuro é comigo
+
+Eu, você e uma casinha, geladeira cheia
+Dormir de conchinha depois de umas brincadeira
+Sabe o que que tá faltando pra ficar perfeito?
+O nosso primeiro beijo
+Eu, você e uma casinha, geladeira cheia
+Dormir de conchinha depois de umas brincadeiras
+Sabe o que que tá faltando pra ficar perfeito?
+O nosso primeiro beijo
+
+Oh, oh
+
+---
