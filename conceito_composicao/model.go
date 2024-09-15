@@ -19,8 +19,9 @@ type GuiasProps struct {
 
 type EstrofesDefault struct {
 	Estrofe_A1            Estrofe_A1_Props
-	Estrofe_A2_Opcional   Estrofe_A2_Opcional_Props
+	Estrofe_A2            Estrofe_A2
 	Estrofe_B             Estrofe_B_Props
+	Estrofe_PreRefrao             Estrofe_PreRefrao_Props
 	Estrofe_REFRAO        Estrofe_REFRAO_Props
 	Estrofe_CORO_Opcional Estrofe_CORO_Props
 }
@@ -71,7 +72,7 @@ type Estrofe_A1_Props struct {
 	Estrofe_Props Estrofe_Remodel
 	Versos        VersosEstrofe_A1_Props
 }
-type Estrofe_A2_Opcional_Props struct {
+type Estrofe_A2 struct {
 	Estrofe_Props Estrofe_Remodel
 	Versos        VersosEstrofe_A2_Opcional_Props
 }
@@ -79,6 +80,11 @@ type Estrofe_A2_Opcional_Props struct {
 type Estrofe_B_Props struct {
 	Estrofe_Props Estrofe_Remodel
 	Versos        VersosEstrofe_B_Props
+}
+
+type Estrofe_PreRefrao_Props struct {
+	Estrofe_Props Estrofe_Remodel
+	Versos        VersosEstrofe_PreRefrao_Props
 }
 
 type Estrofe_REFRAO_Props struct {
@@ -96,6 +102,7 @@ type VersosEstrofe_A1_Props = Versos_Remodel_Suave4
 type VersosEstrofe_A2_Opcional_Props = Versos_Remodel_Suave4
 
 type VersosEstrofe_B_Props = Versos_Remodel_Tenso4
+type VersosEstrofe_PreRefrao_Props = Versos_Remodel_Tenso4
 
 type VersosEstrofe_REFRAO_Props = VersosRefrao_Remodel_4
 

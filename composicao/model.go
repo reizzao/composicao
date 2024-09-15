@@ -14,7 +14,7 @@ type Request struct {
 	Motivacoes  MotivacoesProps
 
 	Estrofe_A1 Estrofe_AS_Props
-	// Estrofe_A2_Opcional Estrofe_AS_Props
+	// Estrofe_A2 Estrofe_AS_Props
 }
 
 // Props : Nivel_2

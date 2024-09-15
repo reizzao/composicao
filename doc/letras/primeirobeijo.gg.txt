@@ -3,29 +3,29 @@ NOSSO PRIMEIRO BEIJO
 ANALISE :
 metrica : 4
 
-rimaM: FECHADA_U
-rimaM_Oposta: ABERTA_A
-rimaM_Media: MEDIA_I
+rimaMaster: FECHADA_U
+rimaMaster_Oposta: ABERTA_A
+rimaMaster_Media: MEDIA_I
 
 ----
 < A1 : Compasso Lento >
-Eu aposto um beijo (1, SACADA, 2 palavrasFato, 2 palavraOque, metrica: padrao, rima: rimaM, )
-Que você vai gostar (2, Consequencia_OQue, 2 palavrasFato, 2 palavraOque, metrica: padrao,  rima: rimaM_Oposta,  )
-do gosto do meu beijo ( 3, explica_Os_Anteriores, 2 palavrasFato, 2 palavraOque ,metrica: padrao, rima: rimaM,)
+Eu aposto um beijo (1, SACADA, 2 palavrasFato, 2 palavraOque, metrica: padrao, Rima_Master: rimaMaster, )
+Que você vai gostar (2, Consequencia_OQue, 2 palavrasFato, 2 palavraOque, metrica: padrao,  Rima_OpostaMaster : rimaMaster_Oposta,  )
+do gosto do meu beijo ( 3, explica_Os_Anteriores, 2 palavrasFato, 2 palavraOque ,metrica: padrao, Rima_Master: rimaMaster,)
 
 < A2 : Compasso Crescente_Lento >
-Já tô vendo eu aí (1, SACADA, 2 palavrasFato, 2 palavraOque,  metrica: padrao, rima: rimaM_Media)
-Na proteção de tela do seu celular  ( 2,Consequencia_OQue_Sacada, 2 palavrasFato, 2 palavraOque , metrica: padrao, rima: rimaM_Oposta,)
-E você usando a letra G no seu colar ( 3, explica_Os_Anteriores_Sacada, 2 palavrasFato, 2 palavraOque , metrica: padrao, rima: rimaM_Oposta,)
+Já tô vendo eu aí (1, SACADA, 2 palavrasFato, 2 palavraOque,  metrica: padrao, Rima_Media: rimaMaster_Media)
+Na proteção de tela do seu celular  ( 2,Consequencia_OQue_Sacada, 2 palavrasFato, 2 palavraOque , metrica: padrao, Rima_OpostaMaster: rimaMaster_Oposta,)
+E você usando a letra G no seu colar ( 3, explica_Os_Anteriores_Sacada, 2 palavrasFato, 2 palavraOque , metrica: padrao, Rima_OpostaMaster: rimaMaster_Oposta,)
 
 <B : Crescente >
-Eu não tô me achando (1, SACADA, 2 palavrasFato, 2 palavraOque , metrica: padrao, rima: rimaM,)
-Eu só te achei (2, Comeca_OutroFatoRelativo,2 palavrasFato, 2 palavraOque  , metrica: padrao, rima: rimaM_Media, )
-a cara do pra sempre que eu sempre procurei ( 3,Explica_o_OutroFatoRelativo,2 palavrasFato, 2 palavraOque  , metrica: padrao, rima: rimaM_Media, )
+Eu não tô me achando (1, SACADA, 2 palavrasFato, 2 palavraOque , metrica: padrao, Rima_Master: rimaMaster,)
+Eu só te achei (2, Comeca_OutroFatoRelativo,2 palavrasFato, 2 palavraOque  , metrica: padrao, Rima_Media: rimaMaster_Media, )
+a cara do pra sempre que eu sempre procurei ( 3,Explica_o_OutroFatoRelativo,2 palavrasFato, 2 palavraOque  , metrica: padrao, Rima_Media: rimaMaster_Media, )
 
 <PreRefrao>
-Então fala que você também acredita em destino (1, SACADA, 4 palavrasFato, 4 palavraOque, metrica: dobra rima: rimaM, )
-Fala pro seu passado que seu futuro é comigo (2, SACADA, 4 palavrasFato, 4 palavraOque, metrica: dobra, rima: rimaM, )
+Então fala que você também acredita em destino (1, SACADA, 4 palavrasFato, 4 palavraOque, metrica: dobra Rima_Master: rimaMaster, )
+Fala pro seu passado que seu futuro é comigo (2, SACADA, 4 palavrasFato, 4 palavraOque, metrica: dobra, Rima_Master: rimaMaster, )
 
 Eu, você e uma casinha, geladeira cheia
 Dormir de conchinha depois de umas brincadeira

@@ -10,7 +10,7 @@ var Conceito_Composicao_IN = Conceito_Composicao{
 
 		Estrofe_A1: Estrofe_A1_part, // A1
 
-		Estrofe_A2_Opcional: Estrofe_A2_part, // A2
+		Estrofe_A2: Estrofe_A2_part, // A2
 
 		Estrofe_B: Estrofe_B_part, // B
 

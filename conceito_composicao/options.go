@@ -62,3 +62,25 @@ const (
 	PERSON_AOUTRA             PersonagemTemaOptions = "PERSON_AOUTRA"
 	PERSON_TODOSNOS_VOU_VAMOS PersonagemTemaOptions = "PERSON_TODOSNOS_VOU_VAMOS"
 )
+
+// type Rima_Options = string
+// const (
+// 	RIMA_MASTER                 Rima_Options = "RIMA_MASTER"
+// 	RIMA_OPOSTAMASTER                Rima_Options = "RIMA_OPOSTAMASTER"
+// 	RIMA_MEDIA                Rima_Options = "RIMA_MEDIA"
+// )
+
+type Vogais_Options = string
+const (
+	VOGAL_FECHADA_U                 Vogais_Options = "VOGAL_FECHADA_U"
+	VOGAL_FECHADA_O                 Vogais_Options = "VOGAL_FECHADA_O"
+	VOGAL_ABERTA_A                 Vogais_Options = "VOGAL_ABERTA_A"
+	VOGAL_ABERTA_E                 Vogais_Options = "VOGAL_ABERTA_E"
+	VOGAL_MEDIA_I                 Vogais_Options = "VOGAL_MEDIA_I"
+)
+
+/*
+rimaMaster: FECHADA_U
+rimaMaster_Oposta: ABERTA_A
+rimaMaster_Media: MEDIA_I
+*/

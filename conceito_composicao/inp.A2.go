@@ -1,6 +1,6 @@
 package conceito_composicao
 
-var Estrofe_A2_part = Estrofe_A2_Opcional_Props{
+var Estrofe_A2_part = Estrofe_A2{
 	Estrofe_Props: Estrofe_Remodel{
 		RazaoDaEstrofe:        RAZAO_A1__CONSEQUENCIA_DA_EMOCAO_CENTRAL,
 		ClimaEstrofe:          SUAVE,
