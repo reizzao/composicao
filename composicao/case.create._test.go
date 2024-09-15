@@ -4,16 +4,14 @@ import (
 	"testing"
 
 	help "github.com/reizzao/music/helpers"
+	inr "github.com/reizzao/music/in_testers/intester_recomecar"
 )
 
 type ResSut = ComposicaoModel
 
 var (
-	sut ResSut = CreateNew(
-		TardeDemais_RequestIN,
-		TardeDemais_ComputedIN,
-	)
-	inputTestRequest    Request                      = TardeDemais_RequestIN
+	sut                 ResSut                       = CreateNew(inr.Recomecar_RequestIN, inr.Recomecar_ComputedIN)
+	inputTestRequest    Request                      = inr.Recomecar_RequestIN
 	compare_entrada_voz help.EntradaPadraoVozOptions = help.ENTRA_em_1
 )
 

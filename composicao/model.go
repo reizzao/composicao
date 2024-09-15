@@ -32,9 +32,19 @@ type MotivacoesProps struct {
 	RefraoFecha_O_Jeito_e                             string
 }
 
+// Estrofes
+
+type Estrofe_AS_Props struct {
+	Frase_1 Verso_Props
+	Frase_2 Verso_Props
+	Frase_3 Verso_Props
+}
+
+// Versos
 type Verso_Props struct {
 	Estrofe         help.Estrofes_Options
 	FraseNumero     int
+	Marca_Rima      bool
 	Gatilhos_Verso  help.Gatilhos_Versos_Options
 	TempoVerbal_Def help.TempoVerbal_Options
 	Personagem_Def  help.Personagens_Options
@@ -42,7 +52,7 @@ type Verso_Props struct {
 	Resposta        Duas_PalavraPoetica
 }
 
-type Duas_PalavraPoetica struct{
+type Duas_PalavraPoetica struct {
 	PalavraPoetica1 string
 	PalavraPoetica2 string
 }
