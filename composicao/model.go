@@ -35,10 +35,11 @@ type MotivacoesProps struct {
 // Estrofes
 
 type Estrofe_AS_Props struct {
-	Frase_1 Verso_Props
-	Frase_2 Verso_Props
-	Frase_3 Verso_Props
-	Estrofe help.Estrofes_Options
+	Estrofe                                      help.Estrofes_Options
+	Verso1_Comum_RimaFraca1_PodeRimar            Verso_Props
+	Verso2_Comum_RimaFraca11                     Verso_Props
+	Verso3_MenosComum_RimaForte2_ApontaResolucao Verso_Props
+	Verso4_MenosComum_RimaForte22                Verso_Props
 }
 
 // Versos
@@ -48,13 +49,13 @@ type Verso_Props struct {
 	Gatilhos_Verso  help.Gatilhos_Versos_Options
 	TempoVerbal_Def help.TempoVerbal_Options
 	Personagem_Def  help.Personagens_Options
-	Pergunta        Duas_PalavraPoetica
-	Resposta        Duas_PalavraPoetica
+	Verso           string
+	// Resposta        Duas_PalavraPoetica
 }
 
-type Duas_PalavraPoetica struct {
-	PalavraPoetica1 string
-	PalavraPoetica2 string
-}
+// type Duas_PalavraPoetica struct {
+// 	PalavraPoetica1 string
+// 	PalavraPoetica2 string
+// }
 
 type Computed = string

@@ -15,59 +15,47 @@ var Reinventar_RequestIN comp.Request = comp.Request{
 		Sentimento_Triste:            false,
 		Emocao_Central:               help.EMOCAO_NAOTRISTE_REFLEXAO,
 		Quem_eo_Personagem_Principal: help.Person_NOS_DOIS,
-		RefraoCabeca_OqueMaisPrecisa_OPersonagemPrincipal: "Recomecar",
+		RefraoCabeca_OqueMaisPrecisa_OPersonagemPrincipal: "REINVENTAR",
 		RefraoFecha_Declaracao_O_Jeito_e:                  "EU SEMPRE FUI APAIXONADO POR VOCÊ",
 	},
 	Estrofe_A1: comp.Estrofe_AS_Props{
 
-		Frase_1: comp.Verso_Props{
+		Estrofe: help.Estrofe_A1,
+
+		Verso1_Comum_RimaFraca1_PodeRimar: comp.Verso_Props{
 			FraseNumero:     1,
 			Marca_Rima:      true,
 			Gatilhos_Verso:  help.GATILHOS_V1_FATO,
 			TempoVerbal_Def: help.TEMPO_PASSADO,
 			Personagem_Def:  help.Person_ELA,
-			Pergunta: comp.Duas_PalavraPoetica{
-				PalavraPoetica1: "DIZ",
-				PalavraPoetica2: "QUE",
-			},
-			Resposta: comp.Duas_PalavraPoetica{
-				PalavraPoetica1: "JÁ É",
-				PalavraPoetica2: "TARDE",
-			},
+			Verso:           "DIZ QUE JÁ É TARDE",
 		},
 
-		Frase_2: comp.Verso_Props{
+		Verso2_Comum_RimaFraca11: comp.Verso_Props{
 			FraseNumero:     2,
 			Marca_Rima:      true,
 			Gatilhos_Verso:  help.GATILHOS_V2_CONSEQUENCIA_EAI_COMO_ASSIM,
 			TempoVerbal_Def: help.TEMPO_PRESENTE,
 			Personagem_Def:  help.Person_EU,
-			Pergunta: comp.Duas_PalavraPoetica{
-				PalavraPoetica1: "QUE",
-				PalavraPoetica2: "NÃO",
-			},
-			Resposta: comp.Duas_PalavraPoetica{
-				PalavraPoetica1: "TEM",
-				PalavraPoetica2: "MAIS JEITO",
-			},
+			Verso:           "QUE NÃO TEM MAIS JEITO",
 		},
 
-		Frase_3: comp.Verso_Props{
+		Verso3_MenosComum_RimaForte2_ApontaResolucao: comp.Verso_Props{
 			FraseNumero:     3,
 			Marca_Rima:      true,
 			Gatilhos_Verso:  help.GATILHOS_FECHA_SACADAS,
 			TempoVerbal_Def: help.TEMPO_PRESENTE,
 			Personagem_Def:  help.Person_EU,
-			Pergunta: comp.Duas_PalavraPoetica{
-				PalavraPoetica1: "MAS EU",
-				PalavraPoetica2: "NÃO ACEITO",
-			},
-			Resposta: comp.Duas_PalavraPoetica{
-				PalavraPoetica1: "A DECISÃO",
-				PalavraPoetica2: "DO TEU CORAÇÃO EM PARTIR",
-			},
+			Verso:           "MAS EU NAO ACEITO A DECISÃO",
 		},
 
-		Estrofe: help.Estrofe_A1,
+		Verso4_MenosComum_RimaForte22: comp.Verso_Props{
+			FraseNumero:     3,
+			Marca_Rima:      true,
+			Gatilhos_Verso:  help.GATILHOS_FECHA_SACADAS,
+			TempoVerbal_Def: help.TEMPO_PRESENTE,
+			Personagem_Def:  help.Person_EU,
+			Verso:           "DO TEU CORAÇÃO EM PARTIR.",
+		},
 	},
 }

@@ -21,7 +21,7 @@ type EstrofesDefault struct {
 	Estrofe_A1            Estrofe_A1_Props
 	Estrofe_A2            Estrofe_A2
 	Estrofe_B             Estrofe_B_Props
-	Estrofe_PreRefrao             Estrofe_PreRefrao_Props
+	Estrofe_PreRefrao     Estrofe_PreRefrao_Props
 	Estrofe_REFRAO        Estrofe_REFRAO_Props
 	Estrofe_CORO_Opcional Estrofe_CORO_Props
 }
@@ -41,11 +41,11 @@ type Verso_Remodel struct {
 	PersonagemTema PersonagemTemaOptions
 }
 
-type Versos_Remodel_Suave4 struct {
-	Verso1_Comum                  Verso_Remodel
-	Verso2_ComumPlus              Verso_Remodel
-	Verso3_MenosComum_ApontaFecha Verso_Remodel
-	Verso4_MenosComumPlus         Verso_Remodel
+type Versos_AS_Q4 struct {
+	Verso1_Comum_RimaFraca1       Verso_Remodel
+	Verso2_Comum_RimaFraca11      Verso_Remodel
+	Verso3_MenosComum_RimaForte2  Verso_Remodel
+	Verso4_MenosComum_RimaForte22 Verso_Remodel
 }
 
 type Versos_Remodel_Tenso4 struct {
@@ -97,9 +97,9 @@ type Estrofe_CORO_Props struct {
 }
 
 // Versos
-type VersosEstrofe_A1_Props = Versos_Remodel_Suave4
+type VersosEstrofe_A1_Props = Versos_AS_Q4
 
-type VersosEstrofe_A2_Opcional_Props = Versos_Remodel_Suave4
+type VersosEstrofe_A2_Opcional_Props = Versos_AS_Q4
 
 type VersosEstrofe_B_Props = Versos_Remodel_Tenso4
 type VersosEstrofe_PreRefrao_Props = Versos_Remodel_Tenso4
