@@ -1,0 +1,29 @@
+
+==== MODELOS =====
+
+---
+Motivacoes: [
+  Sentimento_Triste : [ true, false ]
+
+	Emocao_Central : [
+    (Triste: [TRISTEZA, LAMENTANDO, MEDO, ]),
+     (NaoTriste: [ALEGRE, REFLEXAO, VITORIA, PODER, ])
+  ]
+	Quem_eo_Personagem_Principal  : [ EU, OUTRO, NOS ]
+
+	RefraoCabeca_OqueMaisPrecisa_OPersonagemPrincipal : "",
+	RefraoFecha_Declaracao_O_Jeito_e                  : "",
+]
+---
+
+
+---
+Musica: MODELO, Ano: 20,
+Partes:
+A: quant: , rimas:
+B: quant: , rimas:
+C: quant: , rimas:
+x: quant: , rimas:
+R: quant: ,rimas
+---
+========== FIM_MODELO ====

@@ -22,3 +22,15 @@ Deita.
 nesse amor desarrumado.
 Chega de perder tanto tempo.
 
+
+
+==== ANALISES =====
+
+---
+Musica: VozNoOuvido, Ano: todo,
+Partes:
+A: quant: 5, rimas: 55_555
+B: quant: 2, rimas: 51__51
+C: quant: 2, rimas: 33_53
+R: quant: 4,rimas 15_1_55
+---

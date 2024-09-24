@@ -69,3 +69,12 @@ O nosso primeiro beijo.
 Oh, oh
 
 ---
+==== ANALISES ===
+---
+Musica: NossoPrimeiroBeijo, Ano: 2024,
+Partes:
+A: quant: 4, rimas: 1311
+B: quant: 2, rimas: 33
+C: quant: 2, rimas: 55
+R: quant: 4, rimas 1155
+---
