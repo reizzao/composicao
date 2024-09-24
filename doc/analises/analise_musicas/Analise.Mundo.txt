@@ -40,6 +40,29 @@ Pastes_B: [ 33,  55, 51__51, ]
 Pastes_C: [ 55, 55, 33_53 ]
 Pastes_X: [ 151,  ]
 Pastes_R: [ 1155, 35_35_55, 15_1_55, ]
+---
+
+---
+
+---
+Abreviações_Frases :
+P_AF : Pergunta termina Aberta | Fechada
+R1_C: Resposta termina Contraria da Aanterior
+PE_: Pergunta da Explixacao
+R2E_C_R1 : Resposta da Explicação Contrário da Resposta da frase anterior.
+---
+
+=== byESTROFES ====
+@frase @silabaspoeticas em cada
+#Fato
+[verse 1]
+P_AF :
+R1_C:
+#ExplicaFato
+PE_:
+R2E_C_R1
+---
+========
 
 ---
 
