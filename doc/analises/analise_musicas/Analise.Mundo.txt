@@ -52,7 +52,8 @@ PE_: Pergunta da Explixacao
 R2E_C_R1 : Resposta da Explicação Contrário da Resposta da frase anterior.
 ---
 
-=== byESTROFES ====
+=== byESTROFE: todo ====
+---
 @frase @silabaspoeticas em cada
 #Fato
 [verse 1]
@@ -64,5 +65,4 @@ R2E_C_R1
 ---
 ========
 
----
 
