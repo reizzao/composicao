@@ -5,15 +5,20 @@ conceitos: [
 -
 ]
 
+=== by_ALL_Mundo ====
+
+# Analise_All_Mundo :
+
+Pastes_A: [ 1311, 1311, 553, 55_555, ]
+Pastes_B: [ 33,  55, 51__51, ]
+Pastes_C: [ 55, 55, 33_53 ]
+Pastes_X: [ 151,  ]
+Pastes_R: [ 1155, 35_35_55, 15_1_55, ]
+
 ---
-Musica: MODELO, Ano: 20,
-Partes:
-A: quant: 4, rimas: 1311
-B: quant: 2, rimas: 33
-C: quant: 2, rimas: 55
-x: quant: 3, rimas: 151
-R: quant: 4,rimas 1155
----
+
+=== Musica_por_Musica =======
+
 ---
 Musica: NossoPrimeiroBeijo, Ano: 2024,
 Partes:
@@ -39,3 +44,18 @@ B: quant: 2, rimas: 51__51
 C: quant: 2, rimas: 33_53
 R: quant: 4,rimas 15_1_55
 ---
+
+
+==== MODELO =====
+---
+Musica: MODELO, Ano: 20,
+Partes:
+A: quant: , rimas:
+B: quant: , rimas:
+C: quant: , rimas:
+x: quant: , rimas:
+R: quant: ,rimas
+---
+========== FIM_MODELO ====
+
+
