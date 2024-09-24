@@ -1,5 +1,10 @@
 # Analise_Musicas_Mundo :
 
+conceitos: [
+- X é parte extra antes do refrão,
+-
+]
+
 ---
 Musica: MODELO, Ano: 20,
 Partes:
@@ -25,4 +30,12 @@ B: quant: 2, rimas: 55
 C: quant: 2, rimas: 55
 x: quant: 3, rimas: 151
 R: quant: 6, rimas 35-35_55
+---
+---
+Musica: VozNoOuvido, Ano: todo,
+Partes:
+A: quant: 5, rimas: 55_555
+B: quant: 2, rimas: 51__51
+C: quant: 2, rimas: 33_53
+R: quant: 4,rimas 15_1_55
 ---
