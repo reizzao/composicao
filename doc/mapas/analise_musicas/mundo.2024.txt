@@ -5,16 +5,17 @@ Musica: MODELO, Ano: 20,
 Partes:
 A: quant: 4, rimas: 1311
 B: quant: 2, rimas: 33
-PreRefrao: quant: 2, rimas: 55
-Refrao: quant: 4,rimas 1155
+C: quant: 2, rimas: 55
+x: quant: 3, rimas: 151
+R: quant: 4,rimas 1155
 ---
 ---
 Musica: NossoPrimeiroBeijo, Ano: 2024,
 Partes:
 A: quant: 4, rimas: 1311
 B: quant: 2, rimas: 33
-PreRefrao: quant: 2, rimas: 55
-Refrao: quant: 4, rimas 1155
+C: quant: 2, rimas: 55
+R: quant: 4, rimas 1155
 ---
 ---
 Musica: ApagueiPraTodos, Ano: 2024,
@@ -22,6 +23,6 @@ Partes:
 A: quant: 3, rimas: 553
 B: quant: 2, rimas: 55
 C: quant: 2, rimas: 55
-PreRefrao: quant: 3, rimas: 151
-Refrao: quant: 6, rimas 35-35_55
+x: quant: 3, rimas: 151
+R: quant: 6, rimas 35-35_55
 ---

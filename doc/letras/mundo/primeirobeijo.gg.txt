@@ -39,14 +39,6 @@ Oh, oh
 
 
 ====
----
-Musica: NossoPrimeiroBeijo, Ano: 2024,
-Partes:
-A: quant: 4, rimas: 1311
-B: quant: 2, rimas: 33
-PreRefrao: quant: 2, rimas: 55
-Refrao: quant: 4, rimas 1155
----
 
 Eu aposto um beijo
 que você vai gostar.
