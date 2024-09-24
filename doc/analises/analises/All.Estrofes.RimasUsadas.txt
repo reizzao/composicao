@@ -1,0 +1,66 @@
+---
+MasterRimas_Usadas :
+MasterRima_Maioria_A_e_R: 1
+MasterRima_Fecha_Maioria_Aux_A_e_R: 3
+MasterRima_Curinga: 5
+MasterRima_Curinga_Aux: 5
+---
+---
+Estrofes_Com_Rimas_ALL :
+Parte_A :[
+  1 - [
+    NossoPrimeiroBeijo: MasterRima_Maioria_A_e_R,
+    ApagueiPraTodos : MasterRima_Maioria_A_e_R
+     ]
+  2 - [
+    NossoPrimeiroBeijo:  MasterRima_Fecha_Maioria_Aux_A_e_R,
+    ApagueiPraTodos : MasterRima_Maioria_A_e_R
+    ]
+  3 - [
+    NossoPrimeiroBeijo:  MasterRima_Maioria_A_e_R,
+    ApagueiPraTodos : MasterRima_Fecha_Maioria_Aux_A_e_R
+    ]
+  4 - [
+    NossoPrimeiroBeijo: MasterRima_Maioria_A_e_R,
+    ApagueiPraTodos : MasterRima_Curinga_Aux
+    ]
+]
+Parte_B : [
+  1 - [
+    NossoPrimeiroBeijo: MasterRima_Fecha_Maioria_Aux_A_e_R,
+    ApagueiPraTodos : MasterRima_Maioria_A_e_R
+    ]
+  2 - [
+    NossoPrimeiroBeijo: MasterRima_Fecha_Maioria_Aux_A_e_R,
+    ApagueiPraTodos : MasterRima_Maioria_A_e_R (4vz),
+    ]
+]
+Parte_C : [
+  1 - [
+    NossoPrimeiroBeijo: MasterRima_Curinga,
+    ApagueiPraTodos : MasterRima_Curinga
+    ]
+  2 - [
+    NossoPrimeiroBeijo: MasterRima_Curinga,
+    ApagueiPraTodos : MasterRima_Curinga
+    ]
+]
+Parte_R: [
+  1 - [
+    NossoPrimeiroBeijo: MasterRima_Maioria_A_e_R,
+    ApagueiPraTodos : MasterRima_Fecha_Maioria_Aux_A_e_R
+    ]
+  2 - [
+    NossoPrimeiroBeijo: MasterRima_Maioria_A_e_R,
+    ApagueiPraTodos : MasterRima_Maioria_A_e_R (repete 1e2),
+    ]
+  3 - [
+    NossoPrimeiroBeijo: MasterRima_Curinga,
+    ApagueiPraTodos :MasterRima_Fecha_Maioria_Aux_A_e_R
+    ]
+  4 - [
+    NossoPrimeiroBeijo: MasterRima_Curinga_Aux,
+    ApagueiPraTodos : MasterRima_Fecha_Maioria_Aux_A_e_R
+    ]
+]
+---

@@ -34,9 +34,36 @@ x: quant: 3, rimas: 151
 R: quant: 6, rimas 35-35_55
 ---
 ---
-MasterRimas_Use :
+MasterRimas_Usadas :
 MasterRima_Maioria_A_e_R: 5
 MasterRima_Fecha_Maioria_Aux_A_e_R: 3
-MasterRima_Tensa_PreRefrao: 1
-MasterRima_Tensa_PreRefrao_Aux: 1
+MasterRima_Curinga: 1
+MasterRima_Curinga_Aux: 1
+---
+---
+Estrofes_Com_Rimas :
+Parte_A :[
+  1 - MasterRima_Maioria_A_e_R
+  2 - MasterRima_Maioria_A_e_R
+  3 - MasterRima_Fecha_Maioria_Aux_A_e_R
+  4 - MasterRima_Curinga_Aux
+]
+Parte_B : [
+  1 - MasterRima_Maioria_A_e_R
+  2 - MasterRima_Maioria_A_e_R
+  3 - MasterRima_Maioria_A_e_R
+  4 - MasterRima_Maioria_A_e_R
+]
+Parte_C : [
+  1 - MasterRima_Curinga
+  2 - MasterRima_Curinga
+]
+Parte_R: [
+  1 - MasterRima_Fecha_Maioria_Aux_A_e_R
+  2 - MasterRima_Maioria_A_e_R
+  3 - MasterRima_Fecha_Maioria_Aux_A_e_R
+  4 - MasterRima_Curinga_Aux
+  5 - MasterRima_Fecha_Maioria_Aux_A_e_R
+  6 - MasterRima_Fecha_Maioria_Aux_A_e_R
+]
 ---

@@ -1,0 +1,63 @@
+# NOSSO PRIMEIRO BEIJO
+
+Eu aposto um beijo, que você vai gostar.
+do gosto do meu beijo, já tô vendo eu aí.
+
+Na proteção de tela do seu celular.
+E você usando a letra G no seu colar.
+
+Eu não tô me achando, Eu só te achei.
+a cara do pra sempre, que eu sempre procurei.
+
+Então fala que você, também acredita em destino.
+Fala pro seu passado, que seu futuro é comigo.
+
+Eu, você e uma casinha,geladeira cheia.
+Dormir de conchinha, depois de umas brincadeira.
+
+Sabe o que que tá faltando,pra ficar perfeito?.
+O nosso primeiro beijo.
+
+---
+
+
+==== ANALISES ===
+---
+Musica: NossoPrimeiroBeijo, Ano: 2024,
+Partes:
+A: quant: 4, rimas: 1311
+B: quant: 2, rimas: 33
+C: quant: 2, rimas: 55
+R: quant: 4, rimas 1155
+---
+
+---
+MasterRimas_Usadas :
+MasterRima_Maioria_A_e_R: 1
+MasterRima_Fecha_Maioria_Aux_A_e_R: 3
+MasterRima_Curinga: 5
+MasterRima_Curinga_Aux: 5
+---
+---
+Estrofes_Com_Rimas :
+Parte_A :[
+  1 - MasterRima_Maioria_A_e_R
+  2 - MasterRima_Fecha_Maioria_Aux_A_e_R
+  3 - MasterRima_Maioria_A_e_R
+  4 - MasterRima_Maioria_A_e_R
+]
+Parte_B : [
+  1 - MasterRima_Fecha_Maioria_Aux_A_e_R
+  2 - MasterRima_Fecha_Maioria_Aux_A_e_R
+]
+Parte_C : [
+  1 - MasterRima_Curinga
+  2 - MasterRima_Curinga
+]
+Parte_R: [
+  1 - MasterRima_Maioria_A_e_R
+  2 - MasterRima_Maioria_A_e_R
+  3 - MasterRima_Curinga
+  4 - MasterRima_Curinga_Aux
+]
+---
