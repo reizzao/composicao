@@ -24,11 +24,27 @@ Vogais_Fechadas: [ 4, 5 ]
 Vogais_Curinga: [ 3, ]
 ---
 ---
-MasterRimas_Use :
-MasterRima_Maioria_A_e_R: [ 5, ]
-MasterRima_Fecha_Maioria_Aux_A_e_R: [ 3, ]
-MasterRima_Curinga: [ 1, ]
-MasterRima_Curinga_Aux: [ 1, ]
+MasterRimas_Usadas_ALL :
+
+MasterRima_Maioria_A_e_R: [
+  5 ApagueiPraTodos,
+  1 NossoPrimeiroBeijo,
+  ]
+
+MasterRima_Fecha_Maioria_Aux_A_e_R: [
+  3 ApagueiPraTodos,
+  3 NossoPrimeiroBeijo,
+  ]
+
+MasterRima_Curinga: [
+  1 ApagueiPraTodos,
+  5 NossoPrimeiroBeijo,
+  ]
+MasterRima_Curinga_Aux: [
+  1 ApagueiPraTodos,
+  5 NossoPrimeiroBeijo,
+  ]
+
 ---
 
 === by_ALL_Mundo ====
