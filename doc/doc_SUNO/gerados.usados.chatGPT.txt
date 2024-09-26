@@ -1,0 +1,12 @@
+# GERADORES_CHATS_USADOS : [ ChatGPT, ]
+
+***  De: Estranha Loucura Alexandre Pires -> Para:  Somar e Dividir ***
+
+Como compositor experiente, crie uma música para uma IA de música utilizando a seguinte
+letra: "Somar e Dividir". O ritmo deve ser "sambapop". Aplique os
+melhores comandos disponíveis nas planilhas acima, visando deixar a música o mais linda
+possível. Todos os comandos devem estar em inglês, assim como suas explicações, que
+devem ser colocadas entre colchetes []. Somente a letra deve ser escrita em português do
+Brasil.
+
+********** /// **********
