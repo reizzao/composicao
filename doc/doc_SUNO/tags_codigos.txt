@@ -72,7 +72,8 @@ Mudar_Estilo : byPLATAFORMA : Função Cover
 >> Na_LETRA:
 - Estrofe_Sensacao_Calma : Whispered, Harmonized
 - Estrofe_Ponte_Refrao_Forte : expressive
-- loop_repeticao_loop_do_trecho: [outro]
+- loop_repeticao_loop_do_trecho: Outro
+- Refrao_RefraoFinal: [Chorus - Final]  // para mais de um refrao os outros são só CHORUS.
 - harmonizar_uma_parte_com_a_outra_anterios: HOOK
 - Estrofe_Emprestimo_Modal: BRIDGE
 - Introducao: intro , ou, prelude , para nao entrar cantando direto.
