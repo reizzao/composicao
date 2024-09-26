@@ -1,0 +1,14 @@
+# MODELO PARA OBTER CODIGO SEMELHANTE MUSICA NO CHATGPT
+
+***  De:    -> Para:    ***
+
+Como compositor experiente, crie uma música para uma IA de música utilizando a seguinte
+letra: "COLE SUA LETRA AQUI". O ritmo deve ser "ESCOLHA O SEU RITMO AQUI". Aplique os
+melhores comandos disponíveis nas planilhas acima, visando deixar a música o mais linda
+possível. Todos os comandos devem estar em inglês, assim como suas explicações, que
+devem ser colocadas entre colchetes []. Somente a letra deve ser escrita em português do
+Brasil.
+
+********** /// **********
+
+
