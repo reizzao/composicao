@@ -1,0 +1,99 @@
+
+=== Prompts Usados ===
+
+NO_PROMPT_LETRA :
+
+CopiarEstilo_MudarLetra : Extender o alvo e add : RESTART, ou ERASE MEMORY
+
+---
+OUTROS
+Mudar_Estilo : Função Cover
+
+
+---
+BalancoLento
+NO_PROMPT_STYLES :
+
+- Lento :  by : PMarian :
+- 1 :   sambapop , Soul,Emotional,Torch Lounge,male vocals, pt-br portuguese
+-
+- 2 :  pop generic, samba, mpb, one male vocals,pt-br portuguese
+-
+
+- Pagodinho : pagode, pop genérico, MPB, samba
+
+===== Agito
+- Partido: pagode, pagofunk
+
+- Pagodao : Samba, pagode
+-
+- BalancoLento : R&B_Mpb_LENTO : byPMariano : R&B,Pagode,Pop,MPB,Soul,one male vocals,pt-br portuguese
+
+- Lento : Mpbpop: byPMariano : Pagode,Pop,MPB,Soul,male vocals,pt-br brazillian
+
+- Pagodeado : byJeitoMuleke : Pagode,Pagofunk,Samba,MPB,male vocals,pt-br brazillian
+
+- PedroMariano: Soul,Emotional,Torch Lounge,male vocals, pt-br brazillian
+-
+- Emocional: Soul,Emotional,Torch Lounge,male vocals,pt-br brazillian
+
+
+
+
+======
+
+CONCEITOS
+conceitos : [
+ mais de 1 tag dentro dos [] separar com virgula,
+ usar comandos em ingles,
+ o que for mais pesado pra pensar poem por ultimo,
+ nao coloque ponto nem virgulas nos finais de frases,
+ avalie com gostei ou nao cada geração, para ele continuar ou nao gerwndo na mesma linha melodica.,
+
+]
+
+TAGS
+Ias : [ Suno, ]
+
+
+Na_Letra:
+- Introducao: intro , ou, prelude , para nao entrar cantando direto.
+- Acustico : acoustic guitar solo , coloca o instrumentoapos o acustico obs: podemos usar: [  piano, ]
+ - Repetir_Palavras : coloca a palavra dentro de () parenteses.
+ - Dueto_Hora_Homem_Hora_Mulher: duet
+ - Voz : voice
+ - Voz_Feminina: one female vocals
+ - Voz_Masculina : one male vocals,
+ - Gancho_pra_proxima_parte: hook
+ - Parar : break
+ - Verso: Verse 1, colocar o verse e o numero do verso.
+ -  PreRefrao : pre-chorus
+ -  Liga_Enfatizando_Versos : bridge , pode ser usado como estrofe A2, pra a 1 e 2 não serem iguais, a 2 ser msis enfatizada, antes do PreRefrao.
+ - Refrao: Chorus
+ - Quantidade : sao os numeros em ingles
+ -  Forcar_Terminar: end
+ -  Grito_Enfeitado : [Adlib]: 'AMOR!'
+
+
+PARTES
+Tensa : BULDUP
+
+---
+
+No_Estilo:
+- Cantar_PortuguesBR : pt-br brazillian , obs: coloque o idioma sempre por ultimo,
+ - Capela : acapella, obs: colocar capela se for usar entre os estilos.
+ -
+
+---
+Apos_Criado:
+- Editar:  pra editar ja criados :: pode extender , depois nela extendida em criacao fazer mudancas , trocar letra, MAS TEM QUE ESPECIFICAR NA SELECAO APARTIRVDE QUE TEMPO,
+-
+
+
+=== MEU CONCEITO ====
+Seriw_Ideal: [
+- dispor CIFRA da Musica (o app maestro faz)
+- dospor PARTITURA da MELODIA DA MUSICA
+-
+]
