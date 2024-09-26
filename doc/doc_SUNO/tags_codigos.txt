@@ -1,48 +1,33 @@
+# TAGS_CODIGOS_IAS_SUNO
 
-=== Prompts Usados ===
+----- /// -----
 
-NO_PROMPT_LETRA :
+>>> STYLES_MONTADOS <<<<<<<<
 
-CopiarEstilo_MudarLetra : Extender o alvo e add : RESTART, ou ERASE MEMORY
+--- LENTOS ---
+- Mpbpop: byPMariano : pagode, sambapop, MPB, Soul, male vocals, pt-br portuguese
+- BalancoLento : R&B_Mpb_LENTO : byPMariano : R&B,Pagode,Pop,MPB,Soul,one male vocals,pt-br portuguese
+- Emocional: Soul,Emotional,Torch Lounge,male vocals,pt-br portuguese   >> ???
 
----
-OUTROS
-Mudar_Estilo : Função Cover
+----- /// -----
 
-
----
-BalancoLento
-NO_PROMPT_STYLES :
-
-- Lento :  by : PMarian :
-- 1 :   sambapop , Soul,Emotional,Torch Lounge,male vocals, pt-br portuguese
--
-- 2 :  pop generic, samba, mpb, one male vocals,pt-br portuguese
--
-
+--- BALANCO ---
 - Pagodinho : pagode, pop genérico, MPB, samba
 
-===== Agito
-- Partido: pagode, pagofunk
+----- /// -----
 
+--- AGITOS ---
+- Sambapop : sambapop , Soul, Emotional, Torch Lounge, male vocals, pt-br portuguese
 - Pagodao : Samba, pagode
--
-- BalancoLento : R&B_Mpb_LENTO : byPMariano : R&B,Pagode,Pop,MPB,Soul,one male vocals,pt-br portuguese
+- PartidoAlto: pagode, pagofunk
 
-- Lento : Mpbpop: byPMariano : Pagode,Pop,MPB,Soul,male vocals,pt-br brazillian
 
-- Pagodeado : byJeitoMuleke : Pagode,Pagofunk,Samba,MPB,male vocals,pt-br brazillian
-
-- PedroMariano: Soul,Emotional,Torch Lounge,male vocals, pt-br brazillian
--
-- Emocional: Soul,Emotional,Torch Lounge,male vocals,pt-br brazillian
+----- /// -----
 
 
 
+>>>>> --- CONCEITOS --- <<<<<<<
 
-======
-
-CONCEITOS
 conceitos : [
  mais de 1 tag dentro dos [] separar com virgula,
  usar comandos em ingles,
@@ -52,11 +37,18 @@ conceitos : [
 
 ]
 
-TAGS
-Ias : [ Suno, ]
+>>> SEPARADOS <<<<<<<<
+
+CopiarEstilo_MudarLetra : byLETRA :  Extender o alvo e add : RESTART, ou ERASE MEMORY
+localidade: Brasileiro : bySTYLES : pt-br portuguese
+Mudar_Estilo : byPLATAFORMA : Função Cover
 
 
-Na_Letra:
+>> Nos_Styles :
+- SambaPop: sambapop
+
+>> Na_LETRA:
+- Sensacao_Estrofe : Tensa : BULDUP
 - Introducao: intro , ou, prelude , para nao entrar cantando direto.
 - Acustico : acoustic guitar solo , coloca o instrumentoapos o acustico obs: podemos usar: [  piano, ]
  - Repetir_Palavras : coloca a palavra dentro de () parenteses.
@@ -75,13 +67,12 @@ Na_Letra:
  -  Grito_Enfeitado : [Adlib]: 'AMOR!'
 
 
-PARTES
-Tensa : BULDUP
+
 
 ---
 
 No_Estilo:
-- Cantar_PortuguesBR : pt-br brazillian , obs: coloque o idioma sempre por ultimo,
+- Cantar_PortuguesBR : pt-br portuguese , obs: coloque o idioma sempre por ultimo,
  - Capela : acapella, obs: colocar capela se for usar entre os estilos.
  -
 
