@@ -1,0 +1,55 @@
+>>>>>>> DIRECAO_MUSICA NOVA <<<<<<<
+
+----- PADRAO_VERSOS -----
+vogaisRimas :
+vogalCuringa : A
+vogalAbre : A
+vogalAbreRima : A
+vogalFecha : U
+vogalFechaGrandFinale : M // Rima semelhante a vogalFecha.
+
+- Estrofe_A : Intencao: @ContaFato, @QuantidadeFrases: 3 , @Rimar: Primeira: vogalAbre, Proximas: [ vogalFecha, vogalAbreRima ], duracaoFrases: [ 1 longa, 2 media, 3 curta ], tags: [Verse 1]
+
+- Estrofe_B : Intencao: @ExplicaQueAchou, @QuantidadeFrases: 2 , @Rimar: Primeira: vogalAbre, Proximas: [ vogalAbre ], duracaoFrases: [ 1 longa, 2 media ], tags: [Verse 2]
+
+- Estrofe_C : Intencao: @Reacao, @QuantidadeFrases: 3 , @Rimar: Primeira: vogalCuringa, Proximas: [ 1 vogalCuringa, 2 vogalCuringa, 3 vogalCuringa ] , duracaoFrases: [ 1 curta, 2 media, 3 longa ], tags: [Pre-Chorus]
+
+- Ponte_Refrao: Intencao: @SACADA_ReacaoHaAnterior, @QuantidadeFrases: 1 , @Rimar: Unica: vogalCuringa, duracaoFrases: [ 1 media ], tags: [ Tag_de_EFEITO - inserir dentro de parenteses., ]
+
+- Refrao : Intencao: @SegredoFinal, @QuantidadeFrases: 4 , @Rimar: PerguntaOndaGrito_RespostaOnda: [ 1- vogalFecha, 2 - vogalFecha ], Proximas_SeguraOnda_Acalmar: [ 3 - vogalFecha, 4 - vogalFechaGrandFinale ], duracaoFrases: [ 1 longaExtendida_1_SACADA_DedoProAr, 2 media, 3 curta ], tags: [Verse 1]
+
+
+usar 4 Frases- com o gritoUmaMaoSo sendo expressiva [expressive], com opcional efeitoParenteses no fim,
+Rimas_Modelos_Refrao: [ 1122, ]
+
+-
+>>>>>>>>
+---
+Motivacoes: [
+  Sentimento_Triste : [ true, false ]
+
+	Emocao_Central : [
+    (Triste: [TRISTEZA, LAMENTANDO, MEDO, ]),
+     (NaoTriste: [ALEGRE, REFLEXAO, VITORIA, PODER, REALIZAR SONHO, ])
+  ]
+	Quem_eo_Personagem_Principal  : [ EU, OUTRO, TODOS ]
+
+	RefraoCabeca_OqueMaisPrecisa_Objetivo_OPersonagemPrincipal : "",
+	RefraoFecha_Declaracao_O_Jeito_e                  : "",
+]
+---
+---
+PADROES :
+Vogais_Abertas :  [ 1, 2 ]
+Vogais_Fechadas: [ 4, 5 ]
+Vogais_Curinga: [ 3, ]
+---
+---
+MasterRimas_Use :
+MasterRima_Maioria_A_e_R: 5
+MasterRima_Fecha_Maioria_Aux_A_e_R:  3
+MasterRima_Curinga: 1
+MasterRima_Curinga_Aux: 1
+---
+
+>>>>>>> FINAL: DIRECAO_MUSICA NOVA <<<<<<<

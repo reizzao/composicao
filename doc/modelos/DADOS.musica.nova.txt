@@ -1,0 +1,22 @@
+========= INICIAR_LETRA =========
+---
+Musica : todo
+Compositor: ReinaldoReizao
+Liberações : https://sites.google.com/view/reizaomusic
+
+Data :   -  - 20
+---
+
+Tempo: versao1 = 00.00
+---
+Harmonia :
+Tom : C
+Estrofe_A : [    ]
+Estrofe_B : [    ]
+Estrofe_C : [    ]
+Estrofe_PRE_REFRAO : [    ]
+REFRAO : [    ]
+---
+>>>>>>
+
+
