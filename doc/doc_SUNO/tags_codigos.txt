@@ -18,6 +18,8 @@ Brasil.
 >>> STYLES_MONTADOS <<<<<<<<
 
 --- LENTOS ---
+- Spc_1 : pagode romântico, samba, pop, latino
+- Spc_2_ingles : romantic pagode, samba, pop, latin
 - Mpbpop: byPMariano : pagode, sambapop, MPB, Soul, male vocals, pt-br portuguese
 - BalancoLento : R&B_Mpb_LENTO : byPMariano : R&B,Pagode,Pop,MPB,Soul,one male vocals,pt-br portuguese
 - Emocional: Soul,Emotional,Torch Lounge,male vocals,pt-br portuguese   >> ???
@@ -33,6 +35,12 @@ Brasil.
 - Sambapop : sambapop , Soul, Emotional, Torch Lounge, male vocals, pt-br portuguese
 - Pagodao : Samba, pagode
 - PartidoAlto: pagode, pagofunk
+
+====
+
+Tipo_da_Voz
+AlePirs : barítono lírico
+
 
 
 ----- /// -----
@@ -131,3 +139,5 @@ Seria_Ideal: [
 Inserir_Nossa_voz: Tutoriais: [ by: VOXIA, link: https://www.youtube.com/watch?v=2JU2aA7imcA&t=246s ,  ]
 
 - Planilha Codigos Secretos - Suno by IAPlay : https://linkei.xyz/iaplay
+- Programa_melhorar_minha_voz : deixa de studio >> Adobe Podcast: https://podcast.adobe.com/enhance#
+

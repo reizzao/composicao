@@ -53,8 +53,10 @@ E juntos no samba, vamos continuar.
 [Outro]
 [A smooth, instrumental outro with gentle fades, closing the song on an emotional, uplifting note.]
 
-This structure, combined with the rhythmic complexity of samba-pop and a strong melodic hook, creates a compelling and emotional musical experience, aligning with the requested theme "Somar e Dividir."
+
 
 
 >>>> TRADUZINDO A ULTIMA INSTRUCAO >>>>>
+This structure, combined with the rhythmic complexity of samba-pop and a strong melodic hook, creates a compelling and emotional musical experience, aligning with the requested theme "Somar e Dividir."
+::
 Essa estrutura, combinada com a complexidade rítmica do samba-pop e um forte gancho melódico, cria uma experiência musical envolvente e emocional, alinhando-se com o tema solicitado "Somar e Dividir".

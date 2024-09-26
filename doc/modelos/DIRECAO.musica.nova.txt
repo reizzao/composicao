@@ -26,7 +26,7 @@ vogalFechaGrandFinale : CONSO_M // Rima semelhante a vogalFecha.
 
 - Ponte_Refrao: Intencao: @SACADA_ReacaoHaAnterior, @QuantidadeFrases: 1 , @Rimar: Unica: vogalCuringa, duracaoFrases: [ 1 media ], tags:[PRE-CHORUS]  e ( O_Parenteses_de_PonteRefraoEFEITO ).,
 
-- Refrao : Intencao: @SegredoFinal, @QuantidadeFrases: 4 , @Rimar: PerguntaOndaGrito_RespostaOnda: [ 1- vogalFecha, 2 - vogalFecha ], Proximas_SeguraOnda_Acalmar: [ 3 - vogalFecha, 4 - vogalFechaGrandFinale ], duracaoFrases: [ 1 longaExtendida_1_SACADA_DedoProAr, 2 media, 3 curta ], tags: [Verse 1]
+- Refrao : Intencao: @SegredoFinal, @QuantidadeFrases: 4 , @Rimar: PerguntaOndaGrito_RespostaOnda: [ 1- vogalFecha, 2 - vogalFecha ], Proximas_SeguraOnda_Acalmar: [ 3 - vogalFechaGrandFinale, 4 - vogalFechaGrandFinale ], duracaoFrases: [ 1 longaExtendida_1_SACADA_DedoProAr, 2 media, 3 curta ], tags: [Verse 1]
 
 
 usar 4 Frases- com o gritoUmaMaoSo sendo expressiva [expressive], com opcional efeitoParenteses no fim,
