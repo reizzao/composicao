@@ -37,7 +37,7 @@ conceitos : [
 
 ]
 
->>> SEPARADOS <<<<<<<<
+>>> TAGS_SEPARADAS <<<<<<<<
 
 CopiarEstilo_MudarLetra : byLETRA :  Extender o alvo e add : RESTART, ou ERASE MEMORY
 localidade: Brasileiro : bySTYLES : pt-br portuguese
@@ -45,7 +45,11 @@ Mudar_Estilo : byPLATAFORMA : Função Cover
 
 
 >> Nos_Styles :
-- SambaPop: sambapop
+- Velocidade :
+  - Mais_Rapido: fast, upbeat
+
+- Genero :
+  - SambaPop: sambapop
 
 >> Na_LETRA:
 - Sensacao_Estrofe : Tensa : BULDUP
@@ -67,7 +71,9 @@ Mudar_Estilo : byPLATAFORMA : Função Cover
  -  Grito_Enfeitado : [Adlib]: 'AMOR!'
 
 
+>>>> RECURSOS <<<<<
 
+- Inserir_Nossa_voz : Tem que gravar vc cantando com CAPACITAÇÃO Semi-Profissional até 60 segundos,
 
 ---
 
@@ -88,3 +94,6 @@ Seriw_Ideal: [
 - dospor PARTITURA da MELODIA DA MUSICA
 -
 ]
+
+>>>>> LINKS <<<<<<
+Inserir_Nossa_voz: Tutoriais: [ by: VOXIA, link: https://www.youtube.com/watch?v=2JU2aA7imcA&t=246s ,  ]
