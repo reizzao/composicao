@@ -1,9 +1,18 @@
 # GERADORES_CHATS_USADOS : [ ChatGPT, ]
 
-***  De: Estranha Loucura Alexandre Pires -> Para:  Somar e Dividir ***
+1º MANDAR O CHAT - LER A PLANILHA :
+
+Estude a planilha em anexo, ela tem os códigos para criar músicas em inteligências artificiais de
+músicas, entenda os códigos da planilha e para que serve cada um deles, e a partir de agora aja
+como um compositor de musicas por IA experiente usando os códigos para gerar músicas com
+as letras que fornecerei a seguir da melhor maneira possível.
+
+>>>>>
+
+***  DEPOIS MANDAR A LETRA DA MUSICA QUE QUÉR CLONAR ***
 
 Como compositor experiente, crie uma música para uma IA de música utilizando a seguinte
-letra: "Somar e Dividir". O ritmo deve ser "sambapop". Aplique os
+letra: "LETRA_DA_MUSICA_HA_CLONAR". O ritmo deve ser "pagode, samba". Aplique os
 melhores comandos disponíveis nas planilhas acima, visando deixar a música o mais linda
 possível. Todos os comandos devem estar em inglês, assim como suas explicações, que
 devem ser colocadas entre colchetes []. Somente a letra deve ser escrita em português do

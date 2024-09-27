@@ -1,0 +1,69 @@
+# GERADORES_CHATS_USADOS : [ ChatGPT, ]
+
+1º MANDAR O CHAT - LER A PLANILHA :
+
+Estude a planilha em anexo, ela tem os códigos para criar músicas em inteligências artificiais de
+músicas, entenda os códigos da planilha e para que serve cada um deles, e a partir de agora aja
+como um compositor de musicas por IA experiente usando os códigos para gerar músicas com
+as letras que fornecerei a seguir da melhor maneira possível.
+
+>>>>>
+
+***  DEPOIS MANDAR A LETRA DA MUSICA QUE QUÉR CLONAR ***
+
+Como compositor experiente, crie uma música para uma IA de música utilizando a seguinte
+letra: "
+Mulherada que dança é essa,
+Que o corpo fica todo mole?
+Mulherada que dança é essa,
+Que o corpo fica todo mole?
+É uma dança nova
+Que bole, bole, bole, bole
+É uma dança nova
+Que bole, bole, bole, bole
+Bole, bole, bole, bole
+Bole, bole, bole, bole
+Bole, bole, bole, bole
+Bole, bole, bole, bole
+Bole, bole, bole, bole
+Bole, bole, bole, bole
+Bole, bole, bole, bole
+Bole, bole, bole, bole
+". O ritmo deve ser "pagode, samba". Aplique os
+melhores comandos disponíveis nas planilhas acima, visando deixar a música o mais linda
+possível. Todos os comandos devem estar em inglês, assim como suas explicações, que
+devem ser colocadas entre colchetes []. Somente a letra deve ser escrita em português do
+Brasil.
+
+********** /// **********
+
+LETRA ORIGEM :
+Mulherada que dança é essa,
+Que o corpo fica todo mole?
+Mulherada que dança é essa,
+Que o corpo fica todo mole?
+É uma dança nova
+Que bole, bole, bole, bole
+É uma dança nova
+Que bole, bole, bole, bole
+Bole, bole, bole, bole
+Bole, bole, bole, bole
+Bole, bole, bole, bole
+Bole, bole, bole, bole
+Bole, bole, bole, bole
+Bole, bole, bole, bole
+Bole, bole, bole, bole
+Bole, bole, bole, bole
+
+
+>>>>
+gerado :
+
+[INTRO] [Soft guitar strumming with light percussion to set a samba-pagode rhythm.]
+[VERSE] [A playful, rhythmic verse to introduce the story, inviting listeners to move.]
+[CHORUS] [Energetic and catchy melody, enhancing the danceable theme.]
+[VERSE] [Repeated verse with added instrumentation, increasing intensity.]
+[CHORUS] [Refrain repeats with more lively instrumentation, drawing focus to the dance.]
+[BRIDGE] [A brief tonal shift to create contrast and variety, before returning to the main theme.]
+[OUTRO] [Slow down the rhythm, soft percussion fading out for a smooth conclusion.]
+
