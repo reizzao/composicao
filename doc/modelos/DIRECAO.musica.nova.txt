@@ -1,40 +1,59 @@
->>>>>>> DIRECAO_MUSICA NOVA <<<<<<<
+>>>>>>> DIRECAO_MUSICA_NOVA <<<<<<<
 
----
-Vogais_Abertas_Fechadas_Diponivel_by_Rimas :
-Vogais_Abertas :  [ UM_A, DOIS_E ]
-Vogais_Fechadas: [ QUATRO_O, CINCO_U ]
-Vogais_Curinga: [ TRES_I, CONSO_M ]
----
+----- ABERTAS_FECHADAS -----
+Vogais_Abertas :  [ 1, 2 ]
+Vogais_Fechadas: [ 4, 5 ]
+Vogais_Curinga: [ 3, ]
 
------ DEF_VERSOS -----
+----- DEF_VOGAIS_VERSOS -----
+vogalCuringa : A
+vogalAbre : A
+vogalFecha : U
+vogalFechaGrandFinale : M // Rima semelhante a vogalFecha.
 
-VogaisByRimas :
-vogalCuringa : UM_A
-vogalAbre : UM_A
-vogalAbreRima : UM_A
-vogalFecha : CINCO_U
-vogalFechaGrandFinale : CONSO_M // Rima semelhante a vogalFecha.
+- Estrofe_A : Intencao: @ContaFato, @QuantidadeFrases: 3 , @Rimar:  Padroes: [ 151 , ],  Primeira: vogalAbre, Proximas: [ vogalFecha, vogalAbre ], duracaoFrases: [ 1 longa, 2 media, 3 curta ], tags: [Verse 1]
 
---- ESTROFES ---
-
-- Estrofe_A : Intencao: @ContaFato, @QuantidadeFrases: 3 , @Rimar: Primeira: vogalAbre, Proximas: [ vogalFecha, vogalAbreRima ], duracaoFrases: [ 1 longa, 2 media, 3 curta ], tags: [Verse 1]
-
-- Estrofe_B : Intencao: @ExplicaQueAchou, @QuantidadeFrases: 2 , @Rimar: Primeira: vogalAbre, Proximas: [ vogalAbre ], duracaoFrases: [ 1 longa, 2 media ], tags: [Verse 2]
-
-- Estrofe_C : Intencao: @Reacao, @QuantidadeFrases: 3 , @Rimar: Primeira: vogalCuringa, Proximas: [ todas rimam com a vogalCuringa ] , duracaoFrases: [ 1 curta, 2 media, 3 longa ], tags: [BULDUP]
-
-- Ponte_Refrao: Intencao: @SACADA_ReacaoHaAnterior, @QuantidadeFrases: 1 , @Rimar: Unica: vogalCuringa, duracaoFrases: [ 1 media ], tags:[PRE-CHORUS]  e ( O_Parenteses_de_PonteRefraoEFEITO ).,
-
-- Refrao : Intencao: @SegredoFinal, @QuantidadeFrases: 4 , @Rimar: PerguntaOndaGrito_RespostaOnda: [ 1- vogalFecha, 2 - vogalFecha ], Proximas_SeguraOnda_Acalmar: [ 3 - vogalFechaGrandFinale, 4 - vogalFechaGrandFinale ], duracaoFrases: [ 1 longaExtendida_1_SACADA_DedoProAr, 2 media, 3 curta ], tags: [Verse 1]
+===========  LETRA  A  ============
 
 
-usar 4 Frases- com o gritoUmaMaoSo sendo expressiva [expressive], com opcional efeitoParenteses no fim,
-Rimas_Modelos_Refrao: [ 1122, ]
+==============================
 
--
+- Estrofe_B : Intencao: @ExplicaQueAchou, @QuantidadeFrases: 2 , @Rimar:  Padroes: [ 11 , ],  Primeira: vogalAbre, Proximas: [ vogalAbre ], duracaoFrases: [ 1 longa, 2 media ], tags: [Verse 2]
+
+===========  LETRA  B  ============
+
+
+==============================
+
+
+- Estrofe_C : Intencao: @Reacao, @QuantidadeFrases: 3 , @Rimar:  Padroes: [ 999 , ],  Primeira: vogalCuringa, Proximas: [ 1 vogalCuringa, 2 vogalCuringa, 3 vogalCuringa ] , duracaoFrases: [ 1 curta, 2 media, 3 longa ], tags: [Pre-Chorus]
+
+===========  LETRA  C  ============
+
+
+==============================
+
+
+- Ponte_Refrao: Intencao: @SACADA_Reacao @QuantidadeFrases: 1 , @Rimar:  Padroes: [ 9 , ],  Unica: vogalCuringa, duracaoFrases: [ 1 media ], tags: [ Tag_de_EFEITO - inserir dentro de parenteses., ]
+
+=========  LETRA  PONTE  ==========
+
+
+==============================
+
+
+- Refrao : Intencao: @SegredoFinal_Atitude, @QuantidadeFrases: 4 , @Rimar: Padroes: [ 1155 , 5151 ,  ],   PerguntaOndaGrito_RespostaOnda: [ 1- vogalFecha, 2 - vogalFecha ], Proximas_SeguraOnda_Acalmar: [ 3 - vogalFecha, 4 - vogalFechaGrandFinale ], duracaoFrases: [ 1 longaExtendida_1_SACADA_DedoProAr, 2 media, 3 curta ], tags: [CHORUS]
+
+=========  LETRA  REFRAO  =========
+
+
+==============================
+
+
 >>>>>>>>
----
+
+----- by_CONTROLES ----
+
 Motivacoes: [
   Sentimento_Triste : [ true, false ]
 
@@ -49,6 +68,4 @@ Motivacoes: [
 ]
 ---
 
-
-
->>>>>>> FINAL: DIRECAO_MUSICA NOVA <<<<<<<
+>>>>>>> FINAL <<<<<<<

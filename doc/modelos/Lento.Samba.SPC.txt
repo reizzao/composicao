@@ -1,0 +1,40 @@
+
+[INTRO]
+[Piano soft melody with strings, introducing a calm and romantic atmosphere. Begin with a delicate rhythmic pattern inspired by samba pop latino, slow and inviting.]
+
+=========   #AquiFrases INTRO   =========
+
+=========================================
+
+
+[VERSE]
+[Low baritone voice enters softly, expressing vulnerability and emotion. The rhythm starts building slightly with light percussions, keeping the romantic pagode feel.]
+
+=========   #AquiFrases A  [ 151 , ] =========
+
+=========================================
+
+[VERSE 2]
+[Low baritone voice enters softly, expressing vulnerability and emotion. The rhythm starts building slightly with light percussions, keeping the romantic pagode feel.]
+
+=========   #AquiFrases B [ 11 , ] =========
+
+=========================================
+
+
+[PRE-CHORUS]
+[Intensity starts to rise, soft backing vocals join in harmony, creating tension as it leads into the chorus.]
+
+=========   #AquiFrases PRE_REFRAO  [ 9999 , ] =========
+
+=========================================
+
+[CHORUS, OUTRO]
+[The melody becomes more catchy and powerful, with an infectious rhythmic pattern typical of romantic samba pop, enhancing the emotional high of the chorus. Strong and heartfelt delivery by the baritone, accompanied by acoustic guitar and gentle percussion.]
+
+=========   #AquiFrases REFRAO [ 1155 , 5151 ]  =========
+
+=========================================
+
+
+[end]
