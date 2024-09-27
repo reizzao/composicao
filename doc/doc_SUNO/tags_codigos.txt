@@ -19,7 +19,6 @@ Brasil.
 
 --- LENTOS ---
 - Spc_1 : pagode romântico, samba, pop, latino
-- Spc_2_ingles : romantic pagode, samba, pop, latin
 - Mpbpop: byPMariano : pagode, sambapop, MPB, Soul, male vocals, pt-br portuguese
 - BalancoLento : R&B_Mpb_LENTO : byPMariano : R&B,Pagode,Pop,MPB,Soul,one male vocals,pt-br portuguese
 - Emocional: Soul,Emotional,Torch Lounge,male vocals,pt-br portuguese   >> ???
