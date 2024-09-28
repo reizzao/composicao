@@ -18,9 +18,14 @@ Brasil.
 >>> STYLES_MONTADOS <<<<<<<<
 
 --- LENTOS ---
-- Spc_1 : pagode romântico, samba, pop, latino
-- Mpbpop: byPMariano : pagode, sambapop, MPB, Soul, male vocals, pt-br portuguese
+- Spc_1 : pagode romântico, samba, pop, latino, one male vocals, pt-br portuguese
+-
+- PagodeRomance : pagofunk romântico, one male vocals, pt-br portuguese
+-
+- Mpbpop: byPMariano : pagode, sambapop, MPB, Soul, one male vocals, pt-br portuguese
+-
 - BalancoLento : R&B_Mpb_LENTO : byPMariano : R&B,Pagode,Pop,MPB,Soul,one male vocals,pt-br portuguese
+-
 - Emocional: Soul,Emotional,Torch Lounge,male vocals,pt-br portuguese   >> ???
 
 ----- /// -----
@@ -32,8 +37,8 @@ Brasil.
 
 --- AGITOS ---
 - Sambapop : sambapop , Soul, Emotional, Torch Lounge, male vocals, pt-br portuguese
-- Pagodao : samba, pagode, male vocals, pt-br portuguese
-- PartidoAlto: pagode, pagofunk, male vocals, pt-br portuguese
+- Pagodao : Samba, pagode
+- PartidoAlto: pagode, pagofunk
 
 ====
 
@@ -75,11 +80,17 @@ Mudar_Estilo : byPLATAFORMA : Função Cover
 
 - Genero :
   - SambaPop: sambapop
+  -
+--- Palavras:
+- Mais_Expressao : [expressive] // inserir após as palavra alvo.
 
 >> Na_LETRA:
 - Estrofe_Sensacao_Calma : Whispered, Harmonized
-- Estrofe_Ponte_Refrao_Forte : expressive
+-
+- Opcoes_Estrofe_Ponte_Refrao_Forte : HOOK,
+-
 - loop_repeticao_loop_do_trecho: Outro
+-
 - Refrao_RefraoFinal: [Chorus - Final]  // para mais de um refrao os outros são só CHORUS.
 - harmonizar_uma_parte_com_a_outra_anterios: HOOK
 - Estrofe_Emprestimo_Modal: BRIDGE
@@ -138,5 +149,10 @@ Seria_Ideal: [
 Inserir_Nossa_voz: Tutoriais: [ by: VOXIA, link: https://www.youtube.com/watch?v=2JU2aA7imcA&t=246s ,  ]
 
 - Planilha Codigos Secretos - Suno by IAPlay : https://linkei.xyz/iaplay
+-
+- Vídeo como usar planilha Suno by IAPlay : https://youtu.be/Pg1mDKAJ5sI?si=EC20IgiYVK_se4HS
+-
 - Programa_melhorar_minha_voz : deixa de studio >> Adobe Podcast: https://podcast.adobe.com/enhance#
+
+
 
