@@ -1,0 +1,126 @@
+# TO.DO MUSIC
+
+- Mudar o Refrão de DESMAIEI MAIS VOLTEI : deixar só : QUE PEDRADA FOI ESSA!
+
+
+Compor e Musical
+Descanso: Sempre descansa no Acorde/Nota Fundamental do Tom se descansa relaxado, se descansar Tenso é o Quinto grau do Tom.
+
+- importamte finais frases vogais abertas e fechadas tente manter um padrao (só de um tipo, ou alternar,  ou quando estiver insistindo muito em um tipoVogal mude termine em outro tipo para balancear, ou use umavde cada sem repetir ex FinalFeliz JorgeVecilio, ) sómudar quando mudar de assunto ou querer mudar de clima.
+-
+- se a música for triste (Menor) - Termine com Suuperacao (Maior)
+-
+-  frases começa fraca comum e vai pro forte menos comum
+-
+-  a fraca não tem compromisso com rima
+-
+- Quem pede rima é a nota forte dominante em finais
+-
+- Refrao = Proposta_do_Principal,
+
+APP MUSICAL : TODO ======
+
+- RIMAS
+VogaisSom :
+VogalSom_1 :i, VogalSom_2 : u, VogalSom_3 : a, VogalSom_4: e, VogalSom_5 : o,
+-
+A : 1221,  B: 3433, R: 3454,  exemplo: Reinventar
+
+Pergunta VersoFecha : CONSEQUENCIA_PORCAUSA_DETODOS
+
+
+
+Gatilhos:
+
+
+---
+
+A cada pergunta e resposta : Def_Registro: VozPeito || VozCabeca
+
+// TODO
+CadenciasEmocoes_Options
+  ALEGRIA  [  C, F, G ]
+VITORIA [ C, G, Am, F ]
+ANIMACAO [F, Am, G, C ]
+PODER [ F, G, Am, G ]
+TRISTEZA [ Dm, Am, F, G ]
+MEDO [ F, C, Am, Em ]
+REFLEXAO [ F, C, Am, G ]
+
+TomEmocoes
+PEDIDO [ D, ]
+ELOGIOS [ G, ]
+IMAGINARIO [ Cm, ]
+REFLEXAO [ Gm, ]
+LEMBRANCAS [E, ]
+SAUDADE [ E, C, ]
+TRISTEZA [ Am, ]
+
+
+
+- add ESPERANCA, TECIRDACAO, as emocoes
+- add cores das emocoes para marketing
+- nomear ObjOptiions e ConstOptions em tipos de opcoes
+- pegar esquema de ifs trocar por objOptions
+Aula esta em drive padraorzj / compartilhados/Linguagens/ Js :: link :: https://drive.google.com/file/d/1LPMiZ8MV8mwp6RC8qnm-9vhtaukzchzQ/view?usp=drivesdk
+
+- opcoesEscolherTom :
+  1- naoVibrante, vibrante,
+  2- alegre, naoAlegre
+
+
+COMPOR
+
+- frases curtas resumidas, verbos , caixinhas eu ela nos, Presente Passado Futuro
+-
+
+- Inicio_Contar_Historia: verbo : [ ação que Pessoa fez no TempoVerbalEscolhido,  eu faço alguma ação, aponto algo pra personagem]
+
+- add key : TempoVerbalEscolhido, personagemQueDiz, personagemAlvo
+-
+
+OUTROS
+Em videos de treinos fazer marcacao de capitulos youtube : https://support.google.com/youtube/answer/9884579?hl=pt-BR#:~:text=Clique%20no%20conte%C3%BAdo%20que%20voc%C3%AA,tempo%20organizadas%20em%20ordem%20crescente.
+
+Converte Arquivos : Convertio : https://convertio.co/pt/download/4a00653bdf0b622dcfb52185e786f2a8e1606e/
+---
+
+
+
+
+- FAZER DINGO DA SIMONE
+Sou Dra Simone Excelência Negra
+Meu número 20113
+Partido podemos, cuidarei do povo preto pois sou uma das lideranças de Itatiba, lutarei por oportunidades dos artistas da cidade, mais modalidades de esportes e trabalhar para inovar e renovar..
+
+--- MUSICAL
+- pra economizar structs complexas que devolvem quase a mesma coisa - fazer uma interface com método que retorna valor genérico.
+
+
+- Definir esquema de Rima por Fatos
+-  add distância pro Grau 1 em CC e DC
+
+- - DUVIDAS SE FAZER OU NAO :
+- ?? Add prop : ao campoHarmonico
+Options : Crescente: mais_2,, mais_3, mais_4_UltimaSobe, e Options:  Decrescente :  menos1_7,menos_2_ 6, menos3_5_ultimaDesce   ::
+
+- reorganizar CampoHarmonico : {
+
+?? Tônica : {
+  IniciaRepousa_Forte: 1 C
+  ReiniciaContinuacao_Fraca: 6 Am
+}
+
+?? NaoTonica:  {
+  TerminaSemResolver_Fraquissimo : 3 Em
+  Comeca_TerminaPraResolver_Forte: 5 G
+  TerminaSemResolver_Fraco: 4 F
+  Passagem_Fraquissima: 2 Dm
+  Termina_Pausa_Forte: 7 B
+}
+
+}
+
+??  cada método Cadencia seja espelhado nas Denominadas Nome de Frase ex: Fato, Consequência, ResultadoFechaBloco , ficaria ex:  CadenciaSubResultadoFechaBloco_Forte()
+
+----
