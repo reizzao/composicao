@@ -22,7 +22,10 @@ Conceitos: [
 - tenha a sensação de voz de desenho animado.
 ]
 
-Cantar_Compor: alternância finaisFrases Fraco e Forte , normal começar na fraco e últimos a forte.
+Cantar_Compor: 
+- alternância_finaisFrases Fraco e Forte , normal começar na fraco e últimos a forte.
+
+- gangorraMelodica: a melodia ou vem de baixo pra cima ou de cima pra baixo e vc acompanha na voz, ou puxa de cima ou sobe vindo de baixo pra não ficar linear.
 
 
 Tom_Alegre : Cantar Feliz, minha voz feliz, minha voz Paciente,minha voz,  sendo Doce ???
