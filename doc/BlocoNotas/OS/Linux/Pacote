@@ -1,0 +1,10 @@
+Instaladores de Pacotes :
+Instalar Snap : sudo apt install Snap
+
+Instalar_FL_Studio : `sudo snap install flstudio` , link: https://snapcraft.io/flstudio
+Dica profissional: fonte: https://jstaf.github.io/posts/flstudio-on-linux/,
+em termos de drivers ASIO, use o FL Studio ASIO em vez do ASIO4ALL (é simplesmente melhor).
+
+Enquanto as coisas estão sendo instaladas, baixe sua chave de registro do site do FL Studio ( FLRegkey.Reg). Você pode registrá-la com o seguinte comando winetricks:
+
+`regedit FLRegkey.Reg`
