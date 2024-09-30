@@ -1,0 +1,13 @@
+Linux
+
+- abrir programas via terminal: (https://pt.wikihow.com/Executar-um-Programa-a-Partir-da-Linha-de-Comando-do-Linux)
+
+
+
+Instaladores de Pacotes :
+
+desinstalar_geral_conforme_instalar :
+  - instalados_com_APT: sudo apt uninstall <NOME PACOTE>
+
+
+
