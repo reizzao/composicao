@@ -1,10 +1,5 @@
 
 ## ANALISE ##
-
-Exemplos:
-Reinicia_Explica : indicando: [ do, na, ]
-Estica_Assunto : outra_acao : [ já tô, ]
-
 -- OqueUsou
 
 @Estrofe_A : versos: 4, melodia: melodia_inicial, rima: o verso 2 com o ultimo verso o 4.,
@@ -22,7 +17,7 @@ Verso_Subjetivo_DeixaPraExplicar_com_Sacada
 VersoSacada_Explicando_O_Sujetivo_Anterior
 
 @Refrao :
-GritoUnico ...  VersoCurto_Subjetivo
+GritoUnico ...  VersoCurto_Subjetivo_ATITUDE
 VersoCurto_Sacada_Explicando_O_Sujetivo_Anterior
 Sacada_Explicativa_TodoCompasso
 
