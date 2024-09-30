@@ -3,3 +3,7 @@
 Reinicia_Explica : indicando: [ do, na,  ]
 Estica_Assunto : outra_acao : [ já tô,  ]
 GritoUnico : IniciaRefrao : [ Vai, Eu,  ]
+
+VogalModo : usa-se as vogais abertas ou Fechada
+VogalModoContrariaDaAnterior : faz o contrario da abertura de vogal que usou no processo anterior.
+

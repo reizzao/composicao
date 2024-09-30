@@ -16,8 +16,10 @@ VersoSacada_Explicando_O_Sujetivo_Anterior
 Verso_Subjetivo_DeixaPraExplicar_com_Sacada
 VersoSacada_Explicando_O_Sujetivo_Anterior
 
-@Refrao :
-GritoUnico ...  VersoCurto_Subjetivo_ATITUDE
+---
+@Refrao :  versos: 5, melodia: compassada, rima: 1s11_55, obs: usar inversoabertura no grito e final desta frase
+
+GritoUnico_VogalModo ...  VersoCurto_Subjetivo_ATITUDE_VogalModoContrariaDaAnterior_DoGrito
 VersoCurto_Sacada_Explicando_O_Sujetivo_Anterior
 Sacada_Explicativa_TodoCompasso
 
