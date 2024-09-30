@@ -1,0 +1,10 @@
+
+Instalar: o wine com `sudo apt install wine`
+ver_versao_wine : `wine --version`
+
+Instalar_pacotes_de_outro_SistemaOperacional_com_wine :
+baixar_instalador:  vc tem que ir no site do pacote em windows e baixar ele pra window , vai onde vc guardou e executa o instalador do programa.exe com o wine
+
+abrir_programa_com_wine: vai na pasta onde o .exe foi baixado e `wine < NOME DO ARQUIVO.exe >` // vai criar na area de trabalho o atalho do programa desejado.
+---
+para
