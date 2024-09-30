@@ -1,0 +1,47 @@
+=== BOOT ===
+Boot problema ligar linux
+Entrar no boot: Pressionar várias vezes F4
+pass: 12345
+em boot/ : Secure Boot / deixar Disabled
+OS Mode Selection : CSM and UEFI OS
+Salvar : Sabe CHANGES -  Yes ( Salvar Mudanças )
+Fechar depois de salvo: ESC
+Fechar e resetar : F10
+
+== LOG ==
+senhaRoot: anoRZJ
+senhaUser_BodhiLinux: #todo
+Abrir_terminal_ fora do Log do sistema: terminal tty : ctrl+alt+f3 /
+Reiniciar_o_PC: ```reboot```
+
+---
+DIRETORIOS_ARQUIVOS
+- Remover pasta com tudo dentro : rm -r DIRETORIO_ALVO/
+
+=== PACOTES PROGRAMAS ===
+
+- Instalar pacotes exe no linux: com o programa LUTRIS : https://lutris.net/downloads
+-
+- Listar programas instalados com dpkg : dpkg-query -l
+- Desinstalar pacotes instalados com dpkg : sudo dpkg -P <nome_do_programa>
+-
+- listar pacotes instalados com apt : sudo apt list installed
+- desinstalar pacotes instalados com apt : sudo apt purge <nome_do_programa>
+-
+- listar pacotes instalados com snap : snap list
+-  desinstalar pacotes instalados com snap : sudo snap remove nome_do_pacote
+-
+==== MY PACOTES INSTALADOS ===
+
+== INSTALADOS VIA APPIMAGE ===
+Conceito: "AppImage são pacotes portateis, ",
+
+Instalando: "Clica com esquerda no arquivo .appimage em Permissoes-> habilite para poder executar este arquivo como programa.
+Usar_Aux_ParaSempre_Abrir: auxiliar App Image Desktop Maker
+Usando_o_Auxiliar:
+",  :link: https://www.youtube.com/watch?v=lNt6p9EQ7Ik
+pacotes_oficiais: https://appimage.github.io/apps/
+loja_auxiliar_pacotes: https://www.appimagehub.com
+
+Instalados:
+- Reaper
