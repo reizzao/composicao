@@ -1,6 +1,38 @@
 
 ## ANALISE ##
 
+Exemplos:
+Reinicia_Explica : indicando: [ do, na, ]
+Estica_Assunto : outra_acao : [ já tô, ]
+
+-- OqueUsou
+
+@Estrofe_A : versos: 4, melodia: melodia_inicial, rima: o verso 2 com o ultimo verso o 4.,
+Acao_Eu, Reacao_Outro
+Reinicia_Explica, Estica_Assunto
+Reinicia_Explica, Sacada
+Sacada_Explicativa_TodoCompasso
+
+@Estrofe_B : versos: 2, melodia: melodia_modificada, rima: rima verso 1 com o 2,
+Verso_Subjetivo_DeixaPraExplicar_com_Sacada
+VersoSacada_Explicando_O_Sujetivo_Anterior
+
+@Estrofe_PreRefrao :  versos: 2, melodia: melodia_modificada, rima: rima verso 1 com o 2,
+Verso_Subjetivo_DeixaPraExplicar_com_Sacada
+VersoSacada_Explicando_O_Sujetivo_Anterior
+
+@Refrao :
+GritoUnico ...  VersoCurto_Subjetivo
+VersoCurto_Sacada_Explicando_O_Sujetivo_Anterior
+Sacada_Explicativa_TodoCompasso
+
+Sacada_subjetiva_Uma_PERGUNTA_NO_AR_emTodoCompasso
+VersoCurto_Responde_o_Anterior_NomeMusica
+
+------------- /// ----------------
+
+### Por Estrofe ##
+
 @Estrofe_A :
 Eu aposto um beijo, Que você vai gostar
 do gosto do meu beijo,Já to vendo eu aí
@@ -15,29 +47,11 @@ Então fala que você também acredita em destino
 Fala pro seu passado que seu futuro é comigo
 
 @Refrao :
-Eu você e uma casinha Geladeira cheia
+Eu ...  você e uma casinha
+Geladeira cheia
 Dormir de conchinha depois de uma brincadeiras.
 
 Sabe o que que tá faltando pra ficar perfeito?
 O nosso primeiro beijo
 
-
-
-## LETRA ##
-
-Eu aposto um beijo, Que você vai gostar
-do gosto do meu beijo,Já to vendo eu aí
-na proteção de tela do seu celular, e você usando a letra G no seu colar
-
-Eu não to me achando, Eu só te achei
-a cara do pra sempre que eu sempre procurei
-
-Então fala que você também acredita em destino
-Fala pro seu passado que seu futuro é comigo
-
-Eu você e uma casinha Geladeira cheia
-Dormir de conchinha depois de uma brincadeiras.
-
-Sabe o que que tá faltando pra ficar perfeito?
-O nosso primeiro beijo
-
+---
