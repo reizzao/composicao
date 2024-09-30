@@ -9,5 +9,8 @@ abrir_programa_com_wine: vai na pasta onde o .exe foi baixado e `wine < NOME DO 
 
 instalar : vai abrir instalador igual do windows , então vai no modo next next
 onde_sera_instalado: na raiz, na pasta .wine que é o C: do windows no linux.
+
+pos_instalado:  depois de instalado o arquivo.exe que eu tinha baixado no inicio pra instaalr JÁ posso deletar.
+
 ---
 para
