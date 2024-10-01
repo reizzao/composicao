@@ -1,0 +1,70 @@
+@Estrofe_A : versos: 4, melodia: melodia_inicial, rima: o verso 2 com o ultimo verso o 4.,
+
+( 1 - Acao_Eu, Reacao_Outro)
+
+
+( 2- Reinicia_Explica, Estica_Assunto_Rima1)
+
+
+( 3- Reinicia_Explica, Sacada )
+
+
+( 4- Sacada_Explicativa_TodoCompasso_Rima1 )
+
+
+
+---
+
+@Estrofe_B : versos: 2, melodia: melodia_modificada, rima: rima verso 1 com o 2,
+
+
+(1- Verso_Subjetivo_DeixaPraExplicar_com_Sacada_Rima2)
+
+
+(2- VersoSacada_Explicando_O_Sujetivo_Anterior_Rima2)
+
+
+
+---
+
+@Estrofe_PreRefrao :  versos: 2, melodia: melodia_modificada, rima: rima verso 1 com o 2_RimaAutoCuringa,
+
+(1 - Verso_Subjetivo_DeixaPraExplicar_com_Sacada_Rima1)
+
+
+
+(2- VersoSacada_Explicando_O_Sujetivo_Anterior-AutoRima1)
+
+
+
+---
+
+@Refrao :  versos: 5, melodia: compassada, rima: 1s11_55, obs: usar inversoabertura no grito e final desta frase
+
+(1 - GritoUnico_VogalModo ...  VersoCurto_Subjetivo_ATITUDE_VogalModoContrariaDaAnterior_DoGrito)
+
+
+
+(1-2- QueMaisPrecisamos_ VersoCurto_Sacada_Explicando_O_Sujetivo_Anterior_Rima1)
+
+
+
+(2- Sacada_Explicativa_TodoCompasso_Rima1)
+
+
+
+(3- Sacada_Explicativa_TodoCompasso_Rima1)
+
+
+
+)4 - Sacada_subjetiva_Uma_PERGUNTA_NO_AR_emTodoCompasso_,Rima2)
+
+
+
+(5-
+VersoCurto_Responde_o_Anterior_NomeMusica_Rima2)
+
+
+
+
+------------- /// ----------------
