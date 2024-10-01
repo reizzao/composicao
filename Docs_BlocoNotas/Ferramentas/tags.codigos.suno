@@ -61,6 +61,8 @@ Mudar_Estilo : byPLATAFORMA : Função Cover
 --- Palavras:
 - Mais_Expressao : [expressive] // inserir após as palavra alvo.
 
+
+
 >> Na_LETRA:
 - Estrofe_Sensacao_Calma : Whispered, Harmonized
 -
@@ -73,19 +75,37 @@ Mudar_Estilo : byPLATAFORMA : Função Cover
 - Estrofe_Emprestimo_Modal: BRIDGE
 - Introducao: intro , ou, prelude , para nao entrar cantando direto.
 - Acustico : acoustic guitar solo , coloca o instrumentoapos o acustico obs: podemos usar: [  piano, ]
+
+- Esticar_Silaba : coloque 3 pontinhos após a sílaba alvo.
+
  - Repetir_Palavras : coloca a palavra dentro de () parenteses.
+
+- Falar_Numeros: escreva o número, não coloque literalmente.
+
  - Dueto_Hora_Homem_Hora_Mulher: duet
+
  - Voz : voice
+
  - Voz_Feminina: one female vocals
+
  - Voz_Masculina : one male vocals,
+
  - Gancho_pra_proxima_parte: hook
+
  - Parar : break
+
  - Verso: Verse 1, colocar o verse e o numero do verso.
+
  -  PreRefrao : pre-chorus
+
  -  Liga_Enfatizando_Versos : bridge , pode ser usado como estrofe A2, pra a 1 e 2 não serem iguais, a 2 ser msis enfatizada, antes do PreRefrao.
+
  - Refrao: Chorus
+
  - Quantidade : sao os numeros em ingles
+
  -  Forcar_Terminar: end
+
  -  Grito_Enfeitado : [Adlib]: 'AMOR!'
 
 -- Momentos: Fim_da_Musica: [Big Finish] [End]
