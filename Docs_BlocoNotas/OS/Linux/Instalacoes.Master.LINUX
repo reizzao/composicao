@@ -7,17 +7,16 @@ Linux
 Instaladores de Pacotes :
 
 desinstalar_geral_conforme_instalar :
-  - instalados_com_APT: sudo apt uninstall <NOME PACOTE>
-
-
-- Listar programas instalados com dpkg : dpkg-query -l
-- Desinstalar pacotes instalados com dpkg : sudo dpkg -P <nome_do_programa>
 
 - listar pacotes instalados com apt : sudo apt list installed
 - desinstalar pacotes instalados com apt : sudo apt purge <nome_do_programa>
 
 - listar pacotes instalados com snap : snap list
 -  desinstalar pacotes instalados com snap : sudo snap remove nome_do_pacote
+
+- Listar programas instalados com dpkg : dpkg-query -l
+- Desinstalar pacotes instalados com dpkg : sudo dpkg -P <nome_do_programa>
+
 
 == INSTALADOS VIA APPIMAGE ===
 Conceito: "AppImage são pacotes portateis, ",
