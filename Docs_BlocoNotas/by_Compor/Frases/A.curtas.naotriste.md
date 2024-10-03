@@ -1,0 +1,4 @@
+# A CURTAS NAO_TRISTE
+---
+
+- SÓ VEM NA MINHA
